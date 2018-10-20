@@ -1,1 +1,1 @@
-# fyp-photonics
+# FYP-photonics
