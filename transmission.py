@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 t = 21
 t2 = 12
 ra = 41
-phi = -0.1
+phi = -1
 r = 11
 r2 = 15
 Ei = np.ndarray(ra, float)
@@ -22,7 +22,7 @@ for i in range(0,ra):
     Et = ((1-t*t2)*np.exp(1j*phi/2))/(1-(r*r2)*np.exp(1j*phi))
     Et1 = Et.conjugate()
     
-    phi = phi + 0.005
+    phi = phi + 0.05
     Ei[i] = abs(Et*Et1)
     #E[i] = Et.real
     phit[i] = phi
