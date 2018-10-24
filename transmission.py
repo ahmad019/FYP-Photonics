@@ -21,6 +21,8 @@ for i in range(0,ran):
     
    # Eta = ((t*t2)*np.exp(1j*phi/2))/(1-(r*r2)*np.exp(1j*phi)) #asymmeteric
     Ets = ((t*t)*np.exp(1j*phi/2))/(1-(r*r)*np.exp(1j*phi)) #symmeteric
+    #*Ets = ((-t*t)*np.exp(1j*phi/2))/(1-(r*r)) #actualequation    
+    
     #EtaC = Eta.conjugate()
     EtsC = Ets.conjugate()
     

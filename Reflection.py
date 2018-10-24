@@ -28,6 +28,8 @@ for i in range(0,ran):
     
    # Era = ((1-t*t2)*np.exp(1j*phi/2))/(1-(r*r2)*np.exp(1j*phi)) #asymmeteric
     Ers = ((t*t)*np.exp(1j*phi)*r)/(1-(np.power(r,4)*np.exp(1j*(2*phi)))) #symmeteric
+    #*Ers = (r-r*np.exp(1j*phi)*r)/(1-(np.power(r,2)*np.exp(1j*phi))) #actualequation
+    
     #EraC = Era.conjugate()
     ErsC = Ers.conjugate()
     
