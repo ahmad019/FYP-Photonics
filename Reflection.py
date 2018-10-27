@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ran = 200
-phi = -0.9
+phi = -1
 r = 0.9989
 r2 = 0.9889
 
@@ -36,8 +36,8 @@ for i in range(0,ran):
     #Ersi[i] = abs(Ers)**2 #*ErsC)
     phit[i] = phi
 
-#plt.xlim([-2,2])
-plt.ylim([0.6,1.1])
+plt.xlim([-1,1])
+plt.ylim([0.6,1.05])
 #plt.legend(Eta,Ets, borderpad=2)
 #plt.legend([Etai, Etsi], ["line 2", "line 1"])
 

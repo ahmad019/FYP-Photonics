@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt
 
 ran = 200
 phi = -0.8
-r = 0.97
-r2 = 0.989
+r = 0.9987
+r2 = 0.99689
 
 t = np.sqrt(1-(r**2))
 t2 = np.sqrt(1-(r2**2))
