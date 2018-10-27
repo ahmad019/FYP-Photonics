@@ -45,9 +45,9 @@ plt.xlim([-1,1])
 #plt.legend(Eta,Ets, borderpad=2)
 #plt.legend([Etai, Etsi], ["line 2", "line 1"])
 
-plt.title('Reflection Curve of Fabry-Perot Resonator')
-plt.xlabel('Round Trip Phase')
-plt.ylabel('Reflectance')
+plt.title('Reflection + Transmission Fabry-Perot Resonator')
+plt.xlabel('Round Trip Phase "Φ"')
+plt.ylabel('Intensity')
 #plt.plot(phit,Erai, 'm') #asymmeteric
 plt.plot(phit,Etai, 'b') #asymmeteric
 plt.plot(phit,Erai, 'r') #symmeteric
