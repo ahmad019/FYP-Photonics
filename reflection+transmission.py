@@ -35,12 +35,12 @@ for i in range(0,ran):
     
     
     phi = phi + 0.01
-    Etai[i] = Eta #abs(Eta*EtaC)
-    Erai[i] = Era #abs(Era*EraC)
+    Etai[i] = abs(Eta)**2 #abs(Eta*EtaC)
+    Erai[i] = abs(Era)**2 #abs(Era*EraC)
     #Ersi[i] = abs(Ers*ErsC)
     phit[i] = phi
 
-#plt.xlim([-2,2])
+plt.xlim([-1,1])
 #plt.ylim([0,2])
 #plt.legend(Eta,Ets, borderpad=2)
 #plt.legend([Etai, Etsi], ["line 2", "line 1"])
