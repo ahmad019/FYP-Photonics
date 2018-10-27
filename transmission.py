@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ran = 200
-phi = -0.8
+phi = -1
 r = 0.9987
 r2 = 0.99689
 
@@ -34,7 +34,7 @@ for i in range(0,ran):
     #Etsi[i] = abs(Ets)**2
     phit[i] = phi
 
-#plt.xlim([-2,2])
+plt.xlim([-1,1])
 #plt.legend(Eta,Ets, borderpad=2)
 #plt.legend([Etai, Etsi], ["line 2", "line 1"])
 

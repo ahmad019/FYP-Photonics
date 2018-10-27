@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ran = 200
-phi = -0.8
+phi = -1
 r = 0.98797
 r2 = 0.97889
 
