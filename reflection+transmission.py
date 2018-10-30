@@ -29,27 +29,26 @@ for i in range(0,ran):
     Eta = -(t*t2*np.exp(1j*phi/2))/(1-r*r2*np.exp(1j*phi)) #asymmeteric transmission
     
     
-    #EtaC = Eta.conjugate()
-    #EraC = Era.conjugate()
-    #ErsC = Ers.conjugate()
-    
-    
     phi = phi + 0.01
     Etai[i] = abs(Eta)**2 #abs(Eta*EtaC)
     Erai[i] = abs(Era)**2 #abs(Era*EraC)
-    #Ersi[i] = abs(Ers*ErsC)
+    Ersi[i] = Etai[i] + Erai[i]
     phit[i] = phi
 
 plt.xlim([-1,1])
-#plt.ylim([0,2])
+plt.ylim([-0.2,1.2])
 #plt.legend(Eta,Ets, borderpad=2)
 #plt.legend([Etai, Etsi], ["line 2", "line 1"])
 
 plt.title('Reflection + Transmission Fabry-Perot Resonator')
 plt.xlabel('Round Trip Phase "Φ"')
 plt.ylabel('Intensity')
-#plt.plot(phit,Erai, 'm') #asymmeteric
-plt.plot(phit,Etai, 'b') #asymmeteric
-plt.plot(phit,Erai, 'r') #symmeteric
+
+plt.plot(phit,Etai, 'b') #transmittance
+plt.plot(phit,Erai, 'r') #reflectance
 
 plt.show()
+
+plt.title('Reflection + Transmission Intensity')
+plt.plot(phit,Ersi, 'y')
+plt.show
