@@ -30,14 +30,14 @@ for i in range(0,ran):
 
     
     phi = phi + 0.01    
-    a
+    
     Etai[i] = abs(Eta)**2 #abs(Eta*EtaC)
     Erai[i] = abs(Era)**2 #abs(Era*EraC)
     Ersi[i] = Etai[i] + Erai[i]
     phit[i] = phi
 
-plt.xlim([-1,1])
-plt.ylim([-0.2,1.2])
+#plt.xlim([-1,1])
+#plt.ylim([-0.2,1.2])
 #plt.legend(Eta,Ets, borderpad=2)
 #plt.legend([Etai, Etsi], ["line 2", "line 1"])
 
