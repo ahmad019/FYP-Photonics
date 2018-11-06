@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Oct 26 11:45:46 2018
+Created on Tue Nov  6 14:43:18 2018
 
 @author: ahmad
 """
+
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -30,26 +31,19 @@ for i in range(0,ran):
 
     
     phi = phi + 0.01    
-    a
-    Etai[i] = abs(Eta)**2 #abs(Eta*EtaC)
-    Erai[i] = abs(Era)**2 #abs(Era*EraC)
+    
+    Etai[i] = Eta.real #abs(Eta*EtaC)
+    Erai[i] = Eta.imag #abs(Era*EraC)
     Ersi[i] = Etai[i] + Erai[i]
     phit[i] = phi
 
-plt.xlim([-1,1])
-plt.ylim([-0.2,1.2])
-#plt.legend(Eta,Ets, borderpad=2)
-#plt.legend([Etai, Etsi], ["line 2", "line 1"])
+#plt.xlim([-1,1])
+#plt.ylim([-2,2])
 
-plt.title('Reflection + Transmission Fabry-Perot Resonator')
-plt.xlabel('Round Trip Phase "Φ"')
-plt.ylabel('Intensity')
 
-plt.plot(phit,Etai, 'b') #transmittance
-plt.plot(phit,Erai, 'r') #reflectance
+plt.title('Imaginary vs Real')
+plt.xlabel('Real axis')
+plt.ylabel('Imaginary axis')
 
+plt.plot(Etai,Erai, 'b')
 plt.show()
-
-plt.title('Reflection + Transmission Intensity')
-plt.plot(phit,Ersi, 'y')
-plt.show
