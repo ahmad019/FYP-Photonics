@@ -9,7 +9,7 @@ Created on Tue Nov  6 14:43:18 2018
 import numpy as np
 import matplotlib.pyplot as plt
 
-ran = 62840 #for 2pi limit set to 6284
+ran = 6284 #for 2pi limit set to 6284
 phi = 0
 r = 0.98797
 r2 = 0.97889
