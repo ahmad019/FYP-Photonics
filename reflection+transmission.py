@@ -52,4 +52,4 @@ plt.show()
 
 plt.title('Reflection + Transmission Intensity')
 plt.plot(phit,Ersi, 'y')
-plt.show
+plt.show()
