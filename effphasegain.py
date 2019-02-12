@@ -39,6 +39,6 @@ for i in range(0,ran):
 plt.title('All-pass ring resonator')
 plt.xlabel('Single-pass phase')
 plt.ylabel('Effective phase shift')
-plt.plot(phit,PHIi, 'm')
+plt.scatter(phit,PHIi, color='m')
 
 plt.show()
