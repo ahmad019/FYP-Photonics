@@ -66,17 +66,34 @@ with open('Coupled_resonator_phi.phase.trans.csv', 'w') as fp:
         phi2t[i] = phi2
         
     
-fig = plt.figure()
+
+
+fig, axs = plt.subplots(2)
+
+axs[0].set_title("Transmitted field // EIA")
+axs[0].plot(phi1t,Etai, 'b')
+#plt.show()
+#fig.savefig('Triple_resonator_trans.png', dpi=400)
+
+axs[1].set_xlim([-0.15,0.15])
+axs[1].set_title("Phase")
+axs[1].plot(phi2t,PHI, 'r')
+#plt.show()
+
+fig.tight_layout()
+plt.show()
+
+fig.savefig('Coupled_resonator_phase.trans.png', dpi=400)
 
 #plt.ylim(top=1.02,bottom=0.9)
 
-plt.title("Transmitted field // EIA")
-plt.plot(phi1t,Etai, 'b')
-plt.show()
+#plt.title("Transmitted field // EIA")
+#plt.plot(phi1t,Etai, 'b')
+#plt.show()
 
-plt.xlim([-0.12,0.12])
-plt.title("Phase")
-plt.plot(phi2t,PHI, 'r')
-plt.show()
+#plt.xlim([-0.12,0.12])
+#plt.title("Phase")
+#plt.plot(phi2t,PHI, 'r')
+#plt.show()
 
 #fig.savefig('tempds.png', dpi=200)

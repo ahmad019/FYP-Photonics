@@ -13,21 +13,24 @@ ran = 2000
 phi1 = -1
 phi2 = -1
 phi3 = -1
-r1 =  0.9465476797
-r2 = 0.99189867767
-r3 = 0.9798389
+r1 =  0.995465476797
+r2 = 0.795189867767
+r3 = 0.6789798389
 lamd = 0.000001550
 Q = 6000000
 b = 0.000025
 l = 2*np.pi*b
 n = 3.45
+c = 299792458
+rho = phi1 + phi2 + phi3
+tau = (n*2*np.pi*b)/c
 
 aa = (2*np.pi*n)/(Q*lamd)
-g1 = 4.90001
+g1 = 11.90001
 aa2 = (2*np.pi*n)/(Q*lamd)
-g2 = 4.1001
+g2 = 2.1001
 aa3 = (2*np.pi*n)/(Q*lamd)
-g3 = 3.01
+g3 = 4.01
 a1 = np.exp(((g1-aa)*l)/2)
 a2 = np.exp(((g2-aa2)*l)/2)
 a3 = np.exp(((g3-aa3)*l)/2)
@@ -72,20 +75,27 @@ with open('Triple_resonator_phi.phase.trans.csv', 'w') as fp:
         phi2t[i] = phi2
         
     
-fig = plt.figure()
-fig2 = plt.figure()
+    
+vg = (1/l)*(((r1-a1*np.cos(rho))**2/((r1-a1*np.cos(rho))**2 + (a1*np.sin(rho))**2)) + ((1-r1*a1*np.cos(rho))**2 / ((1-r1*a1*np.cos(rho))**2 + (r1*a1*np.sin(rho))**2) )) * tau
 
 
-plt.title("Transmitted field // EIA")
-plt.plot(phi1t,Etai, 'b')
+
+fig, axs = plt.subplots(2)
+
+axs[0].set_title("Transmitted field // EIA")
+axs[0].plot(phi1t,Etai, 'b')
+#plt.show()
+#fig.savefig('Triple_resonator_trans.png', dpi=400)
+
+axs[1].set_xlim([-0.2,0.2])
+axs[1].set_title("Phase")
+axs[1].plot(phi2t,PHI, 'r')
+#plt.show()
+
+fig.tight_layout()
 plt.show()
-#fig.savefig('qstemp.png', dpi=200)
-#plt.xlim([-0.2,0.2])
-plt.title("Phase")
-plt.plot(phi2t,PHI, 'r')
-plt.show()
 
-#fig2.savefig('qtemp.png', dpi=200)
+fig.savefig('Triple_resonator_phase.trans.png', dpi=400)
 
 
 #np.savetxt("fsoo.csv", PHI, delimiter=",")
