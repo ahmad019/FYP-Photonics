@@ -31,7 +31,7 @@ for i in range(0,ran):
     
     phi = phi + 0.001
     
-    PHIi[i] = PHI
+    PHIi[i] = abs(PHI)**2
     
     phit[i] = phi
 

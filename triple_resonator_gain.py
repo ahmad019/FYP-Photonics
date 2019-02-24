@@ -70,7 +70,7 @@ with open('Triple_resonator_phi.phase.trans.csv', 'w') as fp:
         Etai[i] = abs(Eta)**2 
         
     
-        #PHI[i] = np.arctan(Eta.imag/Eta.real)
+        #PHI[i] = np.angle(Eta)
         
         PHI[i] = np.arctan((a1*abs(Er12)*np.sin(phi1+phi12))/(r1-a1*abs(Er12)*np.cos(phi1+phi12))) + np.arctan((r1*a1*abs(Er12)*np.sin(phi1+phi12))/(1-r1*a1*abs(Er12)*np.cos(phi1+phi12))) #total eff phase
         
@@ -84,7 +84,7 @@ with open('Triple_resonator_phi.phase.trans.csv', 'w') as fp:
     
     
 
-vg = (n/c)*(((r1-a1*abs(Er12)*np.cos(rho))**2/((r1-a1*abs(Er12)*np.cos(rho))**2 + (a1*abs(Er12)*np.sin(rho))**2)) + ((1-r1*a1*abs(Er12)*np.cos(rho))**2 / ((1-r1*a1*abs(Er12)*np.cos(rho))**2 + (r1*a1*abs(Er12)*np.sin(rho))**2) ))
+vg = 1/(n/c)*(((r1-a1*abs(Er12)*np.cos(rho))**2/((r1-a1*abs(Er12)*np.cos(rho))**2 + (a1*abs(Er12)*np.sin(rho))**2)) + ((1-r1*a1*abs(Er12)*np.cos(rho))**2 / ((1-r1*a1*abs(Er12)*np.cos(rho))**2 + (r1*a1*abs(Er12)*np.sin(rho))**2) ))
 
 
 fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(8,4))
