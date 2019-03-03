@@ -22,7 +22,7 @@ b = 0.000025
 l = 2*np.pi*b
 n = 3.45
 
-g = 1.1001 #zero for passive
+g = 0 #zero for passive
 aa = (2*np.pi*n)/(Q*lamd)
 a = np.exp(((g-aa)*l)/2)
 
@@ -85,7 +85,7 @@ axs.set_ylabel("Effective phase")
 #axs.legend("gain = 1.001")#,loc="upper right")
 axs.plot(phit,PHIr, 'r')
 
-plt.text(-0.75,1.0,"Gain = 1.001\nCritically coupled\nr1=%f" %r1 + "\nr2=%f"%r2,fontsize=12, withdash=True)
+plt.text(-0.75,1.0,"Gain =%f" %g + "\nCritically coupled\nr1=%f" %r1 + "\nr2=%f"%r2,fontsize=12, withdash=True)
 plt.grid()
 fig.tight_layout()
 fig2.tight_layout()
