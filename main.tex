@@ -1,0 +1,76 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\title{
+	{Thesis Title}\\
+	{\large Institution Name}\\
+	{\includegraphics{university.jpg}}
+}
+\author{Author Name}
+\date{Day Month Year}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+Abstract goes here
+ 
+\chapter*{Dedication}
+To mum and dad
+ 
+\chapter*{Declaration}
+I, \textbf{AHMAD BILAL \underline{CIIT/FA15-BPH-019/ISB}} , hereby declare that this project
+neither as a whole nor as a part there of has been copied out from any source. It is
+further declared that I have developed this thesis and the accompanied report entirely
+on the basis of my personal efforts made under the sincere guidance of my supervisors.
+No portion of the work presented in this report has been submitted in support of any
+other degree of qualification of this or any other University or Institute of learning, if
+found I shall stand responsible.
+\\
+\\
+\\
+\begin{flushleft}
+\begin{tabular}{@{}p{1.5in}p{2in}@{}}
+Signature of Student:  & \hrulefill \\
+& Ahmad Bilal, Ph.D. \\
+& CIIT/FA15-BPH-019/ISB\\
+\end{tabular}
+\end{flushleft}
+
+\begin{flushright}
+\begin{tabular}{@{}p{.25in}p{1in}@{}}
+Date: & \hrulefill \\
+\end{tabular}
+\end{flushright}
+
+ 
+\chapter*{Acknowledgements}
+I want to thank...
+ 
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction}
+ 
+\chapter{Area of Study}
+\input{chapters/chapter02}
+ 
+\chapter{Coupled Resonators with Gain}
+\input{chapters/chapter03}
+ 
+\chapter{Electromagnetically Induced Transparecy}
+\input{chapters/chapter04}
+ 
+\chapter{Electromagnetically Induced Absorbption}
+\input{chapters/chapter05}
+
+\chapter{Conclusion}
+\input{chapters/conclusion}
+\appendix
+\chapter{Abrevations}
+\input{chapters/appendix}
+
+\end{document}
