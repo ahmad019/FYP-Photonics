@@ -12,23 +12,22 @@ import matplotlib.pyplot as plt
 ran = 2000
 phi1 = -1
 phi2 = -1
-r1 =  0.96389793565476797
-r2 = 0.989189867767
+r1 =  0.8983
+r2 =  0.79891
 lamd = 0.000001550
-Q = 6000000
+Q1 = 5000000
+Q2 = 6000000
 b = 0.000025
 l = 2*np.pi*b
 n = 3.45
 
-aa = (2*np.pi*n)/(Q*lamd)
-g1 = 1.9001
-aa2 = (2*np.pi*n)/(Q*lamd)
+aa = (2*np.pi*n)/(Q1*lamd)
+g1 = 1.224
+aa2 = (2*np.pi*n)/(Q2*lamd)
 g2 = 2.91001
-aa3 = (2*np.pi*n)/(Q*lamd)
-g3 = 3.9101
+
 a1 = np.exp(((g1-aa)*l)/2)
 a2 = np.exp(((g2-aa2)*l)/2)
-a3 = np.exp(((g3-aa3)*l)/2)
 
 #r1 = r2*a1 #critical
 
@@ -50,35 +49,53 @@ with open('Coupled_resonator_phi.phase.trans.csv', 'w') as fp:
         
         #phi12 = np.pi + phi1 + 2*np.arctan((r1*np.sin(phi1))/(1-r1*np.cos(phi1))) #phase of r12
         
-        phi12 = np.arctan(a1*np.sin(phi1)/(r1-a3*np.cos(phi1))) + np.arctan(r1*a3*np.sin(phi1)/(1-r1*a3*np.cos(phi1)))
+        phi12 = - np.arctan(a2*np.sin(phi2)/(r2-a2*np.cos(phi2))) + np.arctan(r2*a2*np.sin(phi2)/(1-r2*a2*np.cos(phi2)))
         
         phi1 = phi1 + 0.001    
         phi2 = phi2 + 0.001    
         
         Etai[i] = abs(Eta)**2 
+        Erai[i] = abs(Er12)**2 
         
-        PHI[i] = np.arctan(r1*a1*abs(Er12)*np.sin(phi12+phi1))/(1-r1*a1*abs(Er12)*np.cos(phi12+phi1)) - np.arctan((a1*abs(Er12)*np.sin(phi12+phi1))/(r1-a1*abs(Er12)*np.cos(phi12+phi1)))
+        PHI[i] = - np.arctan(r1*a1*abs(Er12)*np.sin(phi12+phi1))/(1-r1*a1*abs(Er12)*np.cos(phi12+phi1)) + np.arctan((a1*abs(Er12)*np.sin(phi12+phi1))/(r1-a1*abs(Er12)*np.cos(phi12+phi1)))
         
-        fp.write("{},{},{}\n".format(phi1,PHI[i], Etai[i]))
+        #fp.write("{},{},{}\n".format(phi1,PHI[i], Etai[i]))
         
         phi1t[i] = phi1
-        phi2t[i] = phi2
+        phi2t[i] = phi12
         
 
-fig, axs = plt.subplots(2)
+fig, axs = plt.subplots(nrows=1, ncols=1, figsize=(8,4))
 
-axs[0].set_title("Transmitted field // EIA")
-axs[0].plot(phi1t,Etai, 'b')
+axs.set_title("Transmitted field // EIA")
+axs.plot(phi1t,Etai, 'b')
 #plt.show()
 #fig.savefig('Triple_resonator_trans.png', dpi=400)
 
 #axs[1].set_xlim([-0.15,0.15])
-axs[1].set_title("Phase")
-axs[1].plot(phi2t,PHI, 'r')
+#axs[1].set_title("Phase")
+#axs[1].plot(phi2t,PHI, 'r')
 #plt.show()
 
 fig.tight_layout()
 plt.show()
+
+
+fig2, axs = plt.subplots(1)
+
+#axs.set_xlim([-0.05,0.05])
+axs.set_title("Reflection Phase")
+axs.set_xlabel("detuning")
+axs.set_ylabel("Effective phase")
+#axs.legend("gain = 1.001")#,loc="upper right")
+axs.plot(phi1t,Erai, 'r')
+
+#plt.text(-0.75,1.0,"Gain =%f" %g1 + "\nCritically coupled\nr1=%f" %r1 + "\nr2=%f"%r2,fontsize=12, withdash=True)
+plt.grid()
+fig.tight_layout()
+fig2.tight_layout()
+plt.show()
+
 
 #fig.savefig('Coupled_resonator_phase.trans.png', dpi=400)
 

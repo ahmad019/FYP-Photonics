@@ -9,53 +9,80 @@ Created on Wed Dec 12 13:39:29 2018
 import numpy as np
 import matplotlib.pyplot as plt
 
-ran = 2000
-phi1 = -1
-phi2 = -1
-r1 =  0.95476797
-r2 = 0.99867767
+ran = 6284
+phi1 = -np.pi
+phi2 = -np.pi
+r1 =  0.865476797
+r2 = 0.9867767
 lamd = 0.000001550
-Q = 6000000
+Q1 = 5000000
+Q2 = 6000000
 b = 0.000025
 l = 2*np.pi*b
 n = 3.45
 
-aa = (2*np.pi*n)/(Q*lamd)
-aa2 = (2*np.pi*n)/(Q*lamd)
-a1 = np.exp((-aa*l)/2)
-a2 = np.exp((-aa2*l)/2)
+g1 = 00.910
+g2 = 0*0.00920
 
-#r1 = r2*a1 #critical
+aa = (2*np.pi*n)/(Q1*lamd)
+aa2 = (2*np.pi*n)/(Q2*lamd)
+a1 = np.exp((g1-aa*l)/2)
+a2 = np.exp((g2-aa2*l)/2)
+
+r2 = a2
+r1 = r2*a1 #critical
 
 Etai = np.ndarray(ran, float)
 Erai = np.ndarray(ran, float)
-
+PHIt = np.ndarray(ran, float)
 
 phi1t = np.ndarray(ran, float)
 phi2t = np.ndarray(ran, float)
 
-for i in range(0,ran):
-    
-    
-    Er12 = (r2-a2*np.exp(1j*phi2))/(1-r2*a2*np.exp(1j*phi2)) #coupling r12
-    
-    Eta = (r1-Er12*a1*np.exp(1j*phi1))/(1-r1*Er12*a1*np.exp(1j*phi1)) #transmission
-    
-    Era = (r1-r2*a1*np.exp(1j*phi1))/(1-r1*r2*a1*np.exp(1j*phi1))
-    
-    
-    phi1 = phi1 + 0.001    
-    phi2 = phi2 + 0.001    
-    
-    Etai[i] = abs(Eta)**2 
-    Erai[i] = abs(Era)**2
+with open('Coupled_resonator_phi.phase.trans.csv', 'w') as fp:
 
-    phi1t[i] = phi1
-    phi2t[i] = phi2
+    for i in range(0,ran):
+        
+        
+        Er12 = (r2-a2*np.exp(1j*phi2))/(1-r2*a2*np.exp(1j*phi2)) #coupling r12
+        
+        Eta = (r1-Er12*a1*np.exp(1j*phi1))/(1-r1*Er12*a1*np.exp(1j*phi1)) #transmission
+        
+        #Era = (r1-r2*a1*np.exp(1j*phi1))/(1-r1*r2*a1*np.exp(1j*phi1))
+        
+        phi12 = np.arctan((r2*a2*np.sin(phi2))/(1-r2*a2*np.cos(phi2))) - np.arctan((a2*np.sin(phi2))/(r2-a2*np.cos(phi2)))
+        
+        PHIt[i] = np.arctan((a1*abs(Er12)*np.sin(phi12+phi1))/(r1-a1*abs(Er12)*np.cos(phi12+phi1))) - np.arctan((r1*a1*abs(Er12)*np.sin(phi12+phi1))/(1-r1*a1*abs(Er12)*np.cos(phi12+phi1)))
+        
+        
+        phi1 = phi1 + 0.001    
+        phi2 = phi2 + 0.001    
+        
+        Etai[i] = abs(Eta)**2 
+        #Erai[i] = abs(Era)**2
+        
+        fp.write("{},{},{}\n".format(phi1,PHIt[i], Etai[i]))
     
+        phi1t[i] = phi1
+        phi2t[i] = phi12
     
-plt.title("Transmitted field")
-plt.plot(phi1t,Etai, 'b')
+
+fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(8,4))
+    
+axs[0].set_title("Transmitted field")
+#axs[0].set_xlim([-0.05,0.051])
+axs[0].set_xlabel("detuning")
+axs[0].set_ylabel("Transmittance")
+axs[1].text(-0.2,0.1,"Gain1 =%f" %g1 + "\nGain2 =%f" %g2 + "\nCritical coupled\nr1=%f" %r1 + "\nr2=%f"%r2,fontsize=8)
+axs[0].plot(phi1t,Etai, 'b')
+
+axs[1].set_xlim([-0.25,0.25])
+axs[1].set_title("Phi12 Phase")
+axs[1].set_xlabel("detuning")
+axs[1].set_ylabel("Effective phase")
+axs[1].plot(phi1t,phi2t, 'r')
+
+fig.tight_layout()
 plt.show()
-#plt.plot(phi2t,Erai, 'r')
-#plt.show()
+
+fig.savefig("coupled_ring_EIT.png",dpi=400)

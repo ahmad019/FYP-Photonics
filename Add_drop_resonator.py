@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 ran = 200
 phi = -1
-r1 = 0.96797
-r2 = 0.986797
+r1 = 0.9696797
+r2 = r1 #0.986797
 c = 299792458
 n = 3.45
 
@@ -31,9 +31,9 @@ dPHIr = np.ndarray(ran, float)
 
 for i in range(0,ran):
     
-    Eta = (r1-r2*np.exp(1j*phi))/(1-r1*r2*np.exp(1j*phi)) #asymmeteric reflection
+    Eta = (r1-r2*np.exp(1j*phi))/(1-r1*r2*np.exp(1j*phi)) #asymmeteric transmission
     
-    Era = -(t*t2*np.exp(1j*phi/2))/(1-r1*r2*np.exp(1j*phi)) #asymmeteric transmission
+    Era = -(t*t2*np.exp(1j*phi/2))/(1-r1*r2*np.exp(1j*phi)) #asymmeteric reflection
 
     PHIt[i] = phi/2    
     PHIr[i] = np.arctan((r2*np.sin(phi))/(r1-r2*np.cos(phi))) - np.arctan((r1*r2*np.sin(phi))/(1-r1*r2*np.cos(phi)))
@@ -88,6 +88,7 @@ fig.tight_layout()
 fig2.tight_layout()
 plt.show()
 
+plt.xlim([-0.25,0.25])
 plt.plot(phit, vgr, 'b')
 plt.show()
 
