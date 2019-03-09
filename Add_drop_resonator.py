@@ -13,10 +13,25 @@ import matplotlib.pyplot as plt
 
 ran = 200
 phi = -1
-r1 = 0.9696797
-r2 = r1 #0.986797
+#r1 = 0.9870696
+r2 = 0.9809797
 c = 299792458
+lamd = 0.000001550
+Q1 = 5000000
+Q2 = 6000000
+b = 0.000025
+l = 2*np.pi*b
 n = 3.45
+
+aa = (2*np.pi*n)/(Q1*lamd)
+g1 = 0*1.224
+aa2 = (2*np.pi*n)/(Q2*lamd)
+g2 = 0*2.91001
+
+a1 = np.exp(((g1-aa)*l)/2)
+a2 = np.exp(((g2-aa2)*l)/2)
+
+r1 = r2*a1
 
 t = np.sqrt(1-(r1**2))
 t2 = np.sqrt(1-(r2**2))
@@ -31,12 +46,12 @@ dPHIr = np.ndarray(ran, float)
 
 for i in range(0,ran):
     
-    Eta = (r1-r2*np.exp(1j*phi))/(1-r1*r2*np.exp(1j*phi)) #asymmeteric transmission
+    Eta = (r1-a1*r2*np.exp(1j*phi))/(1-a1*r1*r2*np.exp(1j*phi)) #asymmeteric transmission
     
     Era = -(t*t2*np.exp(1j*phi/2))/(1-r1*r2*np.exp(1j*phi)) #asymmeteric reflection
 
     PHIt[i] = phi/2    
-    PHIr[i] = np.arctan((r2*np.sin(phi))/(r1-r2*np.cos(phi))) - np.arctan((r1*r2*np.sin(phi))/(1-r1*r2*np.cos(phi)))
+    PHIr[i] = np.arctan((a1*r1*np.sin(phi))/(1-a1*r1*np.cos(phi))) - np.arctan((a1*np.sin(phi))/(r1-a1*np.cos(phi)))
     #PHIr[i] = np.arctan((r1*np.sin(phi))/(1-r1*np.sin(phi))) - np.arctan(np.sin(phi)/(r1-np.cos(phi))) #singapore paper phase
     
     
@@ -88,9 +103,9 @@ fig.tight_layout()
 fig2.tight_layout()
 plt.show()
 
-plt.xlim([-0.25,0.25])
+#plt.xlim([-0.25,0.25])
 plt.plot(phit, vgr, 'b')
 plt.show()
 
-#fig.savefig('add_drop_fabry.png', dpi=400)
-#fig2.savefig('add_drop_fabry(phase).png', dpi=400)
+fig.savefig('add_drop_fabry.png', dpi=400)
+fig2.savefig('add_drop_fabry(phase).png', dpi=400)

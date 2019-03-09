@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 ran = 200
 phi = -1
-#r1 = 0.98797
-r2 = 0.98979
+#r1 = 0.9797
+r2 = 0.899
 c = 299792458
 lamd = 0.000001550
 Q = 6000000
@@ -26,6 +26,7 @@ g = 0 #zero for passive
 aa = (2*np.pi*n)/(Q*lamd)
 a = np.exp(((g-aa)*l)/2)
 
+#r2 = a
 r1 = r2*a #critically coupled
 
 t = np.sqrt(1-(r1**2))
@@ -37,6 +38,7 @@ Erai = np.ndarray(ran, float)
 PHIt = np.ndarray(ran, float)
 PHIr = np.ndarray(ran, float)
 phit = np.ndarray(ran, float)
+dPHIr = np.ndarray(ran, float)
 
 for i in range(0,ran):
     
@@ -52,10 +54,13 @@ for i in range(0,ran):
     Etai[i] = abs(Eta)**2
     Erai[i] = abs(Era)**2
     
+    dPHIr[i] = ((r1-r2*np.cos(phi))**2/((r1-r2*np.cos(phi))**2 + (r2*np.sin(phi))**2))  + ((1-r1*r2*np.cos(phi))**2 / ((1-r1*r2*np.cos(phi))**2  + (r1-r2*np.sin(phi))**2))
+
+    
     phit[i] = phi
 
 dPHIt = 1/2
-dPHIr = ((r1-r2*np.cos(phi))**2/((r1-r2*np.cos(phi))**2 + (r2*np.sin(phi))**2))  + ((1-r1*r2*np.cos(phi))**2 / ((1-r1*r2*np.cos(phi))**2  + (r1-r2*np.sin(phi))**2))
+#dPHIr = ((r1-r2*np.cos(phi))**2/((r1-r2*np.cos(phi))**2 + (r2*np.sin(phi))**2))  + ((1-r1*r2*np.cos(phi))**2 / ((1-r1*r2*np.cos(phi))**2  + (r1-r2*np.sin(phi))**2))
 
 vgt = (2*c)/n
 ngt = n/2
@@ -77,18 +82,25 @@ axs[1].set_xlabel("detuning")
 axs[1].set_ylabel("Effective phase")
 axs[1].plot(phit,PHIt, 'r')
 
-fig2, axs = plt.subplots(1)
+fig2, axs = plt.subplots(nrows=1, ncols=2, figsize=(8,4))
 
-axs.set_title("Reflection Phase")
-axs.set_xlabel("detuning")
-axs.set_ylabel("Effective phase")
+axs[0].set_title("Reflection Phase")
+axs[0].set_xlabel("detuning")
+axs[0].set_ylabel("Effective phase")
+#axs[0].set_xlim([-0.01,0.01])
+#axs.set_ylim([-1,1])
 #axs.legend("gain = 1.001")#,loc="upper right")
-axs.plot(phit,PHIr, 'r')
+axs[0].plot(phit,PHIr, 'r')
 
-plt.text(-0.75,1.0,"Gain =%f" %g + "\nCritically coupled\nr1=%f" %r1 + "\nr2=%f"%r2,fontsize=12, withdash=True)
+axs[1].set_title("Group Velocity")
+axs[1].set_xlabel("detuning")
+axs[1].set_ylabel("Velocity")
+axs[1].plot(phit,vgr, 'r')
+
+plt.text(0.5, 2e12,"Gain =%.2f" %g + "\nCritical coupled\nr1=%.2f" %r1 + "\nr2=%.2f"%r2,fontsize=12, withdash=True)
 plt.grid()
 fig.tight_layout()
 fig2.tight_layout()
 plt.show()
 
-#fig2.savefig('add_drop_phase(Heebner)_over.png', dpi=400)
+fig2.savefig('add_drop_phase(Heebner)_over.png', dpi=400)
