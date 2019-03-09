@@ -1,56 +1,230 @@
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{wrapfig}
+\hypersetup{pdftex,colorlinks=true,allcolors=black}
+\usepackage{hypcap}
 \graphicspath{ {images/} }
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfig}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{geometry}
+\usepackage{wrapfig}
+\usepackage{eurosym}
+\usepackage{titlesec, blindtext}
+\usepackage[numbers]{natbib}
+\usepackage{epigraph}
+\usepackage{wrapfig}
+\pagenumbering{Roman}
 
-\title{
-	{OPTICAL PROPERTIES OF GAIN INCORPORATING PHOTONIC RESONONATORS}\\
-	{\large COMSATS UNIVERSITY ISLAMABAD}\\
-	{\includegraphics{university.jpg}}
-}
-\author{AHMAD BILAL}
-\date{JANUARY 12 2019}
 
 \begin{document}
+	\begin{center}
+		
+		\Large \textbf{Optical Properties of Gain incorporating Photonic Resonators}
+		
+	\end{center}
+\begin{center}
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=5cm,height=7cm,keepaspectratio]{universitye.jpg}\\
+	\end{figure}
+\end{center}
+	\begin{center}
+		\emph{\large by}\\
+		
+		\Large \textbf{AHMAD BILAL}\\
+		\Large CIIT/FA15-BPH-019/ISB\\
+		\vfill
+		\Large BS Thesis\\
+		\Large In\\
+		\Large Physics
+	\end{center}
+	\vfill
+	\begin{center}
+		\Large \textbf{COMSATS University Islamabad}\\
+		\Large Islamabad - Pakistan
+	\end{center}
+	
+	\begin{center}
+		 January, 2019
+	\end{center}
+	\newpage
+	\noindent
+	\begin{wrapfigure}{l}{0.12\textwidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{university.jpg}
+	\end{wrapfigure}
+	\begin{center}
+	{\Large{ \textbf{COMSATS University Islamabad}}}
+	\end{center}
+	
+	\vspace{0.2 in}
+	
+	\begin{center}
+		{\Large {Optical Properties of Gain incorporating Photonic Resonators
+		} }
+	\end{center}
+	\vspace{0.5 in}
+	
+	\begin{center}
+	{A Thesis Presented to}
+	\end{center}
+	\vspace{0.2 in}
+	\begin{center}
+		{\Large {\textbf{COMSATS University Islamabad}} }
+	\end{center}
+	\vspace{0.5 in}
+	\begin{center}
+		{In partial fulfillment }
+	\end{center}
 
-\maketitle
+	\begin{center}
+		{of the requirement for the degree of}
+	\end{center}
+	
+	\vspace{0.5 in}
+	
+	\begin{center}
+		{\Large {\textbf{Bachelor of Science in Physics}} }
+	\end{center}
+	
+	\vspace{0.5 in}
+	\begin{center}
+		{by }
+	\end{center}
+	\begin{center}
+		{\large {Ahmad Bilal\\[0pt]
+				CUI/FA15-BPH-019/ISB\\[0pt]
+		}}
+	\end{center}
+	\vspace{0.5 in}
+	\begin{center}
+		Spring, 2019
+	\end{center}
+	\newpage
+	\begin{center}
+{\Large {Optical Properties of Gain incorporating Photonic Resonators}\\[0pt]
+		\noindent\rule{18cm}{3pt}} \\
+\end{center}
+\vspace{0.2 in} 
+		A Under Graduate Thesis submitted to the Department of Physics as partial fulfillment of the requirement for the award of Degree of BS (Physics). 
+\vspace{0.5 in}
+\begin{center}
+	\begin{tabular}{ | c| c | }
+			\hline
+			Name &  Registration Number \\
+			\hline
+		Ahmad Bilal & CUI/FA15-BPH-019/ISB \\ 
+			\hline
+	\end{tabular}
+\end{center}
+	\vspace{3 in}
+	\textbf {Supervisor:}\\
+	Dr. Ahmer Naweed,\\
+	Associate Professor,\\
+	Department of Physics,\\
+	COMSATS University Islamabad (CUI),\\
+	January, 2019.
+	\newpage
+	
+	\begin{center}
+		\textbf{\Large{Final Approval}}
+		\noindent\rule{15cm}{1pt} \\
 
-\chapter*{Abstract}
-Abstract goes here
- 
-\chapter*{Dedication}
-To mum and dad
- 
-\chapter*{Declaration}
-I, \textbf{AHMAD BILAL \underline{CIIT/FA15-BPH-019/ISB}} , hereby declare that this project
+		This thesis titled\\
+		\vspace{0.5cm}
+{\Large \textbf {Optical Properties of Gain incorporating Photonic Resonators}}\\
+\vspace{0.3cm}
+By\\ar
+\emph{Ahmad Bilal}\\
+\emph{CIIT/FA15-BPH-019/ISB}\\
+\vspace{0.1 in}
+Has been approved\\
+\vspace{0.1 in}
+For the COMSATS University Islamabad\\
+\end{center}
+\vspace{0.5cm}
+External Examiner: \noindent\rule{8cm}{0.4pt}\\\\\\\\\\\\
+Supervisor: \hspace{1.35cm}\noindent\rule{8cm}{0.4pt}\\
+\begin{center}
+	Dr. Ahmer Naweed\\
+	Associate Professor, Dept. of Physics\\
+	COMSATS University Islamabad\\
+\end{center}
+\vspace{0.5cm}
+HoD: \hspace{2.5cm}\noindent\rule{8cm}{0.4pt}\\
+\begin{center}
+	Dr. Sajid Qamar\\
+	Professor, Dept. of Physics\\
+	COMSATS University Islamabad
+\end{center}
+	\newpage
+	\begin{center}
+		\textbf{\Large{Declaration}}
+		\end{center}
+I \underline{\textbf{Ahmad Bilal} (CIIT/FA15-BPH-019/ISB)} hereby declare that this project
 neither as a whole nor as a part there of has been copied out from any source. It is
 further declared that I have developed this thesis and the accompanied report entirely
 on the basis of my personal efforts made under the sincere guidance of my supervisors.
 No portion of the work presented in this report has been submitted in support of any
 other degree of qualification of this or any other University or Institute of learning, if
-found I shall stand responsible.
-\\
-\\
-\\
-\begin{flushleft}
-\begin{tabular}{@{}p{1.5in}p{2in}@{}}
-Signature of Student:  & \hrulefill \\
-& Ahmad Bilal, Ph.D. \\
-& CIIT/FA15-BPH-019/ISB\\
-\end{tabular}
-\end{flushleft}
-
+found I shall stand responsible.  \\\\\\\\\\
+Date: \underline{}  \\\\\\
 \begin{flushright}
-\begin{tabular}{@{}p{.25in}p{1in}@{}}
-Date: & \hrulefill \\
-\end{tabular}
+
+	\noindent\rule{4cm}{0.4pt} \\  Ahmad Bilal \\   CIIT/FA15-BPH-019/ISB 
+
 \end{flushright}
 
+	
+\newpage
+\begin{center}
+\textbf{\Large{Certificate}}\\
+\end{center}
+It is certified that \underline{Ahmad Bilal (Registration No. CIIT/FA156-BPH-019/ISB)} has carried out all the work related to this thesis under my supervision at the Department of Physics, COMSATS University Islamabad and the work fulfills the requirement for award of BS degree. \\\\\\
+Date: \underline{Jan, 2019} 
+\vspace{2.5cm}
+\begin{flushright}
+Supervisor: \\
+\noindent\rule{4cm}{0.4pt}\\
+Dr. Ahmer Naweed \\
+Associate Professor, Department of Physics\\
+\end{flushright}
+\vspace{3cm}
+Head of Department: \\
+\noindent\rule{4cm}{0.4pt}\\
+Dr. Sajid Qamar \\
+Department of Physics
+\newpage	
+
+\chapter*{\center{Abstract}}
+\Large In this project, we extended the research on optical ring resonators for such mediums in which there is gain. First we studied normally the optical properties of passive resonators and measured the effects of EIT and EIA in them (details later discussed). Then we moved over focus on active resonators varrying different parameters to acheive EIT and EIA in gain incorporating photonic resonators which have extensive amount of applications. The main focus for this project was to model the characteristics and properties of active resonators and compare it with the results of passive resonators. Due to the gain property of active resonators, similar effects can be seen here as in passive resonators but without losses involved. The main idea was to establish a photonic device that could work efficiently as passive resonators and also have more output.
  
-\chapter*{Acknowledgements}
-I want to thank...
- 
+\chapter*{\center{Dedication}}
+\Large This thesis is dedicated to my mother who brought me up all by herself and made me the gentleman I am today.
+
+\newpage
+
+\begin{flushright}
+\textit{\small{Indeed, in the creation of the heavens,\\ and the earth and the alternation of\\ the night and the day, are signs for\\ those of understanding.\\ The Nobel Quran [3:190]}}
+\end{flushright}
+\noindent\rule{15cm}{1pt}
+\begin{flushleft}
+\textbf{\Large{Ackowledgements}}
+\end{flushleft}
+\noindent\rule{15cm}{1pt} \\
+\small In the name of Allah, who is the most beneficient and merciful. I would like to thank all the 
+
+
 \tableofcontents
+\listoffigures
+\newpage
+\pagenumbering{arabic}
 
 \chapter{Introduction}
 \input{chapters/introduction}
