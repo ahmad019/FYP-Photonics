@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  9 MAR 2019 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  10 MAR 2019 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,7 +637,7 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
@@ -789,7 +789,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/universitye.jpg, id=179, 1284.8pt x 1280.785pt>
+<images/universitye.jpg, id=191, 1284.8pt x 1280.785pt>
 File: images/universitye.jpg Graphic file (type jpg)
 
 <use images/universitye.jpg>
@@ -799,7 +799,7 @@ Package pdftex.def Info: images/universitye.jpg used on input line 34.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/universitye.jpg>]
 
-<images/university.jpg, id=189, 220.825pt x 220.825pt>
+<images/university.jpg, id=201, 220.825pt x 220.825pt>
 File: images/university.jpg Graphic file (type jpg)
 
 <use images/university.jpg>
@@ -902,104 +902,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
 ] [8
 
-] [9] (./main.toc [10
+]
+Overfull \hbox (0.19778pt too wide) in paragraph at lines 224--226
+[] [][] 
+ []
+
+[9] [10] (./main.toc [11
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [11] (./main.lof)
+ [12] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [12
+ [13
 
 ]
 Chapter 1.
 (./chapters/introduction.tex [1
 
-] [2]) [3]
+] [2] [3]) [4]
 Chapter 2.
-(./chapters/chapter02.tex [4
+(./chapters/chapter02.tex [5
 
-]) [5]
+] [6]) [7]
 Chapter 3.
-(./chapters/chapter03.tex [6
+(./chapters/chapter03.tex [8
 
-]) [7]
+] [9]) [10] [11]
 Chapter 4.
-(./chapters/chapter04.tex [8
+(./chapters/chapter04.tex [12
 
-]) [9]
+] [13] [14]) [15]
 Chapter 5.
-(./chapters/chapter05.tex [10
+(./chapters/chapter05.tex [16
 
-]) [11]
+] [17]) [18] [19]
 Chapter 6.
-(./chapters/conclusion.tex [12
+(./chapters/conclusion.tex [20
 
-]) [13]
+] [21]) [22]
 Appendix A.
 (./chapters/appendix.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--249
+Underfull \hbox (badness 10000) in paragraph at lines 2--266
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-[14
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+[23
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E7E5CE1AF7A78F26EC535113C37754DC;2902.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
+(rerunfilecheck)             Checksum: FD731F9F3424980F095A636182933740;3046.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 9027 strings out of 494910
- 130943 string characters out of 6179835
+ 9052 strings out of 494910
+ 131245 string characters out of 6179835
  226578 words of memory out of 5000000
- 12098 multiletter control sequences out of 15000+600000
+ 12112 multiletter control sequences out of 15000+600000
  13652 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 44i,6n,42p,896b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,6n,42p,982b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
@@ -1007,10 +1012,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (26 pages, 357736 bytes).
+Output written on main.pdf (36 pages, 369460 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 350 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
