@@ -1,16 +1,18 @@
 \contentsline {chapter}{Dedication}{vii}{chapter*.1}
-\contentsline {paragraph}{ \normalfont In this project, we extended the research on optical ring resonators for such mediums in which there is gain. First we studied normally the optical properties of passive resonators and measured the effects of EIT and EIA in them (details later discussed). Then we moved over focus on active resonators varrying different parameters to acheive EIT and EIA in gain incorporating photonic resonators which have extensive amount of applications. The main focus for this project was to model the characteristics and properties of active resonators and compare it with the results of passive resonators. Due to the gain property of active resonators, similar effects can be seen here as in passive resonators but without losses involved. The main idea was to establish a photonic device that could work efficiently as passive resonators and also have more output.}{viii}{chapter*.2}
+\contentsline {paragraph}{ \normalfont Since long, electronic integrated circuits have dominated our modern technology. Now with the dawn of photonics, which is basically using integrated circuits made up using optics, its not far that our modern technology takes a new toll and slide into a new generation of digital devices. Basically, Photonics is the technology of generating and harnessing light, and other form of radiant energy whose quantum unit is a photon. These can be used in multiple applications , to explore the vastness of the Universe, cure serious and unknown diseases and even help in forensics to solve difficult crime cases.}{viii}{chapter*.2}
+\contentsline {paragraph}{\normalfont In this project, we extended the research on optical ring resonators for such mediums in which there is gain. First we studied normally the optical properties of passive resonators and measured the effects of EIT and EIA in them (details later discussed). Then we moved over focus on active resonators varrying different parameters to acheive EIT and EIA in gain incorporating photonic resonators which have extensive amount of applications. The main focus for this project was to model the characteristics and properties of active resonators and compare it with the results of passive resonators. Due to the gain property of active resonators, similar effects can be seen here as in passive resonators but without losses involved. The main idea was to establish a photonic device that could work efficiently as passive resonators and also have more output. }{viii}{chapter*.2}
+\contentsline {paragraph}{\normalfont Light is a beautiful thing, it makes us see things, but what if it also starts to help us organize our data, compute our equations, play our music, record our documents and basically do everything what a modern digital device, built on electronics, is capable of doing? I guess we\IeC {\textquoteright }ll find out!}{viii}{chapter*.2}
 \contentsline {chapter}{Abstract}{viii}{chapter*.2}
 \contentsline {chapter}{Acknowledgement}{ix}{section*.3}
-\contentsline {paragraph}{ \normalfont In the name of Allah, who is the most beneficient and merciful. I would start off this extensive documentation with a quote from Carl Sagan, one of the greatest science educator, who created enough enthusiasm and curiosity in me to persue my career in Physics. He said, \textit {"Somewhere, something incredible is waiting to be known".} This is one of the reason I chose to be a student of physics, it inspires me to search for the unknown clues that are hidden in the very fabric of reality. Physics gave mankind the power to dominate his world and to use the best of nature for his benefit.}{ix}{section*.3}
-\contentsline {subparagraph}{ \normalfont Since childhood, I was more into computers. Then in High School, I almost made the decision of joining the computer engineer. But the scientist inside me made me a star gazer and curious about how they get where they are, and what are they made of? These questions were those which made me switch my field to Physics which is a science of never-ending curiosity. In this process, a lot of people are included some directly and some indirectly, most of which are my family because of their never-ending support had made me persue my dreams.}{ix}{section*.3}
-\contentsline {subparagraph}{ \normalfont I would personally like to thank my supervisor in BS project, Dr. A. Naweed. Who helped me through thick and thin to complete this project and who kept me motivated enough to continue my research in field of photonics. I would like to thank my batch counselor Dr. A. H. Mujtaba, who's support and teachings made us all work harder and harder for the progression of science. Also there is a big role of Ms. Zarqa in my motivation for this project. She not only recomended me to Dr. Naweed, but she is also my mental health counselor when I am in dire need of help. I would like to thank my peers in this, because the support and love I get from them is unmeasureable. Then again I would like to thank my family and especially my mother, who never asked me about my GPA and anything and always said, "if you love what you are studying, only then you can get true learning."}{x}{section*.3}
+\contentsline {paragraph}{ \normalfont In the name of Allah, who is the most beneficient and merciful. I would start off this extensive documentation with a quote from Carl Sagan, one of the greatest science educator, who created enough enthusiasm and curiosity in me to persue my career in Physics. He said, \textit {"Somewhere, something incredible is waiting to be known".} This is one of the reason I chose to be a student of physics, it inspires me to search for the unknown clues that are hidden in the very fabric of reality. Physics gave mankind the power to dominate their world and use the best of nature for their benefit.}{ix}{section*.3}
+\contentsline {subparagraph}{ \normalfont Since childhood, I had always been fascinated by computers and gadgets. Having the background of engineers in my family, I almost ended up joining the computer engineering in High School. But the curiosity inside me had made me a star gazer. So I had questions about how they get where they are, and what are they made of? These questions were those which made me switch my field to Physics which is a science of never-ending curiosity. In this process, a lot of people are included some directly and some indirectly, most of which are my family because of their never-ending support had made me persue my dreams.}{ix}{section*.3}
+\contentsline {subparagraph}{ \normalfont I would personally like to thank my supervisor in BS project, Dr. A. Naweed. Who helped me through thick and thin to complete this project and who kept me motivated enough to continue my research in field of photonics. I would like to thank my batch counselor Dr. A. H. Mujtaba, who's support and teachings made us all work harder and harder for the progression of science. Also there is a big role of Ms. Zarqa in my motivation for this project. She not only recomended me to Dr. Naweed, but she is also my mental health counselor when I am in dire need of help. I would like to thank my peers in this, because the support and love I get from them is unmeasureable. Then again I would like to thank my family and especially my mother, who never asked me about my GPA and anything and always said, "if you love what you are studying, only then you can get true learning."}{ix}{section*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Resonators}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Explaination}{1}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Optical Resonators}{2}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Different Geometeries}{2}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Fabry-Perot Resonators}{2}{section.1.3}
+\contentsline {section}{\numberline {1.3}Fabry-Perot Resonators}{3}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Explaination}{3}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}Ring Resonators}{3}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}All-Pass}{3}{subsection.1.4.1}
@@ -20,32 +22,32 @@
 \contentsline {chapter}{\numberline {2}Area of Study}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Fabry-Perot Interferometer}{5}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Theory of Fabry-Perot interferometer}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Finese, Q-factor}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Finese, Q-factor}{5}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Gain incorporation in Resonators}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Beer's Law}{6}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Beer's law study as gain}{7}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Gain medium}{7}{section.2.3}
-\contentsline {chapter}{\numberline {3}Coupled Resonators with Gain}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Coupled resontaor with Gain medium}{8}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Gain element}{8}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Calculation/Equations}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}For single}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}For coupled}{10}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}For triple}{10}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Coupling Regimes}{10}{section.3.3}
-\contentsline {chapter}{\numberline {4}Electromagnetically Induced Transparecy}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}EIT in Atoms}{12}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Two level Atoms}{12}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}EIT in ring resonators}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}EIT in Coupled resonators(CRIT)}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}CRIT with gain}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Results}{14}{section.4.5}
-\contentsline {chapter}{\numberline {5}Electromagnetically Induced Absorbption}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}EIA concepts}{16}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}EIA in atoms}{16}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}EIA Quantum phenomena}{17}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}EIA in resonators}{17}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Coupled resontors induced Absorption}{18}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}CRIA with gain}{18}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusion}{20}{chapter.6}
-\contentsline {chapter}{\numberline {A}Abrevations}{23}{appendix.A}
+\contentsline {subsection}{\numberline {2.2.2}Beer's law study as gain}{6}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Gain medium}{6}{section.2.3}
+\contentsline {chapter}{\numberline {3}Coupled Resonators with Gain}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Coupled resontaor with Gain medium}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Gain element}{7}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Calculation/Equations}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}For single}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}For coupled}{8}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}For triple}{8}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Coupling Regimes}{8}{section.3.3}
+\contentsline {chapter}{\numberline {4}Electromagnetically Induced Transparecy}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}EIT in Atoms}{10}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Two level Atoms}{10}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}EIT in ring resonators}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}EIT in Coupled resonators(CRIT)}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}CRIT with gain}{11}{section.4.4}
+\contentsline {section}{\numberline {4.5}Results}{11}{section.4.5}
+\contentsline {chapter}{\numberline {5}Electromagnetically Induced Absorbption}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}EIA concepts}{13}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}EIA in atoms}{13}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}EIA Quantum phenomena}{13}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}EIA in resonators}{14}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Coupled resontors induced Absorption}{14}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}CRIA with gain}{14}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusion}{15}{chapter.6}
+\contentsline {chapter}{\numberline {A}Abrevations}{17}{appendix.A}
