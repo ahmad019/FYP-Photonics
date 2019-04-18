@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  8 APR 2019 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  17 APR 2019 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,36 +697,49 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \f@ncyO@erf=\skip66
 \f@ncyO@olf=\skip67
 \f@ncyO@orf=\skip68
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen143
+\SC@CAPWD=\dimen144
+\SC@tempdima=\dimen145
+\SC@tempdimb=\dimen146
+\c@SC@C=\count142
+\SC@BOX=\box31
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen143
-\scratchbox=\box31
-\nofMPsegments=\count143
-\nofMParguments=\count144
+\scratchcounter=\count143
+\scratchdimen=\dimen147
+\scratchbox=\box32
+\nofMPsegments=\count144
+\nofMParguments=\count145
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen144
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
+\MPscratchCnt=\count146
+\MPscratchDim=\dimen148
+\MPnumerator=\count147
+\makeMPintoPDFobject=\count148
 \everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -743,8 +756,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 28.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -752,11 +765,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count148
+\c@section@level=\count149
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -764,6 +777,7 @@ LaTeX Info: Redefining \nameref on input line 28.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -776,14 +790,14 @@ Package caption Info: End \AtBeginDocument code.
 * bindingoffset: 17.07164pt
 * modes: twoside 
 * h-part:(L,W,R)=(61.45795pt, 426.79134pt, 92.18695pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* v-part:(T,H,B)=(99.58464pt, 645.87756pt, 99.58464pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79134pt
-* \textheight=702.78308pt
+* \textheight=645.87756pt
 * \oddsidemargin=6.2596pt
 * \evensidemargin=19.91696pt
-* \topmargin=-38.1381pt
+* \topmargin=-9.68535pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -801,112 +815,136 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/universitye.jpg, id=191, 1284.8pt x 1280.785pt>
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
+)
+<images/universitye.jpg, id=184, 1284.8pt x 1280.785pt>
 File: images/universitye.jpg Graphic file (type jpg)
 
 <use images/universitye.jpg>
-Package pdftex.def Info: images/universitye.jpg used on input line 37.
+Package pdftex.def Info: images/universitye.jpg used on input line 38.
 (pdftex.def)             Requested size: 142.24985pt x 141.80531pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/universitye.jpg>]
 
-<images/university.jpg, id=201, 220.825pt x 220.825pt>
+<images/university.jpg, id=194, 220.825pt x 220.825pt>
 File: images/university.jpg Graphic file (type jpg)
 
 <use images/university.jpg>
-Package pdftex.def Info: images/university.jpg used on input line 63.
+Package pdftex.def Info: images/university.jpg used on input line 64.
 (pdftex.def)             Requested size: 40.97044pt x 40.96991pt.
  [2 <./images/university.jpg>]
-Overfull \hbox (85.35826pt too wide) in paragraph at lines 115--115
+Overfull \hbox (85.35826pt too wide) in paragraph at lines 116--116
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 121.
+LaTeX Font Info:    Try loading font information for U+msa on input line 122.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 121.
+LaTeX Font Info:    Try loading font information for U+msb on input line 122.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 174--182
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
@@ -914,17 +952,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
 ] [8
 
-] [9] [10] (./main.toc [11
+] [9] [10] [11] (./main.toc [12
 
 ])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [12] (./main.lof)
+ [13] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [13
+ [14
 
 ]
 Chapter 1.
@@ -937,29 +975,154 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]) [4]
+[2] <images/linear_and_ring_resonator.png, id=325, 165.61874pt x 181.67876pt>
+File: images/linear_and_ring_resonator.png Graphic file (type png)
+
+<use images/linear_and_ring_resonator.png>
+Package pdftex.def Info: images/linear_and_ring_resonator.png used on input lin
+e 25.
+(pdftex.def)             Requested size: 124.21375pt x 136.25871pt.
+ [3 <./images/linear_and_ring_resonator.png>] <images/microresonators_types.jpg
+, id=331, 758.835pt x 391.4625pt>
+File: images/microresonators_types.jpg Graphic file (type jpg)
+
+<use images/microresonators_types.jpg>
+Package pdftex.def Info: images/microresonators_types.jpg used on input line 35
+.
+(pdftex.def)             Requested size: 426.79134pt x 220.17322pt.
+
+Overfull \hbox (12.96649pt too wide) in paragraph at lines 32--38
+\OT1/cmr/m/n/14.4 There are many type of mi-crores-onators from which microring
+-resonators
+ []
+
+Package epstopdf Info: Source file: <images/all_pass_resonator.eps>
+(epstopdf)                    date: 2019-04-16 23:23:37
+(epstopdf)                    size: 761470 bytes
+(epstopdf)             Output file: <images/all_pass_resonator-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-04-16 23:25:38
+(epstopdf)                    size: 64888 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/all_pass_resonator-
+eps-converted-to.pdf images/all_pass_resonator.eps>
+(epstopdf)             \includegraphics on input line 43.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/all_pass_resonator-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<images/all_pass_resonator-eps-converted-to.pdf, id=332, 817.0525pt x 512.91624
+pt>
+File: images/all_pass_resonator-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/all_pass_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/all_pass_resonator-eps-converted-to.pdf used on
+ input line 43.
+(pdftex.def)             Requested size: 213.39566pt x 133.95772pt.
+ [4 <./images/microresonators_types.jpg>]
+Package epstopdf Info: Source file: <images/add_drop_resonator.eps>
+(epstopdf)                    date: 2019-04-16 23:43:47
+(epstopdf)                    size: 1116359 bytes
+(epstopdf)             Output file: <images/add_drop_resonator-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-04-16 23:45:20
+(epstopdf)                    size: 89998 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/add_drop_resonator-
+eps-converted-to.pdf images/add_drop_resonator.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/add_drop_resonator-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<images/add_drop_resonator-eps-converted-to.pdf, id=337, 817.0525pt x 532.99126
+pt>
+File: images/add_drop_resonator-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/add_drop_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/add_drop_resonator-eps-converted-to.pdf used on
+ input line 51.
+(pdftex.def)             Requested size: 320.09349pt x 208.80916pt.
+Package epstopdf Info: Source file: <images/couple_ring_resonator.eps>
+(epstopdf)                    date: 2019-04-17 00:08:43
+(epstopdf)                    size: 1070939 bytes
+(epstopdf)             Output file: <images/couple_ring_resonator-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-04-17 00:09:07
+(epstopdf)                    size: 148512 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/couple_ring_resonat
+or-eps-converted-to.pdf images/couple_ring_resonator.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/couple_ring_resonator-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<images/couple_ring_resonator-eps-converted-to.pdf, id=338, 600.2425pt x 570.13
+pt>
+File: images/couple_ring_resonator-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/couple_ring_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/couple_ring_resonator-eps-converted-to.pdf used
+ on input line 58.
+(pdftex.def)             Requested size: 320.09349pt x 304.04655pt.
+ [5 <./images/all_pass_resonator-eps-converted-to.pdf> <./images/add_drop_reson
+ator-eps-converted-to.pdf>] [6 <./images/couple_ring_resonator-eps-converted-to
+.pdf>]) [7]
 Chapter 2.
-(./chapters/chapter02.tex [5
+(./chapters/chapter02.tex
+Package epstopdf Info: Source file: <images/Fabry_Perot_resonator.eps>
+(epstopdf)                    date: 2019-04-17 23:43:03
+(epstopdf)                    size: 1985810 bytes
+(epstopdf)             Output file: <images/Fabry_Perot_resonator-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-04-17 23:49:28
+(epstopdf)                    size: 274501 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/Fabry_Perot_resonat
+or-eps-converted-to.pdf images/Fabry_Perot_resonator.eps>
+(epstopdf)             \includegraphics on input line 6.
+Package epstopdf Info: Output file is already uptodate.
 
-]) [6]
+
+pdfTeX warning: pdflatex (file ./images/Fabry_Perot_resonator-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=361, 817.0525pt x 488.82
+625pt>
+File: images/Fabry_Perot_resonator-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/Fabry_Perot_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/Fabry_Perot_resonator-eps-converted-to.pdf used
+ on input line 6.
+(pdftex.def)             Requested size: 277.41176pt x 165.9675pt.
+ [8
+
+ <./images/Fabry_Perot_resonator-eps-converted-to.pdf>]
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+ [9]
+[10]) [11]
 Chapter 3.
-(./chapters/chapter03.tex [7
+(./chapters/chapter03.tex [12
 
-]) [8] [9]
+]) [13] [14]
 Chapter 4.
-(./chapters/chapter04.tex [10
+(./chapters/chapter04.tex [15
 
-])
-Overfull \hbox (5.62932pt too wide) in paragraph at lines 14--270
+] [16])
+Overfull \hbox (5.62932pt too wide) in paragraph at lines 14--272
 \OT1/cmr/m/n/14.4 pos-si-ble sources of er-ror are. This sec-tion gives an over
 view of arbitrary-
  []
 
-[11] [12]
+[17]
 Chapter 5.
-(./chapters/chapter05.tex [13
+(./chapters/chapter05.tex [18
 
-]) [14]
+]) [19] [20]
 Chapter 6.
 (./chapters/conclusion.tex
 Overfull \hbox (5.62932pt too wide) in paragraph at lines 3--4
@@ -980,9 +1143,9 @@ view of arbitrary-
  []
 
 
-Underfull \vbox (badness 2181) has occurred while \output is active []
+Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [15
+ [21
 
 ]
 Overfull \hbox (5.62932pt too wide) in paragraph at lines 9--10
@@ -997,87 +1160,89 @@ view of arbitrary-
  []
 
 )
-Overfull \hbox (5.62932pt too wide) in paragraph at lines 13--276
+Overfull \hbox (5.62932pt too wide) in paragraph at lines 13--278
 \OT1/cmr/m/n/14.4 pos-si-ble sources of er-ror are. This sec-tion gives an over
 view of arbitrary-
  []
 
-[16]
+[22]
 Appendix A.
 (./chapters/appendix.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--279
+Underfull \hbox (badness 10000) in paragraph at lines 2--281
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
-[17
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+[23
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FD731F9F3424980F095A636182933740;3046.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
+(rerunfilecheck)             Checksum: 13F034D99555734D5AD0DA8822D24C8B;2916.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 9183 strings out of 494910
- 132711 string characters out of 6179835
- 230826 words of memory out of 5000000
- 12244 multiletter control sequences out of 15000+600000
- 16305 words of font info for 61 fonts, out of 8000000 for 9000
+ 9432 strings out of 494910
+ 137297 string characters out of 6179835
+ 231667 words of memory out of 5000000
+ 12456 multiletter control sequences out of 15000+600000
+ 17552 words of font info for 66 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 44i,11n,43p,1114b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,20n,43p,1114b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on main.pdf (30 pages, 397466 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (37 pages, 1094193 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 

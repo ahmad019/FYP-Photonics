@@ -12,7 +12,7 @@
 \usepackage{subfig}
 \usepackage{epsfig}
 \usepackage{color}
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage[a4paper,width=150mm,top=35mm,bottom=35mm,bindingoffset=6mm]{geometry}
 \usepackage{wrapfig}
 \usepackage{eurosym}
 \usepackage{titlesec, blindtext}
@@ -21,6 +21,7 @@
 \usepackage{wrapfig}
 \pagenumbering{roman}
 \usepackage{fancyhdr}
+\usepackage[rightcaption]{sidecap}
 
 
 
@@ -251,8 +252,9 @@ Department of Physics
 \newpage
 \pagenumbering{arabic}
 \fancyhead[RO,LE]{}
-\fancyfoot[CO,CE]{Ahmad Bilal}
+\fancyfoot[CO,CE]{\small OPTICAL PROPERTIES OF GAIN RESONATORS}
 \fancyfoot[LE,RO]{\thepage}
+\renewcommand{\footrulewidth}{0.5pt}
 
 \pagestyle{fancy}
 
