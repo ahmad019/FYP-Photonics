@@ -64,7 +64,7 @@ with open('Coupled_resonator_phi.phase.trans.csv', 'w') as fp:
         #PHIt[i] = phi1 - (np.arctan((a2*np.sin(phi2))/(r2-a2*np.cos(phi2))) - np.arctan((a2*r2*np.sin(phi2))/(1-a2*r2*np.cos(phi2))))
         PHIt[i] = np.angle(Eta)
         
-        PHI12[i] = np.angle(Er12)
+        PHI12[i] = np.angle(Er12) #phi12
         
         phi1 = phi1 + 0.001    
         phi2 = phi2 + 0.001    
@@ -109,18 +109,18 @@ axs[0,1].set_xlabel("detuning")
 axs[0,1].set_ylabel("Effective phase")
 axs[0,1].plot(phi1t/2,PHIt, 'r')
 
-axs[1,0].set_xlim([-0.05,0.05])
+axs[1,0].set_xlim([-0.01,0.01])
 axs[1,0].set_title("Phi12 Phase")
 axs[1,0].set_xlabel("detuning")
 axs[1,0].set_ylabel("Effective phase")
 axs[1,0].plot(phi1t/2,PHI12, 'y')
 
-#axs[1,1].set_xlim([-0.025,0.025])
+axs[1,1].set_xlim([-1.5,1.5])
 axs[1,1].set_title("Group velocity")
 axs[1,1].set_xlabel("detuning")
 axs[1,1].set_ylabel("Effective phase")
-#axs[1,1].plot(np.delete(phi1t,phi1t[0]), vgt , 'g')
-axs[1,1].plot(phi1t, ngt , 'g')
+axs[1,1].plot(phi1t, np.append([1],dydx) , 'g')
+#axs[1,1].plot(phi1t, ngt , 'g')
 
 fig.tight_layout()
 plt.show()

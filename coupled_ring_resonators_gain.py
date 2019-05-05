@@ -22,12 +22,12 @@ l = 2*np.pi*b
 n = 3.45
 
 aa = (2*np.pi*n)/(Q1*lamd)
-g1 = 1.224
+g1 = 0
 aa2 = (2*np.pi*n)/(Q2*lamd)
-g2 = 2.91001
+g2 = 0
 
-a1 = np.exp(((g1-aa)*l)/2)
-a2 = np.exp(((g2-aa2)*l)/2)
+a1 = np.exp(-(aa-g1)*l/2)
+a2 = np.exp(-(aa2-g2)*l/2)
 
 #r1 = r2*a1 #critical
 
