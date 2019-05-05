@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  17 APR 2019 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  25 APR 2019 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -839,7 +839,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip81
 \JustifyingParindent=\skip82
 )
-<images/universitye.jpg, id=184, 1284.8pt x 1280.785pt>
+<images/universitye.jpg, id=208, 1284.8pt x 1280.785pt>
 File: images/universitye.jpg Graphic file (type jpg)
 
 <use images/universitye.jpg>
@@ -849,7 +849,7 @@ Package pdftex.def Info: images/universitye.jpg used on input line 38.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/universitye.jpg>]
 
-<images/university.jpg, id=194, 220.825pt x 220.825pt>
+<images/university.jpg, id=218, 220.825pt x 220.825pt>
 File: images/university.jpg Graphic file (type jpg)
 
 <use images/university.jpg>
@@ -958,7 +958,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--196
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [13] (./main.lof)
+ [13] (./main.lof
+Overfull \hbox (5.05319pt too wide) in paragraph at lines 6--6
+ [][] [][][]\OT1/cmr/m/n/17.28 Transmitted and re-flected field of a sim-ple Fa
+bry- 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -975,7 +981,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <images/linear_and_ring_resonator.png, id=325, 165.61874pt x 181.67876pt>
+[2] <images/linear_and_ring_resonator.png, id=358, 165.61874pt x 181.67876pt>
 File: images/linear_and_ring_resonator.png Graphic file (type png)
 
 <use images/linear_and_ring_resonator.png>
@@ -983,94 +989,23 @@ Package pdftex.def Info: images/linear_and_ring_resonator.png used on input lin
 e 25.
 (pdftex.def)             Requested size: 124.21375pt x 136.25871pt.
  [3 <./images/linear_and_ring_resonator.png>] <images/microresonators_types.jpg
-, id=331, 758.835pt x 391.4625pt>
+, id=364, 758.835pt x 391.4625pt>
 File: images/microresonators_types.jpg Graphic file (type jpg)
 
 <use images/microresonators_types.jpg>
-Package pdftex.def Info: images/microresonators_types.jpg used on input line 35
+Package pdftex.def Info: images/microresonators_types.jpg used on input line 44
 .
 (pdftex.def)             Requested size: 426.79134pt x 220.17322pt.
 
-Overfull \hbox (12.96649pt too wide) in paragraph at lines 32--38
+Overfull \hbox (12.96649pt too wide) in paragraph at lines 41--47
 \OT1/cmr/m/n/14.4 There are many type of mi-crores-onators from which microring
 -resonators
  []
 
-Package epstopdf Info: Source file: <images/all_pass_resonator.eps>
-(epstopdf)                    date: 2019-04-16 23:23:37
-(epstopdf)                    size: 761470 bytes
-(epstopdf)             Output file: <images/all_pass_resonator-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2019-04-16 23:25:38
-(epstopdf)                    size: 64888 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/all_pass_resonator-
-eps-converted-to.pdf images/all_pass_resonator.eps>
-(epstopdf)             \includegraphics on input line 43.
-Package epstopdf Info: Output file is already uptodate.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-pdfTeX warning: pdflatex (file ./images/all_pass_resonator-eps-converted-to.pdf
-): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<images/all_pass_resonator-eps-converted-to.pdf, id=332, 817.0525pt x 512.91624
-pt>
-File: images/all_pass_resonator-eps-converted-to.pdf Graphic file (type pdf)
- <use images/all_pass_resonator-eps-converted-to.pdf>
-Package pdftex.def Info: images/all_pass_resonator-eps-converted-to.pdf used on
- input line 43.
-(pdftex.def)             Requested size: 213.39566pt x 133.95772pt.
- [4 <./images/microresonators_types.jpg>]
-Package epstopdf Info: Source file: <images/add_drop_resonator.eps>
-(epstopdf)                    date: 2019-04-16 23:43:47
-(epstopdf)                    size: 1116359 bytes
-(epstopdf)             Output file: <images/add_drop_resonator-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2019-04-16 23:45:20
-(epstopdf)                    size: 89998 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/add_drop_resonator-
-eps-converted-to.pdf images/add_drop_resonator.eps>
-(epstopdf)             \includegraphics on input line 51.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./images/add_drop_resonator-eps-converted-to.pdf
-): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<images/add_drop_resonator-eps-converted-to.pdf, id=337, 817.0525pt x 532.99126
-pt>
-File: images/add_drop_resonator-eps-converted-to.pdf Graphic file (type pdf)
- <use images/add_drop_resonator-eps-converted-to.pdf>
-Package pdftex.def Info: images/add_drop_resonator-eps-converted-to.pdf used on
- input line 51.
-(pdftex.def)             Requested size: 320.09349pt x 208.80916pt.
-Package epstopdf Info: Source file: <images/couple_ring_resonator.eps>
-(epstopdf)                    date: 2019-04-17 00:08:43
-(epstopdf)                    size: 1070939 bytes
-(epstopdf)             Output file: <images/couple_ring_resonator-eps-converted
--to.pdf>
-(epstopdf)                    date: 2019-04-17 00:09:07
-(epstopdf)                    size: 148512 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/couple_ring_resonat
-or-eps-converted-to.pdf images/couple_ring_resonator.eps>
-(epstopdf)             \includegraphics on input line 58.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex (file ./images/couple_ring_resonator-eps-converted-to.
-pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-
-<images/couple_ring_resonator-eps-converted-to.pdf, id=338, 600.2425pt x 570.13
-pt>
-File: images/couple_ring_resonator-eps-converted-to.pdf Graphic file (type pdf)
-
- <use images/couple_ring_resonator-eps-converted-to.pdf>
-Package pdftex.def Info: images/couple_ring_resonator-eps-converted-to.pdf used
- on input line 58.
-(pdftex.def)             Requested size: 320.09349pt x 304.04655pt.
- [5 <./images/all_pass_resonator-eps-converted-to.pdf> <./images/add_drop_reson
-ator-eps-converted-to.pdf>] [6 <./images/couple_ring_resonator-eps-converted-to
-.pdf>]) [7]
+[4] [5 <./images/microresonators_types.jpg>] [6]) [7]
 Chapter 2.
 (./chapters/chapter02.tex
 Package epstopdf Info: Source file: <images/Fabry_Perot_resonator.eps>
@@ -1090,7 +1025,7 @@ pdfTeX warning: pdflatex (file ./images/Fabry_Perot_resonator-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=361, 817.0525pt x 488.82
+<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=382, 817.0525pt x 488.82
 625pt>
 File: images/Fabry_Perot_resonator-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1104,25 +1039,124 @@ Package pdftex.def Info: images/Fabry_Perot_resonator-eps-converted-to.pdf used
 Underfull \vbox (badness 1953) has occurred while \output is active []
 
  [9]
-[10]) [11]
+Package epstopdf Info: Source file: <images/R+T_FabryPerot.eps>
+(epstopdf)                    date: 2019-04-25 18:35:16
+(epstopdf)                    size: 4112233 bytes
+(epstopdf)             Output file: <images/R+T_FabryPerot-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-04-25 18:35:34
+(epstopdf)                    size: 500219 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/R+T_FabryPerot-eps-
+converted-to.pdf images/R+T_FabryPerot.eps>
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/R+T_FabryPerot-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<images/R+T_FabryPerot-eps-converted-to.pdf, id=399, 817.0525pt x 539.01375pt>
+File: images/R+T_FabryPerot-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/R+T_FabryPerot-eps-converted-to.pdf>
+Package pdftex.def Info: images/R+T_FabryPerot-eps-converted-to.pdf used on inp
+ut line 46.
+(pdftex.def)             Requested size: 213.39566pt x 140.77356pt.
+ [10 <./images/R+T_FabryPerot-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/all_pass_resonator.eps>
+(epstopdf)                    date: 2019-04-16 23:23:37
+(epstopdf)                    size: 761470 bytes
+(epstopdf)             Output file: <images/all_pass_resonator-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-04-16 23:25:38
+(epstopdf)                    size: 64888 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/all_pass_resonator-
+eps-converted-to.pdf images/all_pass_resonator.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/all_pass_resonator-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<images/all_pass_resonator-eps-converted-to.pdf, id=409, 817.0525pt x 512.91624
+pt>
+File: images/all_pass_resonator-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/all_pass_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/all_pass_resonator-eps-converted-to.pdf used on
+ input line 63.
+(pdftex.def)             Requested size: 213.39566pt x 133.95772pt.
+ [11]
+Package epstopdf Info: Source file: <images/add_drop_resonator.eps>
+(epstopdf)                    date: 2019-04-16 23:43:47
+(epstopdf)                    size: 1116359 bytes
+(epstopdf)             Output file: <images/add_drop_resonator-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-04-16 23:45:20
+(epstopdf)                    size: 89998 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/add_drop_resonator-
+eps-converted-to.pdf images/add_drop_resonator.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/add_drop_resonator-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<images/add_drop_resonator-eps-converted-to.pdf, id=415, 817.0525pt x 532.99126
+pt>
+File: images/add_drop_resonator-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/add_drop_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/add_drop_resonator-eps-converted-to.pdf used on
+ input line 71.
+(pdftex.def)             Requested size: 213.39566pt x 139.20068pt.
+Package epstopdf Info: Source file: <images/couple_ring_resonator.eps>
+(epstopdf)                    date: 2019-04-17 00:08:43
+(epstopdf)                    size: 1070939 bytes
+(epstopdf)             Output file: <images/couple_ring_resonator-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-04-17 00:09:07
+(epstopdf)                    size: 148512 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/couple_ring_resonat
+or-eps-converted-to.pdf images/couple_ring_resonator.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./images/couple_ring_resonator-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+<images/couple_ring_resonator-eps-converted-to.pdf, id=416, 600.2425pt x 570.13
+pt>
+File: images/couple_ring_resonator-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/couple_ring_resonator-eps-converted-to.pdf>
+Package pdftex.def Info: images/couple_ring_resonator-eps-converted-to.pdf used
+ on input line 78.
+(pdftex.def)             Requested size: 192.0548pt x 182.41922pt.
+ [12 <./images/all_pass_resonator-eps-converted-to.pdf> <./images/add_drop_reso
+nator-eps-converted-to.pdf>] [13 <./images/couple_ring_resonator-eps-converted-
+to.pdf>]) [14]
+[15]
 Chapter 3.
-(./chapters/chapter03.tex [12
+(./chapters/chapter03.tex [16
 
-]) [13] [14]
+]) [17] [18]
 Chapter 4.
-(./chapters/chapter04.tex [15
+(./chapters/chapter04.tex [19
 
-] [16])
+] [20])
 Overfull \hbox (5.62932pt too wide) in paragraph at lines 14--272
 \OT1/cmr/m/n/14.4 pos-si-ble sources of er-ror are. This sec-tion gives an over
 view of arbitrary-
  []
 
-[17]
+[21]
 Chapter 5.
-(./chapters/chapter05.tex [18
+(./chapters/chapter05.tex [22
 
-]) [19] [20]
+]) [23] [24]
 Chapter 6.
 (./chapters/conclusion.tex
 Overfull \hbox (5.62932pt too wide) in paragraph at lines 3--4
@@ -1145,7 +1179,7 @@ view of arbitrary-
 
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [21
+ [25
 
 ]
 Overfull \hbox (5.62932pt too wide) in paragraph at lines 9--10
@@ -1165,7 +1199,7 @@ Overfull \hbox (5.62932pt too wide) in paragraph at lines 13--278
 view of arbitrary-
  []
 
-[22]
+[26]
 Appendix A.
 (./chapters/appendix.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 2--281
@@ -1208,7 +1242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--281
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
-[23
+[27
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
@@ -1216,17 +1250,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 13F034D99555734D5AD0DA8822D24C8B;2916.
+(rerunfilecheck)             Checksum: 3509D5813C08D7018581AEE00A3B906F;3364.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 9432 strings out of 494910
- 137297 string characters out of 6179835
+ 9453 strings out of 494910
+ 137692 string characters out of 6179835
  231667 words of memory out of 5000000
- 12456 multiletter control sequences out of 15000+600000
+ 12465 multiletter control sequences out of 15000+600000
  17552 words of font info for 66 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 44i,20n,43p,1114b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,20n,43p,1235b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1239,10 +1273,10 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 s/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (37 pages, 1094193 bytes).
+Output written on main.pdf (41 pages, 1602340 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 94 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 486 compressed objects within 5 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 454 words of extra memory for PDF output out of 10000 (max. 10000000)
 

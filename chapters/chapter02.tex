@@ -39,11 +39,51 @@ and $\tilde{t}$ represents the complex transmittivity:
 \end{multline}
 
 
-The square modulus of these perplexing amounts gives the reflection ${\mathcal R}$ and transmission ${\mathcal T}$ coefficients. Antiresonant wavelengths are more emphatically reflected than in the ambiguous case, while thunderous wavelengths are transmitted $100\%$ for adjusted reflectors ($r_{1}$ = $r_{2}$). For a fixed reflect dispersing, the transmission and reflection spectra in this manner show intermittent pinnacles and valleys. Figure 3.1 presenting the transmission and reflection spectra for a lossless, adjusted Fabry– Perot resonator. The part of reflected and transmitted power for mixed up excitation is identical to the separate frightfully arrived at the midpoint of reflection and transmission over a time of the spectrum range.
+The square modulus of these perplexing amounts gives the reflection ${\mathcal R}$ and transmission ${\mathcal T}$ coefficients (showin in Fig. 2.2). Antiresonant wavelengths are more emphatically reflected than in the ambiguous case, while thunderous wavelengths are transmitted $100\%$ for adjusted reflectors ($r_{1}$ = $r_{2}$). For a fixed reflect dispersing, the transmission and reflection spectra in this manner show intermittent pinnacles and valleys. Figure 3.1 presenting the transmission and reflection spectra for a lossless, adjusted Fabry– Perot resonator. The part of reflected and transmitted power for mixed up excitation is identical to the separate frightfully arrived at the midpoint of reflection and transmission over a time of the spectrum range.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{R+T_FabryPerot.eps}
+\caption{Transmitted and reflected field of a simple Fabry-Perot resonator}
+\end{figure}
+
+\newpage
+
 \subsection{Finese, Q-factor}
-\subparagraph{\normalfont \large To perform more advanced calculations, it is important to have some understanding of how mpmath works internally and what the possible sources of error are. This section gives an overview of arbitrary-precision binary floating-point arithmetic and some concepts from numerical analysis.Most of the time, using mpmath is simply a matter of setting the desired precision and entering a formula. For verification purposes, a quite (but not always!) reliable technique is to calculate the same thing a second time at a higher precision and verifying that the results agree.}
+\subparagraph{\normalfont \large The resonance condition is fulfilled when the (compelling) circumference of the ring, or for the most part the round-trip length, is equivalent to a whole number numerous of the optical wavelength inside the medium. This means a progression of Lorentzian-molded transmission bends equally dispersed in recurrence by the FSR (Free Spectral Range), with the resonance linewidth portraying the capacity time of photons inside the cavity. The photon 	lifetime can be standardized to one optical cycle, known as the quality factor (${\mathcal Q}$), or the cavity round-trip time, known as the cavity Finesse (${\mathcal F}$). The most extreme reachable Q-factor is characterized as ${\mathcal Q_{int}}$, which is the intrinsic loss of the cavity. At the point when the resonator is coupled to the outer world, the Q-factor further decreases because of the loss imported by the coupler (${\mathcal Q_{ext}}$). Thus the last quality factor ${\mathcal Q_{load}}$ is comprised of these two parts: ${\mathcal Q_{load}^{-1}}$ = ${\mathcal Q_{int}^{-1}}$ + ${\mathcal Q_{ext}^{-1}}$.}
+
+
+\section{Ring Geometry Resonators}
+In this section, I will discuss different kinds of ring shaped resonators whose principle is pretty much similar to the Fabry-Perot resonator and are more simple to make. Basically, a ring resonator is a simple waveguide which is turned in the shape of a ring. This allows it to exhibit resonant behavior on very specific frequencies. The light is coupled inside the ring due to the phenomenon of total internal reflection and interference. This kind of behaviour is noticed in all kind of classical waves, such as sound waves, which was observed inside a large cathedral's halls, thus it was named whispering galleries. Also, these resonators can be made using different material but in this thesis, we used semi-conductor silicon as the primary material. 
+
+\subsection{All-Pass Ringresonator}
+A straightforward ring resonator is made by taking one yield of a conventional directional coupler and bolstering it once again into one input. Such a device displays periodic cavity resonance (reverberation) when light navigating the ring procures a phase move relating to a number numerous of 2$\pi$ radians. The resonator is numerically defined from two parts: a coupling quality and an input way. In opposition to the limitless entirety inferences performed before for the Fabry– Perot and Gires– Tournois, in which we expected steadystate task and coordinating fields and derived basic spectral properties. Although, both strategies are similarly substantial, the field-coordinating technique has the benefit of simplicity.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{all_pass_resonator.eps}
+\caption{Illustrated fields of an all pass resonator}
+\end{figure}
+\subsection{Add-Drop Ringresonator}
+The immediate waveguide similarity of a free-space Fabry– Perot is gotten by including a second guide that side-couples to the resonator as in Fig. 1.4.
+Since this setup acts as a tight band abundancy channel that can include or drop a recurrence band from an approaching sign, it is regularly named an add– drop filter.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{add_drop_resonator.eps}
+\caption{Illustrated fields of an add drop resonator}
+\end{figure}
+\subsection{Coupled Ringresonator}
+A simple case as an assymeteric Fabry-Perot resonator, a coupled ring resonator has another ring above the first ring of the all pass resonator. This arrangement shows coupling between the two resonators (rings) and show different behaviour. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{couple_ring_resonator.eps}
+\caption{Illustrated fields and geometry of a coupled ring resonator}
+\end{figure}
+\newpage
+
 \section{Gain incorporation in Resonators}
-To perform more advanced calculations, it is important to have some understanding of how mpmath works internally and what the possible sources of error are. This section gives an overview of arbitrary-precision
+Light, when travels through a medium, loses its intensity exponentially. This law is called the $Beer's law$ for electromagnetic intensity. But some mediums, whose refractive index is such as they oppose the exponential decay of the light and rather increase the intensity in the propogation through the medium, are called gain medium. We can use these gain mediums and build a microresonators from them to observe different quantum optical phenomenons. First I will explain a bit how gain work.
+
+
 \subsection{Beer's Law}
  binary floating-point arithmetic and some concepts from numerical analysis.Most of the time, using mpmath is simply a matter of setting the desired precision and entering a formula. For verification purposes, a quite (but not always!) reliable technique is to calculate the same thing a second time at a higher precision and verifying that the results agree.
 \subsection{Beer's law study as gain}
