@@ -97,10 +97,10 @@ axs[1].set_xlabel("detuning")
 axs[1].set_ylabel("Velocity")
 axs[1].plot(phit,vgr, 'r')
 
-plt.text(0.5, 2e12,"Gain =%.2f" %g + "\nCritical coupled\nr1=%.2f" %r1 + "\nr2=%.2f"%r2,fontsize=12, withdash=True)
+#plt.text(0.5, 2,"Gain =%.2f" %g + "\nCritical coupled\nr1=%.2f" %r1 + "\nr2=%.2f"%r2,fontsize=12,transform=axs[1].transAxes, withdash=True)
 plt.grid()
 fig.tight_layout()
 fig2.tight_layout()
 plt.show()
 
-fig2.savefig('add_drop_phase(Heebner)_over.png', dpi=400)
+#fig2.savefig('add_drop_phase(Heebner)_over.png', dpi=400)

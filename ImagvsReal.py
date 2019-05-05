@@ -10,12 +10,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ran = 6284 #for 2pi limit set to 6284
-phi = 0
-r = 0.98797
-r2 = 0.97889
+phi1 = 0
+phi2 = 0
+r1 = 0.98
+r2 = 0.99
 
-t = np.sqrt(1-(r**2))
+t = np.sqrt(1-(r1**2))
 t2 = np.sqrt(1-(r2**2))
+
+a1 = 0.88
+a2 = 0.9999
 
 
 Etii = np.ndarray(ran, float)
@@ -26,40 +30,43 @@ phit = np.ndarray(ran, float)
 
 for i in range(0,ran):
     
-    Era = (r-r2*np.exp(1j*phi))/(1-r*r2*np.exp(1j*phi)) #asymmeteric reflection
+    Er12 = (r2-a2*np.exp(1j*phi2))/(1-r2*a2*np.exp(1j*phi2))    
+    Eta = (r1-Er12*a1*np.exp(1j*phi1))/(1-r1*Er12*a1*np.exp(1j*phi1)) #asymmeteric trans
     
-    Eta = -(t*t2*np.exp(1j*phi/2))/(1-r*r2*np.exp(1j*phi)) #asymmeteric transmission
-
+    #Era = (r1-r2*a1*np.exp(1j*phi1))/(1-r1*r2*a1*np.exp(1j*phi1)) #asymmeteric reflec
     
-    phi = phi + 0.001
+    
+    
+    phi1 = phi1 + 0.001
+    phi2 = phi2 + 0.001    
     
     Etri[i] = Eta.real
     Etii[i] = Eta.imag
-    Erri[i] = Era.real
-    Erii[i] = Era.imag
-    phit[i] = phi
+    Erri[i] = Er12.real
+    Erii[i] = Er12.imag
+    phit[i] = phi1
     
     
+fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(8,4))
 
-plt.xlim([-1,1])
-plt.ylim([-0.7,0.7])
+axs[0].set_xlim([0,1.2])
+axs[0].set_ylim([-0.5,0.5])
+axs[0].set_title('Transmision Imaginary vs Real')
+axs[0].set_xlabel('Real axis')
+axs[0].set_ylabel('Imaginary axis')
+axs[0].grid()
+axs[0].plot(Etri,Etii, 'c')
 
 
-plt.title('Transmision Imaginary vs Real (for limit 0 to 2pi)')
-plt.xlabel('Real axis')
-plt.ylabel('Imaginary axis')
-plt.grid()
+#axs[1].set_xlim([-0.5,1.2])
+#axs[1].set_ylim([-1.0,1.0])
+axs[1].set_title('Coupling r12 Imaginary vs Real')
+axs[1].set_xlabel('Real axis')
+axs[1].set_ylabel('Imaginary axis')
+axs[1].grid()
+axs[1].plot(Erri,Erii, 'b')
 
-plt.plot(Etri,Etii, 'c')
+fig.tight_layout()
 plt.show()
 
-plt.xlim([-0.5,1.2])
-plt.ylim([-0.5,0.5])
-
-plt.title('Reflection Imaginary vs Real (for limit 0 to 2pi)')
-plt.xlabel('Real axis')
-plt.ylabel('Imaginary axis')
-plt.grid()
-
-plt.plot(Erri,Erii, 'b')
-plt.show()
+fig.savefig('coupled_ring_ImagvsReal.png', dpi=400)
