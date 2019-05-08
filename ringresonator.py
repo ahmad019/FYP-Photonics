@@ -19,9 +19,9 @@ l = 2*np.pi*b
 n = 3.45
 
 aa = (2*np.pi*n)/(Q*lamd)
-aag = -500
+aag = 500
 a = np.exp((-aa*l)/2)
-ag = np.exp((-aag*l)/2)
+ag = np.exp(-(aa-aag)*l/2)
 
 t = np.sqrt(1-(r**2))
 t2 = np.sqrt(1-(r2**2))
@@ -53,7 +53,7 @@ for i in range(0,ran):
 
 
 
-fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(7,5))
+fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(10,8))
 
 axs[0, 0].set_title("Transmission without gain")
 axs[0, 0].plot(phit, Etai, 'orange')
@@ -67,4 +67,4 @@ axs[1, 1].plot(phit, Etagi, 'purple')
 fig.tight_layout()
 plt.show()
 
-#fig.savefig('foo.png', dpi=300, transparent=True)
+fig.savefig('all-pall_gain.png', dpi=400, transparent=True)

@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 
 ran = 200
 phi = -1
-#r1 = 0.9870696
-r2 = 0.9809797
+r1 = 0.9998
+r2 = 0.9889
 c = 299792458
 lamd = 0.000001550
 Q1 = 5000000
@@ -24,14 +24,14 @@ l = 2*np.pi*b
 n = 3.45
 
 aa = (2*np.pi*n)/(Q1*lamd)
-g1 = 0*1.224
+g1 = 500
 aa2 = (2*np.pi*n)/(Q2*lamd)
-g2 = 0*2.91001
+g2 = 500
 
-a1 = np.exp(((g1-aa)*l)/2)
-a2 = np.exp(((g2-aa2)*l)/2)
+a1 = np.exp(-(aa-g1)*l/2)
+a2 = np.exp(-(aa2-g2)*l/2)
 
-r1 = r2*a1
+#r1 = r2*a1
 
 t = np.sqrt(1-(r1**2))
 t2 = np.sqrt(1-(r2**2))
@@ -76,36 +76,36 @@ ngt = n/2
 vgr = (1/dPHIr)*c/n
 ngr = dPHIr * n
 
-fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(8,4))
+fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(10,4))
 
-axs[0].set_title("Reflection + Transmission")
+axs[0].set_title("Reflection")
 axs[0].set_xlabel("Round Trip phase")
 axs[0].set_ylabel("Intensity")
-axs[0].plot(phit,Etai, 'b')
+#axs[0].plot(phit,Etai, 'b')
 axs[0].plot(phit,Erai, 'r')
 
 
-axs[1].set_title("Transmission Phase")
-axs[1].set_xlabel("detuning")
-axs[1].set_ylabel("Effective phase")
-axs[1].plot(phit,PHIt, 'r')
+axs[1].set_title("Transmission")
+axs[1].set_xlabel("Round trip phase")
+axs[1].set_ylabel("Intensity")
+axs[1].plot(phit,Etai, 'b')
 
-fig2, axs = plt.subplots(1)
+#fig2, axs = plt.subplots(1)
 
 #axs.set_xlim([-0.2,0.2])
-axs.set_title("Reflection Phase")
-axs.set_xlabel("detuning")
-axs.set_ylabel("Effective phase")
-axs.plot(phit,PHIr, 'r')
+#axs.set_title("Reflection Phase")
+#axs.set_xlabel("detuning")
+#axs.set_ylabel("Effective phase")
+#axs.plot(phit,PHIr, 'r')
 
 
 fig.tight_layout()
-fig2.tight_layout()
+#fig2.tight_layout()
 plt.show()
 
 #plt.xlim([-0.25,0.25])
-plt.plot(phit, vgr, 'b')
-plt.show()
+#plt.plot(phit, vgr, 'b')
+#plt.show()
 
 fig.savefig('add_drop_fabry.png', dpi=400)
-fig2.savefig('add_drop_fabry(phase).png', dpi=400)
+#fig2.savefig('add_drop_fabry(phase).png', dpi=400)

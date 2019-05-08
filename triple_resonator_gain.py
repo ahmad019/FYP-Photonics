@@ -8,11 +8,13 @@ Created on Mon Feb 11 15:00:19 2019
 
 import numpy as np
 import matplotlib.pyplot as plt
+from basic_units import radians, degrees, cos
 
-ran = 1000
-phi1 = -0.5
-phi2 = -0.5
-phi3 = -0.5
+
+ran = 6284
+phi1 = -np.pi
+phi2 = -np.pi
+phi3 = -np.pi
 r1 = 0.8999
 r2 = 0.9889
 r3 = 0.9989
@@ -102,15 +104,15 @@ dydx = np.diff(PHIt)/np.diff(phi1t)
 vgt = (1/dydx)*c/n
 ngt = dydx * n
 
-
-
+phi1t = [phi1t[i]*radians for i in range(0,ran)]
+phi2t = [phi2t[i]*radians for i in range(0,ran)]
 
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(8,5))
 
 axs[0,0].set_title("Transmitted field")
 axs[0,0].set_xlabel("Round Trip phase")
 axs[0,0].set_ylabel("Transmittance")
-axs[0,0].plot(phi1t,Etai, 'b')
+axs[0,0].plot(phi1t,Etai, 'b', xunits=radians)
 #plt.show()
 #fig.savefig('Triple_resonator_trans.png', dpi=400)
 
@@ -118,7 +120,7 @@ axs[0,0].plot(phi1t,Etai, 'b')
 axs[0,1].set_title("Phase")
 axs[0,1].set_xlabel("Round Trip phase")
 axs[0,1].set_ylabel("Total phase")
-axs[0,1].plot(phi1t,PHIt, 'r')
+axs[0,1].plot(phi1t,PHIt, 'r', xunits=radians)
 #plt.show()
 
 #axs[1,0].set_xlim([-0.2,0.2])
@@ -137,4 +139,4 @@ axs[1,1].plot(phi1t,np.append([1],vgt), 'g')
 fig.tight_layout()
 plt.show()
 
-fig.savefig('Triple_resonator_phase.trans%d.png'%g, dpi=400)
+#fig.savefig('Triple_resonator_phase.trans%d.png'%g, dpi=400)

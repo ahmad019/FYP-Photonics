@@ -9,10 +9,11 @@ Created on Wed Dec 12 13:39:29 2018
 import numpy as np
 import matplotlib.pyplot as plt
 
-ran = 1000
-phi1 = -0.5
-phi2 = -0.5
-r1 =  0.8999
+ran = 6284
+midran = int(ran/2 -1)
+phi1 = -np.pi
+phi2 = -np.pi
+r1 =  0.8889
 r2 =  0.9998
 lamd = 0.000001550
 Q1 = 1e5
@@ -25,7 +26,7 @@ c = 299792458
 aa = (2*np.pi*n)/(Q1*lamd)
 g1 = 0
 aa2 = (2*np.pi*n)/(Q2*lamd)
-g2 = 20
+g2 = 0
 
 g =g1+g2
 
@@ -87,7 +88,7 @@ with open('Coupled_resonator_phi.phase.trans.csv', 'w') as fp:
         phi2t[i] = phi12
         
 
-over = r1 - phi2t[499]*a1
+over = r1 - phi2t[midran]*a1
 ove = r1 - r2*a1
 ovr = r2 - a2
 
@@ -104,14 +105,14 @@ ngt = dPHIt * n
 
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(8,5))
 
-#axs[0,0].set_xlim([-0.1,0.1])    
+axs[0,0].set_xlim([-1.0,1.0])    
 axs[0,0].set_title("Transmitted field")
 axs[0,0].set_xlabel("detuning")
 axs[0,0].set_ylabel("Transmittance")
-axs[1,0].text(0.001,0.0000,"Gain1 =%f" %g1 + "\nGain2 =%f" %g2 + "\nOver coupled\nr1=%.8f" %r1 + "\nr2=%.8f"%r2,fontsize=8)
+#axs[1,0].text(0.001,0.0000,"Gain1 =%f" %g1 + "\nGain2 =%f" %g2 + "\nOver coupled\nr1=%.8f" %r1 + "\nr2=%.8f"%r2,fontsize=8)
 axs[0,0].plot(phi1t,Etai, 'b')
 
-#axs[0,1].set_xlim([-0.05,0.05])
+axs[0,1].set_xlim([-0.5,0.5])
 axs[0,1].set_title("Effective Phase")
 axs[0,1].set_xlabel("detuning")
 axs[0,1].set_ylabel("Effective phase")
@@ -124,10 +125,11 @@ axs[1,0].set_ylabel("Real axis")
 axs[1,0].plot(EtaReal,EtaImag, 'y')
 
 #axs[1,1].set_xlim([-1.5,1.5])
-axs[1,1].set_title("Coupling r12 Imag vs Real")
+axs[1,1].set_title("Phase Derivative")
 axs[1,1].set_xlabel("Real axis")
 axs[1,1].set_ylabel("Imaginary axis")
-axs[1,1].plot(PHIReal, PHIImag , 'g')
+#axs[1,1].plot(PHIReal, PHIImag , 'g')
+axs[1,1].plot(phi1t, np.append([2],dydx) , 'g')
 #axs[1,1].plot(phi1t, ngt , 'g')
 
 fig.tight_layout()
@@ -136,4 +138,4 @@ plt.show()
 #fig.savefig("coupled_ring_EIA %d.png" %g,dpi=400)
 
 
-print(over,ove,ovr)
+#print(over,ove,ovr)
