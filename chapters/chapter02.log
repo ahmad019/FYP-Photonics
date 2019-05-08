@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  24 APR 2019 01:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.23)  8 MAY 2019 00:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -740,7 +740,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.6 \includegraphics
-                    [width=0.65\textwidth]{Fabry_Perot_resonator.eps}
+                    [width=0.60\textwidth]{Fabry_Perot_resonator.eps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -757,11 +757,11 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.6 \includegraphics[width=0.65\textwidth]
+l.6 \includegraphics[width=0.60\textwidth]
                                           {Fabry_Perot_resonator.eps}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -770,7 +770,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.6 \includegraphics[width=0.65\textwidth]
+l.6 \includegraphics[width=0.60\textwidth]
                                           {Fabry_Perot_resonator.eps}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -788,13 +788,13 @@ Missing character: There is no y in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.6 \includegraphics[width=0.65\textwidth]{Fabry_
+l.6 \includegraphics[width=0.60\textwidth]{Fabry_
                                                  Perot_resonator.eps}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.6 ...=0.65\textwidth]{Fabry_Perot_resonator.eps}
+l.6 ...=0.60\textwidth]{Fabry_Perot_resonator.eps}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2622,6 +2622,23 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -3167,8 +3184,1227 @@ Overfull \hbox (8.99771pt too wide) in paragraph at lines 42--43
 \OML/cmm/m/it/10 r[]$
  []
 
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \begin{figure}
+                   [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \begin{figure}[
+                    h]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.44 \subsection
+l.46 \includegraphics
+                     [width=0.5\textwidth]{R+T_FabryPerot.eps}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.46 \includegraphics[width=0.5\textwidth]
+                                          {R+T_FabryPerot.eps}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.46 \includegraphics[width=0.5\textwidth]
+                                          {R+T_FabryPerot.eps}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no T in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.46 \includegraphics[width=0.5\textwidth]{R+T_
+                                               FabryPerot.eps}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.46 ...s[width=0.5\textwidth]{R+T_FabryPerot.eps}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \caption
+             {Transmitted and reflected field of an asymmetric Fabry-Perot r...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.48 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.48 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--49
+[]
+ []
+
+
+Overfull \hbox (389.42056pt too wide) in paragraph at lines 44--49
+[]\OML/cmm/m/it/10 abryPerot:eps[]$ 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \newpage
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2]
+! Undefined control sequence.
+l.52 \subsection
+                {Effective Phase}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \subsection{E
+                  ffective Phase}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 52--54
+[]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \begin{figure}
+                   [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \begin{figure}[
+                    h]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.57 \includegraphics
+                     [width=0.5\textwidth]{Phase_trans_FP.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.57 \includegraphics[width=0.5\textwidth]
+                                          {Phase_trans_FP.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.57 \includegraphics[width=0.5\textwidth]
+                                          {Phase_trans_FP.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.57 \includegraphics[width=0.5\textwidth]{Phase_
+                                                 trans_FP.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.57 ...s[width=0.5\textwidth]{Phase_trans_FP.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+l.58 \includegraphics
+                     [width=0.5\textwidth]{Reflec_Phase_FP.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.58 \includegraphics[width=0.5\textwidth]
+                                          {Reflec_Phase_FP.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.58 \includegraphics[width=0.5\textwidth]
+                                          {Reflec_Phase_FP.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \caption
+             {Transmission and Reflection phase vs normalized detuning of an...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.60 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 55--61
+[]
+ []
+
+
+Overfull \hbox (95.3559pt too wide) in paragraph at lines 55--61
+[]\OML/cmm/m/it/10 rans[]P:png\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 width \OT1/cmr/
+m/n/10 =
+ []
+
+
+Overfull \hbox (545.12312pt too wide) in paragraph at lines 55--61
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5][][]$ 
+ []
+
+! Undefined control sequence.
+l.62 \subsection
+                {Phaser plots}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \subsection{P
+                  haser plots}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no q in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 62--64
+[]
+ []
+
+
+Overfull \hbox (11.05907pt too wide) in paragraph at lines 62--64
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ^^Y$
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \begin{figure}
+                   [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \begin{figure}[
+                    h]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.67 \includegraphics
+                     [width=0.5\textwidth]{Trans_Reflection_ImagvsReal_Phase...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.67 \includegraphics[width=0.5\textwidth]
+                                          {Trans_Reflection_ImagvsReal_Phase...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.67 \includegraphics[width=0.5\textwidth]
+                                          {Trans_Reflection_ImagvsReal_Phase...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.67 \includegraphics[width=0.5\textwidth]{Trans_
+                                                 Reflection_ImagvsReal_Phase...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.67 ...h]{Trans_Reflection_ImagvsReal_Phaser.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \caption
+             {Transmission and Reflection phase vs normalized detuning of an...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--70
+[]
+ []
+
+
+Overfull \hbox (591.52354pt too wide) in paragraph at lines 65--70
+[]\OML/cmm/m/it/10 eflection[]magvsReal[]haser:png[]$ 
+ []
+
+! Undefined control sequence.
+l.73 \subsection
                 {Finese, Q-factor}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3183,7 +4419,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \subsection{F
+l.73 \subsection{F
                   inese, Q-factor}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3204,8 +4440,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.45 \subparagraph
-                  {\normalfont \large To perform more advanced calculations,...
+l.74 \subparagraph
+                  {\normalfont \large The resonance condition is fulfilled w...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3213,8 +4449,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.45 \subparagraph{\normalfont \large
-                                      To perform more advanced calculations,...
+l.74 \subparagraph{\normalfont \large
+                                      The resonance condition is fulfilled w...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3222,732 +4458,1375 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--46
+Overfull \hbox (20.0pt too wide) in paragraph at lines 73--75
 []
  []
 
 
-Overfull \hbox (11.3889pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 To
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 The
  []
 
 
-Overfull \hbox (17.5278pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 per-
+Overfull \hbox (15.63889pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 res-
  []
 
 
-Overfull \hbox (20.30562pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 form
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 o-
  []
 
 
-Overfull \hbox (21.69449pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 more
+Overfull \hbox (25.00005pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 nance
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ad-
- []
-
-
-Overfull \hbox (29.72229pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 vanced
- []
-
-
-Overfull \hbox (15.55557pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 cal-
- []
-
-
-Overfull \hbox (13.33334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 cu-
- []
-
-
-Overfull \hbox (11.11113pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 la-
- []
-
-
-Overfull \hbox (23.9445pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 tions,
- []
-
-
-Overfull \hbox (6.66669pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 it
- []
-
-
-Overfull \hbox (6.72223pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 is
- []
-
-
-Overfull \hbox (14.44447pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 im-
- []
-
-
-Overfull \hbox (18.08337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 por-
- []
-
-
-Overfull \hbox (18.0556pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 tant
- []
-
-
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 to
- []
-
-
-Overfull \hbox (19.72226pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 have
- []
-
-
-Overfull \hbox (21.72226pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 some
- []
-
-
-Overfull \hbox (14.44447pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 un-
- []
-
-
-Overfull \hbox (17.25002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 der-
- []
-
-
-Overfull \hbox (27.27783pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 stand-
- []
-
-
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ing
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 of
- []
-
-
-Overfull \hbox (17.50003pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 how
- []
-
-
-Overfull \hbox (17.22226pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 mp-
- []
-
-
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 math
- []
-
-
-Overfull \hbox (25.08337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 works
- []
-
-
-Overfull \hbox (11.66669pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 in-
- []
-
-
-Overfull \hbox (15.58334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ter-
- []
-
-
-Overfull \hbox (21.38896pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 nally
- []
-
-
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 and
- []
-
-
-Overfull \hbox (21.66672pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 what
- []
-
-
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 the
- []
-
-
-Overfull \hbox (18.11115pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 pos-
- []
-
-
-Overfull \hbox (10.05556pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 si-
- []
-
-
-Overfull \hbox (12.7778pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ble
- []
-
-
-Overfull \hbox (31.25003pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sources
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 of
- []
-
-
-Overfull \hbox (11.69444pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 er-
- []
-
-
-Overfull \hbox (12.83336pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ror
- []
-
-
-Overfull \hbox (16.13892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 are.
- []
-
-
-Overfull \hbox (19.50003pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 This
- []
-
-
-Overfull \hbox (16.16666pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sec-
- []
-
-
-Overfull \hbox (17.22227pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 tion
- []
-
-
-Overfull \hbox (21.1667pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 gives
- []
-
-
-Overfull \hbox (10.55559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 an
- []
-
-
-Overfull \hbox (37.80562pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 overview
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 of
- []
-
-
-Overfull \hbox (42.58344pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 arbitrary-
- []
-
-
-Overfull \hbox (38.41673pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 precision
- []
-
-
-Overfull \hbox (11.66669pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 bi-
- []
-
-
-Overfull \hbox (19.75006pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 nary
- []
-
-
-Overfull \hbox (36.1112pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 floating-
- []
-
-
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 point
- []
-
-
-Overfull \hbox (24.47227pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 arith-
- []
-
-
-Overfull \hbox (23.88893pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 metic
- []
-
-
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 and
- []
-
-
-Overfull \hbox (21.72226pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 some
- []
-
-
-Overfull \hbox (18.33336pt too wide) in paragraph at lines 44--46
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 con-
  []
 
 
-Overfull \hbox (22.2778pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 cepts
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 di-
  []
 
 
-Overfull \hbox (20.30562pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 from
- []
-
-
-Overfull \hbox (14.16669pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 nu-
- []
-
-
-Overfull \hbox (20.0278pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 mer-
- []
-
-
-Overfull \hbox (6.11111pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 i-
- []
-
-
-Overfull \hbox (12.22224pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 cal
- []
-
-
-Overfull \hbox (21.66672pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 anal-
- []
-
-
-Overfull \hbox (8.61113pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 y-
- []
-
-
-Overfull \hbox (35.4445pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sis.Most
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 of
- []
-
-
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 the
- []
-
-
-Overfull \hbox (22.22227pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 time,
- []
-
-
-Overfull \hbox (12.83334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 us-
- []
-
-
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ing
- []
-
-
-Overfull \hbox (17.22226pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 mp-
- []
-
-
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 math
- []
-
-
-Overfull \hbox (6.72223pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 is
- []
-
-
-Overfull \hbox (18.38892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sim-
- []
-
-
-Overfull \hbox (13.61116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ply
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 a
- []
-
-
-Overfull \hbox (20.5556pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 mat-
- []
-
-
-Overfull \hbox (12.25002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ter
- []
-
-
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 of
- []
-
-
-Overfull \hbox (15.61111pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 set-
- []
-
-
-Overfull \hbox (17.22227pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ting
- []
-
-
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 the
- []
-
-
-Overfull \hbox (13.33334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 de-
- []
-
-
-Overfull \hbox (20.63892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sired
- []
-
-
-Overfull \hbox (17.25002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 pre-
- []
-
-
-Overfull \hbox (10.55556pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ci-
- []
-
-
-Overfull \hbox (17.27782pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sion
- []
-
-
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 and
- []
-
-
-Overfull \hbox (13.33334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 en-
- []
-
-
-Overfull \hbox (15.58334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ter-
- []
-
-
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ing
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 a
- []
-
-
-Overfull \hbox (15.30559pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 for-
- []
-
-
-Overfull \hbox (24.16673pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 mula.
- []
-
-
-Overfull \hbox (14.61115pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 For
- []
-
-
-Overfull \hbox (16.69446pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ver-
- []
-
-
-Overfull \hbox (6.11111pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 i-
- []
-
-
-Overfull \hbox (8.8889pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 fi-
- []
-
-
-Overfull \hbox (12.77779pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ca-
- []
-
-
-Overfull \hbox (17.22227pt too wide) in paragraph at lines 44--46
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 tion
  []
 
 
-Overfull \hbox (18.36115pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 pur-
- []
-
-
-Overfull \hbox (25.94449pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 poses,
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 a
- []
-
-
-Overfull \hbox (21.94449pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 quite
- []
-
-
-Overfull \hbox (18.88895pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 (but
- []
-
-
-Overfull \hbox (14.44449pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 not
- []
-
-
-Overfull \hbox (11.11113pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 al-
- []
-
-
-Overfull \hbox (27.5556pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ways!)
- []
-
-
-Overfull \hbox (11.69444pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 re-
- []
-
-
-Overfull \hbox (8.8889pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 li-
- []
-
-
-Overfull \hbox (17.77782pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 able
- []
-
-
-Overfull \hbox (21.3889pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 tech-
- []
-
-
-Overfull \hbox (23.61116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 nique
- []
-
-
-Overfull \hbox (6.72223pt too wide) in paragraph at lines 44--46
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 is
  []
 
 
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 44--46
+Overfull \hbox (14.72226pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ful-
+ []
+
+
+Overfull \hbox (21.11116pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 filled
+ []
+
+
+Overfull \hbox (22.77782pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 when
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (25.00005pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 (com-
+ []
+
+
+Overfull \hbox (33.05565pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pelling)
+ []
+
+
+Overfull \hbox (14.47223pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cir-
+ []
+
+
+Overfull \hbox (21.6667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cum-
+ []
+
+
+Overfull \hbox (14.75002pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 fer-
+ []
+
+
+Overfull \hbox (18.8889pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ence
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (20.02783pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ring,
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (11.97226pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 for
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 most
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 part
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (28.91673pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 round-
+ []
+
+
+Overfull \hbox (16.13893pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 trip
+ []
+
+
+Overfull \hbox (30.00008pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 length,
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (26.66672pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 equiv-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 a-
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 lent
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 to
  []
 
 
-Overfull \hbox (15.55557pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 cal-
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (13.33334pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 cu-
+Overfull \hbox (25.00005pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 whole
  []
 
 
-Overfull \hbox (16.11115pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 late
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 num-
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 44--46
+Overfull \hbox (14.19447pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ber
+ []
+
+
+Overfull \hbox (14.16669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 nu-
+ []
+
+
+Overfull \hbox (20.0278pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 mer-
+ []
+
+
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ous
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 the
  []
 
 
-Overfull \hbox (21.72226pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 same
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 op-
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 thing
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ti-
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 44--46
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cal
+ []
+
+
+Overfull \hbox (24.44446pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 wave-
+ []
+
+
+Overfull \hbox (27.22229pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 length
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (16.72224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 side
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (37.77788pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 medium.
+ []
+
+
+Overfull \hbox (19.50003pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 This
+ []
+
+
+Overfull \hbox (27.27783pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 means
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 a
  []
 
 
-Overfull \hbox (16.16666pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sec-
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pro-
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ond
+Overfull \hbox (20.6389pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 gres-
  []
 
 
-Overfull \hbox (19.44449pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 time
- []
-
-
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 at
- []
-
-
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 a
- []
-
-
-Overfull \hbox (27.25006pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 higher
- []
-
-
-Overfull \hbox (17.25002pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 pre-
- []
-
-
-Overfull \hbox (10.55556pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ci-
- []
-
-
-Overfull \hbox (17.27782pt too wide) in paragraph at lines 44--46
+Overfull \hbox (17.27782pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 sion
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 and
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
  []
 
 
-Overfull \hbox (16.69446pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ver-
+Overfull \hbox (49.88898pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Lorentzian-
  []
 
 
-Overfull \hbox (6.11111pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 i-
+Overfull \hbox (31.66675pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 molded
  []
 
 
-Overfull \hbox (11.6667pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 fy-
+Overfull \hbox (25.63893pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 trans-
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 ing
+Overfull \hbox (18.38892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 mis-
  []
 
 
-Overfull \hbox (18.33339pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 that
+Overfull \hbox (17.27782pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 sion
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 the
+Overfull \hbox (25.33339pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 bends
  []
 
 
-Overfull \hbox (11.69444pt too wide) in paragraph at lines 44--46
+Overfull \hbox (31.11119pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 equally
+ []
+
+
+Overfull \hbox (15.61113pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 dis-
+ []
+
+
+Overfull \hbox (28.13893pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 persed
+ []
+
+
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 in
+ []
+
+
+Overfull \hbox (11.69444pt too wide) in paragraph at lines 73--75
 \OT1/cmr/m/n/10 re-
  []
 
 
-Overfull \hbox (20.11115pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 sults
+Overfull \hbox (17.25002pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cur-
  []
 
 
-Overfull \hbox (25.58337pt too wide) in paragraph at lines 44--46
-\OT1/cmr/m/n/10 agree. 
+Overfull \hbox (22.80557pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 rence
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 by
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 FSR
+ []
+
+
+Overfull \hbox (22.38892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 (Free
+ []
+
+
+Overfull \hbox (23.61115pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Spec-
+ []
+
+
+Overfull \hbox (15.58337pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 tral
+ []
+
+
+Overfull \hbox (34.02785pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Range),
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 with
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.63889pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 res-
+ []
+
+
+Overfull \hbox (8.33334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 o-
+ []
+
+
+Overfull \hbox (25.00005pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 nance
+ []
+
+
+Overfull \hbox (40.55565pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 linewidth
+ []
+
+
+Overfull \hbox (18.08337pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 por-
+ []
+
+
+Overfull \hbox (21.13893pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 tray-
+ []
+
+
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ing
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (12.77779pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ca-
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pac-
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 time
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pho-
+ []
+
+
+Overfull \hbox (18.38893pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 tons
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (16.72224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 side
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cav-
+ []
+
+
+Overfull \hbox (13.61115pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity.
+ []
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 The
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pho-
+ []
+
+
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ton
+ []
+
+
+Overfull \hbox (16.38892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 life-
+ []
+
+
+Overfull \hbox (19.44449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 time
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 can
+ []
+
+
+Overfull \hbox (10.2778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 be
+ []
+
+
+Overfull \hbox (21.72226pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 stan-
+ []
+
+
+Overfull \hbox (23.36116pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 dard-
+ []
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ized
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 one
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 op-
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ti-
+ []
+
+
+Overfull \hbox (12.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cal
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cy-
+ []
+
+
+Overfull \hbox (14.44446pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cle,
+ []
+
+
+Overfull \hbox (28.3334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 known
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 qual-
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity
+ []
+
+
+Overfull \hbox (15.83336pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 fac-
+ []
+
+
+Overfull \hbox (12.80559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 tor
+ []
+
+
+Overfull \hbox (18.72229pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ($\OMS/cmsy/m/n/10 Q$\OT1/cmr/m/n/10 ),
+ []
+
+
+Overfull \hbox (8.91669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 or
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cav-
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity
+ []
+
+
+Overfull \hbox (28.91673pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 round-
+ []
+
+
+Overfull \hbox (16.13893pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 trip
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 time,
+ []
+
+
+Overfull \hbox (28.3334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 known
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cav-
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity
+ []
+
+
+Overfull \hbox (12.63892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Fi-
+ []
+
+
+Overfull \hbox (22.33334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 nesse
+ []
+
+
+Overfull \hbox (18.73611pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ($\OMS/cmsy/m/n/10 F$\OT1/cmr/m/n/10 ).
+ []
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 The
+ []
+
+
+Overfull \hbox (21.16672pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 most
+ []
+
+
+Overfull \hbox (13.05557pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ex-
+ []
+
+
+Overfull \hbox (25.02782pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 treme
+ []
+
+
+Overfull \hbox (26.41669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 reach-
+ []
+
+
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 able
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Q-
+ []
+
+
+Overfull \hbox (25.30562pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 factor
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (21.97224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 char-
+ []
+
+
+Overfull \hbox (12.77779pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ac-
+ []
+
+
+Overfull \hbox (15.58334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ter-
+ []
+
+
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ized
+ []
+
+
+Overfull \hbox (8.94446pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 as
+ []
+
+
+Overfull \hbox (22.23795pt too wide) in paragraph at lines 73--75
+[]$\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (25.27782pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 which
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 in-
+ []
+
+
+Overfull \hbox (19.47226pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 trin-
+ []
+
+
+Overfull \hbox (11.16667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 sic
+ []
+
+
+Overfull \hbox (15.66669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 loss
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (17.7778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cav-
+ []
+
+
+Overfull \hbox (13.61115pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity.
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 At
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 point
+ []
+
+
+Overfull \hbox (22.77782pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 when
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.63889pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 res-
+ []
+
+
+Overfull \hbox (28.36119pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 onator
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cou-
+ []
+
+
+Overfull \hbox (18.33337pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pled
+ []
+
+
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 to
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (22.8056pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 outer
+ []
+
+
+Overfull \hbox (26.97227pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 world,
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (11.11113pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Q-
+ []
+
+
+Overfull \hbox (25.30562pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 factor
+ []
+
+
+Overfull \hbox (15.86115pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 fur-
+ []
+
+
+Overfull \hbox (17.80559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ther
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 de-
+ []
+
+
+Overfull \hbox (30.1389pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 creases
+ []
+
+
+Overfull \hbox (13.61113pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 be-
+ []
+
+
+Overfull \hbox (23.38892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cause
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.66669pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 loss
+ []
+
+
+Overfull \hbox (14.44447pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 im-
+ []
+
+
+Overfull \hbox (28.63896pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ported
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 by
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 cou-
+ []
+
+
+Overfull \hbox (16.69447pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 pler
+ []
+
+
+Overfull \hbox (30.57198pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ($[]$).
+ []
+
+
+Overfull \hbox (22.00003pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 Thus
+ []
+
+
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 the
+ []
+
+
+Overfull \hbox (15.61115pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 last
+ []
+
+
+Overfull \hbox (21.94449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 qual-
+ []
+
+
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 ity
+ []
+
+
+Overfull \hbox (15.83336pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 fac-
+ []
+
+
+Overfull \hbox (12.80559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 tor
+ []
+
+
+Overfull \hbox (23.6839pt too wide) in paragraph at lines 73--75
+[]$
+ []
+
+
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 is
+ []
+
+
+Overfull \hbox (21.11115pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 com-
+ []
+
+
+Overfull \hbox (26.19449pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 prised
+ []
+
+
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 of
+ []
+
+
+Overfull \hbox (22.2778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 these
+ []
+
+
+Overfull \hbox (15.55557pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 two
+ []
+
+
+Overfull \hbox (25.08339pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 parts:
+ []
+
+
+Overfull \hbox (23.6839pt too wide) in paragraph at lines 73--75
+[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.46016pt too wide) in paragraph at lines 73--75
+[]$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 73--75
+\OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.79417pt too wide) in paragraph at lines 73--75
+[]$\OT1/cmr/m/n/10 . 
+ []
+
+
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \begin{align*}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 {\mathcal
+               F}inese = \frac{FSR}{FWHM} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 {\mathcal F
+                }inese = \frac{FSR}{FWHM} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no R in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.77 {\mathcal F}inese = \frac{FSR}{FWHM}
+                                          \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac #1#2->{\begingroup #1\endgroup \over #2}
+                                              
+l.77 {\mathcal F}inese = \frac{FSR}{FWHM}
+                                          \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \end{align*}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.80 \end{align*}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.80 \end{align*}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--82
+[]
+ []
+
+
+Overfull \hbox (120.7412pt too wide) in paragraph at lines 77--82
+[]$
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 77--82
+\OT1/cmr/m/n/10 If
+ []
+
+
+Overfull \hbox (20.63077pt too wide) in paragraph at lines 77--82
+\OML/cmm/m/it/10 ra \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 77--82
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (22.22227pt too wide) in paragraph at lines 77--82
+\OT1/cmr/m/n/10 then, 
+ []
+
+
+Overfull \hbox (74.65866pt too wide) detected at line 84
+\OMS/cmsy/m/n/10 F\OML/cmm/m/it/10 inese \OT1/cmr/m/n/10 = []
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 S
+      imilarly,
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no , in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--87
+[] 
+ []
+
+
+! LaTeX Error: Environment align* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 \begin{align*}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \mathcal allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 {\mathcal
+               Q}_{factor} = \frac{\lambda_{res}}{FWHM} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 {\mathcal Q
+                }_{factor} = \frac{\lambda_{res}}{FWHM} \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no Q in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.89 {\mathcal Q}_
+                  {factor} = \frac{\lambda_{res}}{FWHM} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: \begin{document} ended by \end{align*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \end{align*}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.92 \end{align*}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (54.5473pt too wide) in paragraph at lines 89--93
+[]$[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (32.60632pt too wide) in paragraph at lines 89--93
+[][] 
+ []
+
+
+Overfull \hbox (42.714pt too wide) in paragraph at lines 89--93
+\OMS/cmsy/m/n/10 Q[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (17.51355pt too wide) in paragraph at lines 89--93
+[][] 
+ []
+
+
+Overfull \hbox (60.24411pt too wide) detected at line 95
+\OMS/cmsy/m/n/10 Q[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 mf
  []
 
 ! Undefined control sequence.
-l.48 \section
+l.97 \section
              {Ring Geometry Resonators}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3962,7 +5841,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \section{R
+l.97 \section{R
                ing Geometry Resonators}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4623,13 +6502,13 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--50
+Overfull \hbox (20.0pt too wide) in paragraph at lines 97--99
 []
  []
 
 ! Undefined control sequence.
-l.51 \subsection
-                {All-Pass Ringresonator}
+l.100 \subsection
+                 {All-Pass Ringresonator}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4643,8 +6522,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \subsection{A
-                  ll-Pass Ringresonator}
+l.100 \subsection{A
+                   ll-Pass Ringresonator}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5297,8 +7176,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \begin{figure}
-                   [h]
+l.102 \begin{figure}
+                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -5307,8 +7186,8 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.55 \includegraphics
-                     [width=0.5\textwidth]{all_pass_resonator.eps}
+l.104 \includegraphics
+                      [width=0.5\textwidth]{all_pass_resonator.eps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5328,8 +7207,8 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.55 \includegraphics[width=0.5\textwidth]
-                                          {all_pass_resonator.eps}
+l.104 \includegraphics[width=0.5\textwidth]
+                                           {all_pass_resonator.eps}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -5337,8 +7216,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.55 \includegraphics[width=0.5\textwidth]
-                                          {all_pass_resonator.eps}
+l.104 \includegraphics[width=0.5\textwidth]
+                                           {all_pass_resonator.eps}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -5353,13 +7232,13 @@ Missing character: There is no l in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.55 \includegraphics[width=0.5\textwidth]{all_
-                                               pass_resonator.eps}
+l.104 \includegraphics[width=0.5\textwidth]{all_
+                                                pass_resonator.eps}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.55 ...dth=0.5\textwidth]{all_pass_resonator.eps}
+l.104 ...th=0.5\textwidth]{all_pass_resonator.eps}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5374,8 +7253,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \caption
-             {Illustrated fields of an all pass resonator}
+l.105 \caption
+              {Illustrated fields of an all pass resonator}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5386,8 +7265,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \end{figure}
-                 
+l.106 \end{figure}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -5395,8 +7274,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 \end{figure}
-                 
+l.106 \end{figure}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -5406,8 +7285,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.57 \end{figure}
-                 
+l.106 \end{figure}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -5415,8 +7294,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.58 \subsection
-                {Add-Drop Ringresonator}
+l.107 \subsection
+                 {Add-Drop Ringresonator}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5721,8 +7600,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \begin{figure}
-                   [h]
+l.110 \begin{figure}
+                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -5731,8 +7610,8 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.63 \includegraphics
-                     [width=0.5\textwidth]{add_drop_resonator.eps}
+l.112 \includegraphics
+                      [width=0.5\textwidth]{add_drop_resonator.eps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5752,8 +7631,8 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.63 \includegraphics[width=0.5\textwidth]
-                                          {add_drop_resonator.eps}
+l.112 \includegraphics[width=0.5\textwidth]
+                                           {add_drop_resonator.eps}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -5761,8 +7640,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.63 \includegraphics[width=0.5\textwidth]
-                                          {add_drop_resonator.eps}
+l.112 \includegraphics[width=0.5\textwidth]
+                                           {add_drop_resonator.eps}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -5777,13 +7656,13 @@ Missing character: There is no d in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 \includegraphics[width=0.5\textwidth]{add_
-                                               drop_resonator.eps}
+l.112 \includegraphics[width=0.5\textwidth]{add_
+                                                drop_resonator.eps}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.63 ...dth=0.5\textwidth]{add_drop_resonator.eps}
+l.112 ...th=0.5\textwidth]{add_drop_resonator.eps}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -5798,8 +7677,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \caption
-             {Illustrated fields of an add drop resonator}
+l.113 \caption
+              {Illustrated fields of an add drop resonator}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5810,8 +7689,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \end{figure}
-                 
+l.114 \end{figure}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -5819,8 +7698,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.65 \end{figure}
-                 
+l.114 \end{figure}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -5830,8 +7709,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.65 \end{figure}
-                 
+l.114 \end{figure}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -5839,8 +7718,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.66 \subsection
-                {Coupled Ringresonator}
+l.115 \subsection
+                 {Coupled Ringresonator}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6079,8 +7958,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \begin{figure}
-                   [h]
+l.117 \begin{figure}
+                    [h]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -6089,8 +7968,8 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.70 \includegraphics
-                     [width=0.45\textwidth]{couple_ring_resonator.eps}
+l.119 \includegraphics
+                      [width=0.45\textwidth]{couple_ring_resonator.eps}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6111,8 +7990,8 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.70 \includegraphics[width=0.45\textwidth]
-                                           {couple_ring_resonator.eps}
+l.119 \includegraphics[width=0.45\textwidth]
+                                            {couple_ring_resonator.eps}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -6120,8 +7999,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.70 \includegraphics[width=0.45\textwidth]
-                                           {couple_ring_resonator.eps}
+l.119 \includegraphics[width=0.45\textwidth]
+                                            {couple_ring_resonator.eps}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -6139,13 +8018,13 @@ Missing character: There is no e in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70 ...ludegraphics[width=0.45\textwidth]{couple_
+l.119 ...udegraphics[width=0.45\textwidth]{couple_
                                                   ring_resonator.eps}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.70 ...0.45\textwidth]{couple_ring_resonator.eps}
+l.119 ....45\textwidth]{couple_ring_resonator.eps}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -6160,8 +8039,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \caption
-             {Illustrated fields and geometry of a coupled ring resonator}
+l.120 \caption
+              {Illustrated fields and geometry of a coupled ring resonator}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6172,8 +8051,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \end{figure}
-                 
+l.121 \end{figure}
+                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -6181,8 +8060,8 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 \end{figure}
-                 
+l.121 \end{figure}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -6192,8 +8071,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.72 \end{figure}
-                 
+l.121 \end{figure}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -6201,27 +8080,27 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 51--73
+Overfull \hbox (20.0pt too wide) in paragraph at lines 100--122
 []
  []
 
 
-Overfull \hbox (6.05905pt too wide) in paragraph at lines 51--73
+Overfull \hbox (6.05905pt too wide) in paragraph at lines 100--122
 \OML/cmm/m/it/10 ^^Y$
  []
 
 
-Overfull \hbox (250.59119pt too wide) in paragraph at lines 51--73
+Overfull \hbox (250.59119pt too wide) in paragraph at lines 100--122
 []\OML/cmm/m/it/10 ass[]esonator:eps[]$
  []
 
 
-Overfull \hbox (254.86783pt too wide) in paragraph at lines 51--73
+Overfull \hbox (254.86783pt too wide) in paragraph at lines 100--122
 []\OML/cmm/m/it/10 rop[]esonator:eps[]$
  []
 
 
-Overfull \hbox (323.17302pt too wide) in paragraph at lines 51--73
+Overfull \hbox (323.17302pt too wide) in paragraph at lines 100--122
 []\OML/cmm/m/it/10 ing[]esonator:eps[]$ 
  []
 
@@ -6233,16 +8112,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \newpage
-             
+l.122 \newpage
+              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
+[3]
 ! Undefined control sequence.
-l.75 \section
-             {Gain incorporation in Resonators}
+l.124 \section
+              {Gain incorporation in Resonators}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6256,8 +8135,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \section{G
-               ain incorporation in Resonators}
+l.124 \section{G
+                ain incorporation in Resonators}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6697,18 +8576,18 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 75--77
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--126
 []
  []
 
 
-Overfull \hbox (45.57648pt too wide) in paragraph at lines 75--77
+Overfull \hbox (45.57648pt too wide) in paragraph at lines 124--126
 \OML/cmm/m/it/10 Beer[]slaw$
  []
 
 ! Undefined control sequence.
-l.79 \subsection
-                {Beer's Law}
+l.128 \subsection
+                 {Beer's Law}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6722,8 +8601,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \subsection{B
-                  eer's Law}
+l.128 \subsection{B
+                   eer's Law}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -7040,8 +8919,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.81 \subsection
-                {Beer's law study as gain}
+l.130 \subsection
+                 {Beer's law study as gain}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7551,8 +9430,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.83 \section
-             {Gain medium}
+l.132 \section
+              {Gain medium}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7823,11 +9702,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 14 strings out of 494910
- 231 string characters out of 6179835
- 54605 words of memory out of 5000000
- 3404 multiletter control sequences out of 15000+600000
+ 16 strings out of 494910
+ 246 string characters out of 6179835
+ 53908 words of memory out of 5000000
+ 3406 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 18i,13n,12p,813b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,13n,12p,1136b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -10,42 +10,46 @@
 \BOOKMARK [2][-]{subsection.1.3.2}{Gires-Tournois}{section.1.3}% 10
 \BOOKMARK [1][-]{section.1.4}{Micro Resonators}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.4.1}{Different Geometeries}{section.1.4}% 12
-\BOOKMARK [1][-]{section.1.5}{EIT and EIA}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.5}{Electromagnetically Induced Transparency and Induced Absorption \(EIT and EIA\)}{chapter.1}% 13
 \BOOKMARK [1][-]{section.1.6}{Aim and Objective}{chapter.1}% 14
 \BOOKMARK [1][-]{section.1.6}{References}{chapter.1}% 15
-\BOOKMARK [0][-]{chapter.2}{Area of Study}{}% 16
+\BOOKMARK [0][-]{chapter.2}{Fundamental Characteristics of Optical Resonators}{}% 16
 \BOOKMARK [1][-]{section.2.1}{The Fabry-Perot Interferometer}{chapter.2}% 17
 \BOOKMARK [2][-]{subsection.2.1.1}{Theory of Fabry-Perot interferometer}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.2}{Finese, Q-factor}{section.2.1}% 19
-\BOOKMARK [1][-]{section.2.2}{Ring Geometry Resonators}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.1}{All-Pass Ringresonator}{section.2.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.2}{Add-Drop Ringresonator}{section.2.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.3}{Coupled Ringresonator}{section.2.2}% 23
-\BOOKMARK [1][-]{section.2.3}{Gain incorporation in Resonators}{chapter.2}% 24
-\BOOKMARK [2][-]{subsection.2.3.1}{Beer's Law}{section.2.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.2}{Beer's law study as gain}{section.2.3}% 26
-\BOOKMARK [1][-]{section.2.4}{Gain medium}{chapter.2}% 27
-\BOOKMARK [0][-]{chapter.3}{Coupled Resonators with Gain}{}% 28
-\BOOKMARK [1][-]{section.3.1}{Coupled resontaor with Gain medium}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.1.1}{Gain element}{section.3.1}% 30
-\BOOKMARK [1][-]{section.3.2}{Calculation/Equations}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.2.1}{For single}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.2}{For coupled}{section.3.2}% 33
-\BOOKMARK [2][-]{subsection.3.2.3}{For triple}{section.3.2}% 34
-\BOOKMARK [1][-]{section.3.3}{Coupling Regimes}{chapter.3}% 35
-\BOOKMARK [0][-]{chapter.4}{Electromagnetically Induced Transparecy}{}% 36
-\BOOKMARK [1][-]{section.4.1}{EIT in Atoms}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.1.1}{Two level Atoms}{section.4.1}% 38
-\BOOKMARK [1][-]{section.4.2}{EIT in ring resonators}{chapter.4}% 39
-\BOOKMARK [1][-]{section.4.3}{EIT in Coupled resonators\(CRIT\)}{chapter.4}% 40
-\BOOKMARK [1][-]{section.4.4}{CRIT with gain}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.5}{Results}{chapter.4}% 42
-\BOOKMARK [0][-]{chapter.5}{Electromagnetically Induced Absorbption}{}% 43
-\BOOKMARK [1][-]{section.5.1}{EIA concepts}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.1.1}{EIA in atoms}{section.5.1}% 45
-\BOOKMARK [2][-]{subsection.5.1.2}{EIA Quantum phenomena}{section.5.1}% 46
-\BOOKMARK [1][-]{section.5.2}{EIA in resonators}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.2.1}{Coupled resontors induced Absorption}{section.5.2}% 48
-\BOOKMARK [1][-]{section.5.3}{CRIA with gain}{chapter.5}% 49
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 50
-\BOOKMARK [0][-]{appendix.A}{Abrevations}{}% 51
+\BOOKMARK [2][-]{subsection.2.1.2}{Effective Phase}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.3}{Phaser plots}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.4}{Finese, Q-factor}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{Gain incorporation in Resonators}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{Beer's Law}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{Beer's law study as gain}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.3}{Gain medium}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Ring Geometry Resonators}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{All-Pass Ringresonator}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Add-Drop Ringresonator}{section.2.3}% 28
+\BOOKMARK [1][-]{section.2.4}{Coupled Ringresonator}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.4.1}{Coupled resonator induced transparency and induced absorption}{section.2.4}% 30
+\BOOKMARK [0][-]{chapter.3}{Electromagnetically Induced Transparecy and Absorption}{}% 31
+\BOOKMARK [1][-]{section.3.1}{EIT in Atoms}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.1.1}{Two level Atoms}{section.3.1}% 33
+\BOOKMARK [1][-]{section.3.2}{EIT in ring resonators}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.3}{EIT in Coupled resonators\(CRIT\)}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.4}{CRIT with gain}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.5}{Results}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.6}{EIA concepts}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.6.1}{EIA in atoms}{section.3.6}% 39
+\BOOKMARK [2][-]{subsection.3.6.2}{EIA Quantum phenomena}{section.3.6}% 40
+\BOOKMARK [1][-]{section.3.7}{EIA in resonators}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.7.1}{Coupled resontors induced Absorption}{section.3.7}% 42
+\BOOKMARK [1][-]{section.3.8}{CRIA with gain}{chapter.3}% 43
+\BOOKMARK [0][-]{chapter.4}{Composite Resonator Systems}{}% 44
+\BOOKMARK [1][-]{section.4.1}{Coupled resontaor with Gain medium}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{Gain element}{section.4.1}% 46
+\BOOKMARK [1][-]{section.4.2}{Calculation/Equations}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.2.1}{For single}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.2}{For coupled}{section.4.2}% 49
+\BOOKMARK [2][-]{subsection.4.2.3}{For triple}{section.4.2}% 50
+\BOOKMARK [1][-]{section.4.3}{Coupling Regimes}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.4}{Gain controlled EIT and EIA}{chapter.4}% 52
+\BOOKMARK [0][-]{chapter.5}{Gain Incorporation}{}% 53
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 54
+\BOOKMARK [0][-]{appendix.A}{Abrevations}{}% 55
