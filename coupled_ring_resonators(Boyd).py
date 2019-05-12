@@ -8,6 +8,7 @@ Created on Wed Dec 12 13:39:29 2018
 
 import numpy as np
 import matplotlib.pyplot as plt
+from basic_units import radians, degrees, cos
 
 ran = 6284
 phi1 = -np.pi
@@ -23,15 +24,17 @@ l = 2*np.pi*b
 n = 3.45
 
 g1 = 0*0.001
-g2 = 0*0.120
+g2 = 12
+
+tau = (n*2*np.pi*b)/c
 
 aa = (2*np.pi*n)/(Q1*lamd)
 aa2 = (2*np.pi*n)/(Q2*lamd)
-a1 = 0.88 #np.exp((g1-aa*l)) #/2
-a2 = 0.9999 #np.exp((g2-aa2*l))
+a1 = np.exp(-(aa-g1)*l/2)
+a2 = np.exp(-(aa2-g2)*l/2)
 
 #a1 = 0.88
-#a2 = 1
+#a2 = 0.9999 boyd
 
 #r2 = a2
 #r1 = r2*a1 #critical
@@ -76,7 +79,7 @@ with open('Coupled_resonator_phi.phase.trans.csv', 'w') as fp:
         fp.write("{},{},{}\n".format(phi1,PHIt[i], Etai[i]))
     
         phi1t[i] = phi1
-        phi2t[i] = abs(Er12)
+        phi2t[i] = phi2
     
 
 over = r1 - phi2t[499]*a1
@@ -94,30 +97,33 @@ vgt = (1/dydx)*c/n
 ngt = dPHIt * n
 
 
+phi1t = [phi1t[i]*radians for i in range(0,ran)]
+#phi2t = [phi2t[i]*radians for i in range(0,ran)]
+
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(8,5))
     
 axs[0,0].set_title("Transmitted field")
-#axs[0,0].set_xlim([-0.1,0.1])
-axs[0,0].set_xlabel("detuning")
+axs[0,0].set_xlim([-np.pi/2,np.pi/2])
+axs[0,0].set_xlabel("Frequency detuning")
 axs[0,0].set_ylabel("Transmittance")
 #axs[1,0].text(0.001,0.0000,"Gain1 =%f" %g1 + "\nGain2 =%f" %g2 + "\nUnder coupled\nr1=%.8f" %r1 + "\nr2=%.8f"%r2,fontsize=8)
 axs[0,0].plot(phi1t,Etai, 'b')
 
-axs[0,1].set_xlim([-0.5,0.5])
+axs[0,1].set_xlim([-np.pi/2,np.pi/2])
 axs[0,1].set_title("Effective Phase")
-axs[0,1].set_xlabel("detuning")
+axs[0,1].set_xlabel("Frequency detuning")
 axs[0,1].set_ylabel("Effective phase")
-axs[0,1].plot(phi1t/2,PHIt, 'r')
+axs[0,1].plot(phi1t,PHIt, 'r')
 
 axs[1,0].set_xlim([-0.01,0.01])
-axs[1,0].set_title("Phi12 Phase")
-axs[1,0].set_xlabel("detuning")
+axs[1,0].set_title("Coupling Phase")
+axs[1,0].set_xlabel("Frequency detuning")
 axs[1,0].set_ylabel("Effective phase")
-axs[1,0].plot(phi1t/2,PHI12, 'y')
+axs[1,0].plot(phi2t,PHI12, 'y')
 
-axs[1,1].set_xlim([-1.5,1.5])
-axs[1,1].set_title("Group velocity")
-axs[1,1].set_xlabel("detuning")
+axs[1,1].set_xlim([-np.pi/2,np.pi/2])
+axs[1,1].set_title("dΦ/dφ")
+axs[1,1].set_xlabel("Frequency detuning")
 axs[1,1].set_ylabel("Effective phase")
 axs[1,1].plot(phi1t, np.append([1],dydx) , 'g')
 #axs[1,1].plot(phi1t, ngt , 'g')
