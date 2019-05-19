@@ -39,11 +39,13 @@ and $\tilde{t}$ represents the complex transmittivity:
 \end{multline}
 
 
-The square modulus of these perplexing amounts gives the reflection ${\mathcal R}$ and transmission ${\mathcal T}$ coefficients (showin in Fig. 2.2). Antiresonant wavelengths are more emphatically reflected than in the ambiguous case, while thunderous wavelengths are transmitted $100\%$ for adjusted reflectors ($r_{1}$ = $r_{2}$). For a fixed reflect dispersing, the transmission and reflection spectra in this manner show intermittent pinnacles and valleys. Figure 3.1 presenting the transmission and reflection spectra for a lossless, adjusted Fabry– Perot resonator. The part of reflected and transmitted power for mixed up excitation is identical to the separate frightfully arrived at the midpoint of reflection and transmission over a time of the spectrum range.
+The square modulus of these perplexing amounts gives the reflection ${\mathcal R}$ and transmission ${\mathcal T}$ coefficients (showin in Fig. 2.2). Antiresonant wavelengths are more emphatically reflected than in the ambiguous case, while thunderous wavelengths are transmitted $100\%$ for adjusted reflectors ($r_{1}$ = $r_{2}$). For a fixed reflect dispersing, the transmission and reflection spectra in this manner show intermittent pinnacles and valleys. Figure 2.2 presenting the transmission and reflection spectra for a lossless, adjusted Fabry– Perot resonator. The part of reflected and transmitted power for mixed up excitation is identical to the separate frightfully arrived at the midpoint of reflection and transmission over a time of the spectrum range.
+
+The values of reflectivity coefficients $r_{1}$, $r_{2}$ and the transmitivity coefficients $t_{1}$, $t_{2}$ are mentioned in the figure. The plot is of intensity of the Fabry- Perot resonator versus the round trip phase of the system. This displays a $100\%$ transmission and $0\%$ reflection on the resonant frequencies. Meaning all the incident light is detected on the other side of the resonantor of these specific frequencies. 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\textwidth]{R+T_FabryPerot.eps}
+\includegraphics[width=0.85\textwidth]{R+T_FabryPerot.eps}
 \caption{Transmitted and reflected field of an asymmetric Fabry-Perot resonator}
 \end{figure}
 
@@ -55,19 +57,17 @@ Now lets look at the phase details of the transmission and the refelction spectr
 \begin{figure}[h]
 \includegraphics[width=0.5\textwidth]{Phase_trans_FP.png}
 \includegraphics[width=0.5\textwidth]{Reflec_Phase_FP.png}
-\caption{Transmission and Reflection phase vs normalized detuning of an asymmetric Fabry-Perot resonator}
+\caption{Transmission and Reflection phase vs normalized detuning of an asymmetric Fabry-Perot resonator critically coupled.}
 \end{figure}
 
-\subsection{Phaser plots}
+\subsection{Phasor plots}
 Phaser plots are another useful way to study the behavior of light inside the optical cavity. The phaser plots are the complex plots between Real and Imaginary parts of the complex reflectivity and transmitivty (equation 2.3 and 2.4 respectively). Figure 2.4 shows the phaser plots of both transmitivity and reflectivity of an asymmetric Fabry-Perot resonator over the detuning period of 0 to $2\pi$ radians. 
 
 \begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{Trans_Reflection_ImagvsReal_Phaser.png}
-\caption{Phaser plots of complex Transmitivity and Reflectivity of an asymmetric Fabry-Perot resonator}
+\includegraphics[width=0.5\textwidth]{Trans_ImagvsReal_Phaser.png}
+\includegraphics[width=0.5\textwidth]{Reflection_ImagvsReal_Phaser.png}
+\caption{Phaser plots of complex Transmitivity and Reflectivity of an asymmetric Fabry-Perot resonator from 0 to $2\pi$}
 \end{figure}
-
-\newpage
 
 \subsection{Finese, Q-factor}
 \subparagraph{\normalfont \large The resonance condition is fulfilled when the (compelling) circumference of the ring, or for the most part the round-trip length, is equivalent to a whole number numerous of the optical wavelength inside the medium. This means a progression of Lorentzian-molded transmission bends equally dispersed in recurrence by the FSR (Free Spectral Range), with the resonance linewidth portraying the capacity time of photons inside the cavity. The photon 	lifetime can be standardized to one optical cycle, known as the quality factor (${\mathcal Q}$), or the cavity round-trip time, known as the cavity Finesse (${\mathcal F}$). The most extreme reachable Q-factor is characterized as ${\mathcal Q_{int}}$, which is the intrinsic loss of the cavity. At the point when the resonator is coupled to the outer world, the Q-factor further decreases because of the loss imported by the coupler (${\mathcal Q_{ext}}$). Thus the last quality factor ${\mathcal Q_{load}}$ is comprised of these two parts: ${\mathcal Q_{load}^{-1}}$ = ${\mathcal Q_{int}^{-1}}$ + ${\mathcal Q_{ext}^{-1}}$.}
@@ -102,7 +102,7 @@ Light, when travels through a medium, loses its intensity exponentially. This la
 The simple radiation law follows the beer's law in absorption of any kind of radiation inside a medium. This tells us that the initially intensity of the light source depends on the variables of the medium it is passing through. For electromagnetic radiation, we can write this law as,
 
 \begin{equation}
-I(z) = I_{o}\exp^{-\alpha z}
+I(z) = I_{o}\exp(-\alpha z)
 \end{equation}
 
 Here, $I_{o}$ is the initial intensity of the radiation, $\alpha$ is the attenuation constant of the medium, $z$ is the amount of distance traveled through the medium and $I(z)$ is the intensity of light after traveling the distance $z$.
@@ -118,7 +118,7 @@ Here, $I_{o}$ is the initial intensity of the radiation, $\alpha$ is the attenua
 In a gain medium, the intensity of the light will not decrease but it will gradually increase. This means that the attenuation $\alpha$ is negative or we can introduce a new coefficient for such medium say $g$ such that $-\alpha \to +g$ where $g$ is some positive real number. This means that the intensity function now grows exponentially rather than decaying exponential.
 
 \begin{equation}
-I(z) = I_{o}\exp^{ +g z}
+I(z) = I_{o}\exp( +g z)
 \end{equation}
 
 \begin{figure}[h]
@@ -134,11 +134,23 @@ The active laser medium also called gain medium or lasing medium is the source o
 \section{Ring Geometry Resonators}
 In this section, I will discuss different kinds of ring shaped resonators whose principle is pretty much similar to the Fabry-Perot resonator and are more simple to make. Basically, a ring resonator is a simple waveguide which is turned in the shape of a ring. This allows it to exhibit resonant behavior on very specific frequencies. The light is coupled inside the ring due to the phenomenon of total internal reflection and interference. This kind of behaviour is noticed in all kind of classical waves, such as sound waves, which was observed inside a large cathedral's halls, thus it was named whispering galleries. Also, these resonators can be made using different material but in this thesis, we used semi-conductor silicon as the primary material. 
 
+\subsection{Evanescent Coupling}
+This optical system experiences passage of light through both of the rings through evanescent coupling, a classical phenomenon with quantum like properties. This evanescent coupling allow the light propagation through the both rings of the resonator making it a composite of resonant wavelength systems. This is the power transfer of the wave which is dependant on the proximity of the optical resonator and the waveguide also the length or area that has been exposed to the coupler also plays an important role i-e how much part of the waveguide/resonator overlaps; shown in Fig. 2.17.
+\subparagraph{\normalfont \large Coupling strength of an ideal coupler is dependant on the interaction length between the two optical modes which means power will transfer more efficiently when the two modes are mathced on the basis of their respective phases.  This allow us to observe distinct behaviors as well as multiple resonances in transmittance and reflectance.} 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.50\textwidth]{evanescent_wave.png}
+\caption{Schematic illustration of the microsphere-fiber-taper
+system.[2]}
+\end{figure}
+
+
 \subsection{All-Pass Ringresonator}
 A straightforward ring resonator is made by taking one yield of a conventional directional coupler and bolstering it once again into one input. Such a device displays periodic cavity resonance (reverberation) when light navigating the ring procures a phase move relating to a number numerous of 2$\pi$ radians. The resonator is numerically defined from two parts: a coupling quality and an input way. In opposition to the limitless entirety inferences performed before for the Fabry– Perot and Gires– Tournois, in which we expected steadystate task and coordinating fields and derived basic spectral properties. Although, both strategies are similarly substantial, the field-coordinating technique has the benefit of simplicity.
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.70\textwidth]{all_pass_resonator.eps}
+\includegraphics[width=0.85\textwidth]{all_pass_resonator.eps}
 \caption{Illustrated fields of an all pass resonator}
 \end{figure}
 
@@ -172,12 +184,13 @@ The phase of the All-pass ring resonator is shown in Figure 2.7. We can easily o
 \includegraphics[width=0.65\textwidth]{allpassphase_new.png}
 \caption{Phase diagram of an All-Pass ring resonator from 0 to $\pi$ where $r$ is the coupling parameter.}
 \end{figure}
+\newpage
 
-\subsubsection{Phaser Plots}
+\subsubsection{Phasor Plots}
 Now looking into some complex refractivity and transmitivity of an All-pass ringresonator (Fig. 2.7). These plots are plotted over the complex plain from the detuning limits of 0 to 2$\pi$. The transmission loop does not go to negative real axis and touches the origin but the reflection curve does not even form a loop.
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.70\textwidth]{Imag_vs_real_allpass.png}
+\includegraphics[width=1\textwidth]{Imag_vs_real_allpass.png}
 \caption{Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator}
 \end{figure}
 \newpage
@@ -196,9 +209,14 @@ Let us now look at some reflection and transmission spectra of a passive Add- dr
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.65\textwidth]{all_pass_plots_a.png}
-\includegraphics[width=0.45\textwidth]{all_pass_plots_b.png}
-\caption{Reflection and Transmission spectra along with their respective phases}
+\includegraphics[width=0.85\textwidth]{all_pass_plots_a.png}
+\caption{Reflection and Transmission spectra along with transmission phase} 
+\end{figure}
+\newpage
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{all_pass_plots_b.png}
+\caption{Reflection phase of the all-pass ring resonator.}
 \end{figure}
 
 \subsubsection{Transmission and Reflection with gain}
@@ -207,41 +225,29 @@ Now we introduce gain into the system and observe that the tranmission dip also 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.75\textwidth]{add_drop_gain_plots.png}
+\includegraphics[width=0.85\textwidth]{add_drop_gain_plots.png}
 \caption{Gain introduced into an all-pass resonator: we see clear difference in the intensities.}
 \end{figure}
 \newpage
 
-
-\subsubsection{Phaser Plots}
+\subsubsection{Phasor Plots}
 Now let us see how complex plots of Add drop is different from the All-pass resonator. Fig. 2.11 shows that the loop goes towards the negative real axis as the phase is increased. This tells a lot about the distinct behavior.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{ImagVsReal(add-drop).png}
-\caption{Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator}
+\caption{Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator from 0 to $2\pi$}
 \end{figure}
+\newpage
 
 \section{Coupled Ringresonator}
 Now we turn another optical waveguide into a ring shape and install it on the top of the all-pass ring resonator such that now we have dual ring geometry and a wave guide coupler. This geometry does allow resonant behaviors and the spectra varies largely from an all-pass resonator.
 In this arrangement, coupling between the two resonators (rings) also play an important role in the spectra of the light that passes through the resonator. Fig. 2.16 displays the basic geometry of the couple ring system we are going to discuss along with their energies. 
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=0.50\textwidth]{couple_ring_resonator.eps}
-\caption{Illustrated fields and geometry of a coupled ring resonator}
-\end{figure}
-
-\subsection{Evanescent Coupling}
-This optical system experiences passage of light through both of the rings through evanescent coupling, a classical phenomenon with quantum like properties. This evanescent coupling allow the light propagation through the both rings of the resonator making it a composite of resonant wavelength systems. This is the power transfer of the wave which is dependant on the proximity of the optical resonator and the waveguide also the length or area that has been exposed to the coupler also plays an important role i-e how much part of the waveguide/resonator overlaps; shown in Fig. 2.17.
-\subparagraph{\normalfont \large Coupling strength of an ideal coupler is dependant on the interaction length between the two optical modes which means power will transfer more efficiently when the two modes are mathced on the basis of their respective phases.  This allow us to observe distinct behaviors as well as multiple resonances in transmittance and reflectance.} 
-\newpage
-
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.50\textwidth]{evanescent_wave.png}
-\caption{Schematic illustration of the microsphere-fiber-taper
-system.[2]}
+\includegraphics[width=0.5\textwidth]{couple_ring_resonator.eps}
+\caption{Illustrated fields and geometry of a coupled ring resonator}
 \end{figure}
 
 

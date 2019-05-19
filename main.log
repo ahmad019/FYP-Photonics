@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.5.12)  12 MAY 2019 23:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.5.12)  18 MAY 2019 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1978,44 +1978,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-<images/linear_and_ring_resonator.png, id=428, 165.61874pt x 181.67876pt>
-File: images/linear_and_ring_resonator.png Graphic file (type png)
+[2] [3] <images/optical_cavity.png, id=429, 181.53535pt x 162.6075pt>
+File: images/optical_cavity.png Graphic file (type png)
 
-<use images/linear_and_ring_resonator.png>
-Package pdftex.def Info: images/linear_and_ring_resonator.png used on input lin
-e 27.
-(pdftex.def)             Requested size: 124.21375pt x 136.25871pt.
+<use images/optical_cavity.png>
+Package pdftex.def Info: images/optical_cavity.png used on input line 26.
+(pdftex.def)             Requested size: 136.15117pt x 121.95532pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] <images/microresonators_types.jpg, id=434, 758.835pt x 391.4625pt>
+[4] <images/microresonators_types.jpg, id=436, 758.835pt x 391.4625pt>
 File: images/microresonators_types.jpg Graphic file (type jpg)
 
 <use images/microresonators_types.jpg>
-Package pdftex.def Info: images/microresonators_types.jpg used on input line 46
+Package pdftex.def Info: images/microresonators_types.jpg used on input line 45
 .
 (pdftex.def)             Requested size: 426.79134pt x 220.17322pt.
 
-Overfull \hbox (12.96649pt too wide) in paragraph at lines 43--49
+Overfull \hbox (12.96649pt too wide) in paragraph at lines 42--48
 \OT1/cmr/m/n/14.4 There are many type of mi-crores-onators from which microring
 -resonators
  []
 
-[5 <./images/linear_and_ring_resonator.png>]
-Overfull \hbox (12.0064pt too wide) in paragraph at lines 51--51
+[5 <./images/optical_cavity.png>]
+Overfull \hbox (12.0064pt too wide) in paragraph at lines 50--50
 |[]\OT1/cmr/bx/n/17.28 Electromagnetically In-duced Trans-parency and
  []
 
 [6 <./images/microresonators_types.jpg>] [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 264--264
 
@@ -2056,7 +2054,7 @@ pdfTeX warning: pdflatex (file ./images/Fabry_Perot_resonator-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=453, 817.0525pt x 488.82
+<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=455, 817.0525pt x 488.82
 625pt>
 File: images/Fabry_Perot_resonator-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2086,56 +2084,67 @@ Package epstopdf Info: Source file: <images/R+T_FabryPerot.eps>
 (epstopdf)                    size: 500219 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/R+T_FabryPerot-eps-
 converted-to.pdf images/R+T_FabryPerot.eps>
-(epstopdf)             \includegraphics on input line 46.
+(epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images/R+T_FabryPerot-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/R+T_FabryPerot-eps-converted-to.pdf, id=470, 817.0525pt x 539.01375pt>
+<images/R+T_FabryPerot-eps-converted-to.pdf, id=472, 817.0525pt x 539.01375pt>
 File: images/R+T_FabryPerot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/R+T_FabryPerot-eps-converted-to.pdf>
 Package pdftex.def Info: images/R+T_FabryPerot-eps-converted-to.pdf used on inp
-ut line 46.
-(pdftex.def)             Requested size: 213.39566pt x 140.77356pt.
- [11 <./images/R+T_FabryPerot-eps-converted-to.pdf>]
-<images/Phase_trans_FP.png, id=480, 462.528pt x 346.896pt>
-File: images/Phase_trans_FP.png Graphic file (type png)
-
-<use images/Phase_trans_FP.png>
-Package pdftex.def Info: images/Phase_trans_FP.png used on input line 56.
-(pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
-
-<images/Reflec_Phase_FP.png, id=482, 462.528pt x 346.896pt>
-File: images/Reflec_Phase_FP.png Graphic file (type png)
-
-<use images/Reflec_Phase_FP.png>
-Package pdftex.def Info: images/Reflec_Phase_FP.png used on input line 57.
-(pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 56--58
-[][] [] 
- []
-
-
-<images/Trans_Reflection_ImagvsReal_Phaser.png, id=483, 597.08786pt x 844.87071
-pt>
-File: images/Trans_Reflection_ImagvsReal_Phaser.png Graphic file (type png)
- <use images/Trans_Reflection_ImagvsReal_Phaser.png>
-Package pdftex.def Info: images/Trans_Reflection_ImagvsReal_Phaser.png used on 
-input line 66.
-(pdftex.def)             Requested size: 213.39566pt x 301.94875pt.
+ut line 48.
+(pdftex.def)             Requested size: 362.77524pt x 239.32986pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12 <./images/Phase_trans_FP.png> <./images/Reflec_Phase_FP.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[11] <images/Phase_trans_FP.png, id=479, 462.528pt x 346.896pt>
+File: images/Phase_trans_FP.png Graphic file (type png)
 
- [13 <./images/Trans_Reflection_ImagvsReal_Phaser.png>] [14]
-<images/beer's_law_withoutgain.png, id=502, 575.9919pt x 215.3646pt>
+<use images/Phase_trans_FP.png>
+Package pdftex.def Info: images/Phase_trans_FP.png used on input line 58.
+(pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
+
+<images/Reflec_Phase_FP.png, id=480, 462.528pt x 346.896pt>
+File: images/Reflec_Phase_FP.png Graphic file (type png)
+
+<use images/Reflec_Phase_FP.png>
+Package pdftex.def Info: images/Reflec_Phase_FP.png used on input line 59.
+(pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 58--60
+[][] [] 
+ []
+
+[12 <./images/R+T_FabryPerot-eps-converted-to.pdf> <./images/Phase_trans_FP.png
+> <./images/Reflec_Phase_FP.png>]
+<images/Trans_ImagvsReal_Phaser.png, id=491, 536.86285pt x 399.20572pt>
+File: images/Trans_ImagvsReal_Phaser.png Graphic file (type png)
+
+<use images/Trans_ImagvsReal_Phaser.png>
+Package pdftex.def Info: images/Trans_ImagvsReal_Phaser.png used on input line 
+67.
+(pdftex.def)             Requested size: 213.39566pt x 158.67438pt.
+
+<images/Reflection_ImagvsReal_Phaser.png, id=492, 565.25464pt x 395.76428pt>
+File: images/Reflection_ImagvsReal_Phaser.png Graphic file (type png)
+
+<use images/Reflection_ImagvsReal_Phaser.png>
+Package pdftex.def Info: images/Reflection_ImagvsReal_Phaser.png used on input 
+line 68.
+(pdftex.def)             Requested size: 213.39566pt x 149.40764pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 67--69
+[][] [] 
+ []
+
+[13 <./images/Trans_ImagvsReal_Phaser.png> <./images/Reflection_ImagvsReal_Phas
+er.png>] [14]
+<images/beer's_law_withoutgain.png, id=505, 575.9919pt x 215.3646pt>
 File: images/beer's_law_withoutgain.png Graphic file (type png)
 
 <use images/beer's_law_withoutgain.png>
@@ -2148,7 +2157,7 @@ Overfull \hbox (5.20152pt too wide) in paragraph at lines 112--113
  []
 
 [15 <./images/beer's_law_withoutgain.png>]
-<images/beer's_law_withgain.png, id=509, 575.9919pt x 217.5327pt>
+<images/beer's_law_withgain.png, id=512, 575.9919pt x 217.5327pt>
 File: images/beer's_law_withgain.png Graphic file (type png)
 
 <use images/beer's_law_withgain.png>
@@ -2161,145 +2170,161 @@ Overfull \hbox (5.20152pt too wide) in paragraph at lines 126--127
  []
 
 [16 <./images/beer's_law_withgain.png>]
+<images/evanescent_wave.png, id=519, 364.36125pt x 248.93pt>
+File: images/evanescent_wave.png Graphic file (type png)
+
+<use images/evanescent_wave.png>
+Package pdftex.def Info: images/evanescent_wave.png used on input line 143.
+(pdftex.def)             Requested size: 213.39566pt x 145.78868pt.
 Package epstopdf Info: Source file: <images/all_pass_resonator.eps>
-(epstopdf)                    date: 2019-04-16 23:23:37
-(epstopdf)                    size: 761470 bytes
+(epstopdf)                    date: 2019-05-18 12:33:15
+(epstopdf)                    size: 1960869 bytes
 (epstopdf)             Output file: <images/all_pass_resonator-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2019-04-16 23:25:38
-(epstopdf)                    size: 64888 bytes
+(epstopdf)                    date: 2019-05-18 12:33:52
+(epstopdf)                    size: 132352 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/all_pass_resonator-
 eps-converted-to.pdf images/all_pass_resonator.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images/all_pass_resonator-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/all_pass_resonator-eps-converted-to.pdf, id=516, 817.0525pt x 512.91624
-pt>
+<images/all_pass_resonator-eps-converted-to.pdf, id=520, 817.0525pt x 449.68pt>
 File: images/all_pass_resonator-eps-converted-to.pdf Graphic file (type pdf)
- <use images/all_pass_resonator-eps-converted-to.pdf>
+<use images/all_pass_resonator-eps-converted-to.pdf>
 Package pdftex.def Info: images/all_pass_resonator-eps-converted-to.pdf used on
- input line 141.
-(pdftex.def)             Requested size: 298.75262pt x 187.54549pt.
-
-<images/reflec_ring_withoutgain.png, id=517, 578.16pt x 433.62pt>
+ input line 153.
+(pdftex.def)             Requested size: 362.77524pt x 199.6644pt.
+ [17 <./images/evanescent_wave.png>] <images/reflec_ring_withoutgain.png, id=52
+6, 578.16pt x 433.62pt>
 File: images/reflec_ring_withoutgain.png Graphic file (type png)
 
 <use images/reflec_ring_withoutgain.png>
 Package pdftex.def Info: images/reflec_ring_withoutgain.png used on input line 
-149.
+161.
 (pdftex.def)             Requested size: 213.39566pt x 160.04651pt.
 
-<images/trans_ring_withoutgain.png, id=518, 578.16pt x 433.62pt>
+<images/trans_ring_withoutgain.png, id=527, 578.16pt x 433.62pt>
 File: images/trans_ring_withoutgain.png Graphic file (type png)
 
 <use images/trans_ring_withoutgain.png>
 Package pdftex.def Info: images/trans_ring_withoutgain.png used on input line 1
-50.
+62.
 (pdftex.def)             Requested size: 213.39566pt x 160.04651pt.
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 149--151
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 161--163
 [][] [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./images/all_pass_resonator-eps-converted-to.pdf>]
-<images/all-pall_gain.png, id=526, 721.2546pt x 291.9708pt>
+<images/all-pall_gain.png, id=528, 721.2546pt x 291.9708pt>
 File: images/all-pall_gain.png Graphic file (type png)
 
 <use images/all-pall_gain.png>
-Package pdftex.def Info: images/all-pall_gain.png used on input line 159.
+Package pdftex.def Info: images/all-pall_gain.png used on input line 171.
 (pdftex.def)             Requested size: 341.43436pt x 138.21532pt.
- [18 <./images/reflec_ring_withoutgain.png> <./images/trans_ring_withoutgain.pn
-g> <./images/all-pall_gain.png>]
-<images/allpassphase_new.png, id=535, 581.60143pt x 356.99638pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18 <./images/all_pass_resonator-eps-converted-to.pdf>]
+<images/allpassphase_new.png, id=537, 581.60143pt x 356.99638pt>
 File: images/allpassphase_new.png Graphic file (type png)
 
 <use images/allpassphase_new.png>
-Package pdftex.def Info: images/allpassphase_new.png used on input line 172.
+Package pdftex.def Info: images/allpassphase_new.png used on input line 184.
 (pdftex.def)             Requested size: 277.41176pt x 170.27774pt.
 
-<images/Imag_vs_real_allpass.png, id=536, 707.21358pt x 358.76894pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./images/reflec_ring_withoutgain.png> <./images/trans_ring_withoutgain.png
+> <./images/all-pall_gain.png>]
+<images/Imag_vs_real_allpass.png, id=546, 707.21358pt x 358.76894pt>
 File: images/Imag_vs_real_allpass.png Graphic file (type png)
 
 <use images/Imag_vs_real_allpass.png>
-Package pdftex.def Info: images/Imag_vs_real_allpass.png used on input line 180
+Package pdftex.def Info: images/Imag_vs_real_allpass.png used on input line 193
 .
-(pdftex.def)             Requested size: 298.75262pt x 151.55782pt.
- [19 <./images/allpassphase_new.png> <./images/Imag_vs_real_allpass.png>]
+(pdftex.def)             Requested size: 426.79134pt x 216.51665pt.
+ [20 <./images/allpassphase_new.png> <./images/Imag_vs_real_allpass.png>]
 Package epstopdf Info: Source file: <images/add_drop_resonator.eps>
-(epstopdf)                    date: 2019-04-16 23:43:47
-(epstopdf)                    size: 1116359 bytes
+(epstopdf)                    date: 2019-05-18 12:24:49
+(epstopdf)                    size: 1703070 bytes
 (epstopdf)             Output file: <images/add_drop_resonator-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2019-04-16 23:45:20
-(epstopdf)                    size: 89998 bytes
+(epstopdf)                    date: 2019-05-18 12:25:33
+(epstopdf)                    size: 154184 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/add_drop_resonator-
 eps-converted-to.pdf images/add_drop_resonator.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./images/add_drop_resonator-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/add_drop_resonator-eps-converted-to.pdf, id=543, 817.0525pt x 532.99126
+<images/add_drop_resonator-eps-converted-to.pdf, id=552, 817.0525pt x 512.91624
 pt>
 File: images/add_drop_resonator-eps-converted-to.pdf Graphic file (type pdf)
  <use images/add_drop_resonator-eps-converted-to.pdf>
 Package pdftex.def Info: images/add_drop_resonator-eps-converted-to.pdf used on
- input line 190.
-(pdftex.def)             Requested size: 298.75262pt x 194.88583pt.
+ input line 203.
+(pdftex.def)             Requested size: 298.75262pt x 187.54549pt.
 
-<images/all_pass_plots_a.png, id=544, 560.95285pt x 286.49893pt>
+<images/all_pass_plots_a.png, id=553, 560.95285pt x 286.49893pt>
 File: images/all_pass_plots_a.png Graphic file (type png)
 
 <use images/all_pass_plots_a.png>
-Package pdftex.def Info: images/all_pass_plots_a.png used on input line 199.
-(pdftex.def)             Requested size: 277.41176pt x 141.68407pt.
-
-<images/all_pass_plots_b.png, id=545, 415.5525pt x 284.77821pt>
-File: images/all_pass_plots_b.png Graphic file (type png)
-
-<use images/all_pass_plots_b.png>
-Package pdftex.def Info: images/all_pass_plots_b.png used on input line 200.
-(pdftex.def)             Requested size: 192.0548pt x 131.61661pt.
+Package pdftex.def Info: images/all_pass_plots_a.png used on input line 212.
+(pdftex.def)             Requested size: 362.77524pt x 185.28656pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20 <./images/add_drop_resonator-eps-converted-to.pdf>]
-<images/add_drop_gain_plots.png, id=553, 722.7pt x 289.08pt>
+[21 <./images/add_drop_resonator-eps-converted-to.pdf>]
+<images/all_pass_plots_b.png, id=561, 415.5525pt x 284.77821pt>
+File: images/all_pass_plots_b.png Graphic file (type png)
+
+<use images/all_pass_plots_b.png>
+Package pdftex.def Info: images/all_pass_plots_b.png used on input line 218.
+(pdftex.def)             Requested size: 213.39566pt x 146.23874pt.
+
+<images/add_drop_gain_plots.png, id=562, 722.7pt x 289.08pt>
 File: images/add_drop_gain_plots.png Graphic file (type png)
 
 <use images/add_drop_gain_plots.png>
-Package pdftex.def Info: images/add_drop_gain_plots.png used on input line 210.
+Package pdftex.def Info: images/add_drop_gain_plots.png used on input line 228.
 
-(pdftex.def)             Requested size: 320.09349pt x 128.03809pt.
- [21 <./images/all_pass_plots_a.png> <./images/all_pass_plots_b.png> <./images/
-add_drop_gain_plots.png>]
-<images/ImagVsReal(add-drop).png, id=561, 72.27pt x 45.87451pt>
+(pdftex.def)             Requested size: 362.77524pt x 145.10866pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22 <./images/all_pass_plots_a.png> <./images/all_pass_plots_b.png>]
+<images/ImagVsReal(add-drop).png, id=569, 68.67061pt x 36.84076pt>
 File: images/ImagVsReal(add-drop).png Graphic file (type png)
 
 <use images/ImagVsReal(add-drop).png>
-Package pdftex.def Info: images/ImagVsReal(add-drop).png used on input line 221
+Package pdftex.def Info: images/ImagVsReal(add-drop).png used on input line 238
 .
-(pdftex.def)             Requested size: 426.79134pt x 270.98611pt.
+(pdftex.def)             Requested size: 426.79134pt x 229.01407pt.
+ [23 <./images/add_drop_gain_plots.png> <./images/ImagVsReal(add-drop).png>]
 Package epstopdf Info: Source file: <images/couple_ring_resonator.eps>
-(epstopdf)                    date: 2019-04-17 00:08:43
-(epstopdf)                    size: 1070939 bytes
+(epstopdf)                    date: 2019-05-18 14:14:49
+(epstopdf)                    size: 3242753 bytes
 (epstopdf)             Output file: <images/couple_ring_resonator-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2019-04-17 00:09:07
-(epstopdf)                    size: 148512 bytes
+(epstopdf)                    date: 2019-05-18 14:15:06
+(epstopdf)                    size: 174579 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/couple_ring_resonat
 or-eps-converted-to.pdf images/couple_ring_resonator.eps>
-(epstopdf)             \includegraphics on input line 231.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -2307,23 +2332,15 @@ pdfTeX warning: pdflatex (file ./images/couple_ring_resonator-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<images/couple_ring_resonator-eps-converted-to.pdf, id=562, 600.2425pt x 570.13
-pt>
+<images/couple_ring_resonator-eps-converted-to.pdf, id=575, 689.57625pt x 570.1
+3pt>
 File: images/couple_ring_resonator-eps-converted-to.pdf Graphic file (type pdf)
 
  <use images/couple_ring_resonator-eps-converted-to.pdf>
 Package pdftex.def Info: images/couple_ring_resonator-eps-converted-to.pdf used
- on input line 231.
-(pdftex.def)             Requested size: 213.39566pt x 202.689pt.
- [22 <./images/ImagVsReal(add-drop).png>] [23 <./images/couple_ring_resonator-e
-ps-converted-to.pdf>] <images/evanescent_wave.png, id=574, 364.36125pt x 248.93
-pt>
-File: images/evanescent_wave.png Graphic file (type png)
-
-<use images/evanescent_wave.png>
-Package pdftex.def Info: images/evanescent_wave.png used on input line 242.
-(pdftex.def)             Requested size: 213.39566pt x 145.78868pt.
- [24 <./images/evanescent_wave.png>])
+ on input line 249.
+(pdftex.def)             Requested size: 213.39566pt x 176.43399pt.
+ [24 <./images/couple_ring_resonator-eps-converted-to.pdf>])
 Underfull \hbox (badness 10000) in paragraph at lines 267--267
 
  []
@@ -2358,31 +2375,48 @@ Underfull \vbox (badness 3049) has occurred while \output is active []
  [26
 
 ]
-<images/EIT_3levl_atom.png, id=589, 336.25626pt x 247.92625pt>
-File: images/EIT_3levl_atom.png Graphic file (type png)
+Package epstopdf Info: Source file: <images/EIT_3_level.eps>
+(epstopdf)                    date: 2019-05-18 21:50:45
+(epstopdf)                    size: 2282249 bytes
+(epstopdf)             Output file: <images/EIT_3_level-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-18 21:53:34
+(epstopdf)                    size: 185602 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/EIT_3_level-eps-con
+verted-to.pdf images/EIT_3_level.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
 
-<use images/EIT_3levl_atom.png>
-Package pdftex.def Info: images/EIT_3levl_atom.png used on input line 16.
-(pdftex.def)             Requested size: 168.12772pt x 123.96281pt.
 
-Overfull \hbox (38.31442pt too wide) in paragraph at lines 21--21
+pdfTeX warning: pdflatex (file ./images/EIT_3_level-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/EIT_3_level-eps-converted-to.pdf, id=593, 817.0525pt x 395.4775pt>
+File: images/EIT_3_level-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/EIT_3_level-eps-converted-to.pdf>
+Package pdftex.def Info: images/EIT_3_level-eps-converted-to.pdf used on input 
+line 15.
+(pdftex.def)             Requested size: 408.52525pt x 197.73827pt.
+ [27 <./images/EIT_3_level-eps-converted-to.pdf>]
+Overfull \hbox (38.31442pt too wide) in paragraph at lines 22--22
 |[]\OT1/cmr/bx/n/17.28 Coupled Res-onator In-duced Trans-parency (CRIT)| 
  []
 
-[27 <./images/EIT_3levl_atom.png>]
-<images/coupled_ring_EIT1.png, id=596, 284.0211pt x 179.2296pt>
+<images/coupled_ring_EIT1.png, id=601, 284.0211pt x 179.2296pt>
 File: images/coupled_ring_EIT1.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1.png>
-Package pdftex.def Info: images/coupled_ring_EIT1.png used on input line 29.
+Package pdftex.def Info: images/coupled_ring_EIT1.png used on input line 30.
 (pdftex.def)             Requested size: 284.0204pt x 179.22914pt.
- [28 <./images/coupled_ring_EIT1.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <images/coupled_ring_EIT1_phase.png, id=602, 292.6935pt x 181.3977pt>
 File: images/coupled_ring_EIT1_phase.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1_phase.png>
 Package pdftex.def Info: images/coupled_ring_EIT1_phase.png used on input line 
-38.
+39.
 (pdftex.def)             Requested size: 219.51958pt x 136.04793pt.
 
 <images/coupled_ring_EIT1_coupling.png, id=603, 287.6346pt x 179.9523pt>
@@ -2390,35 +2424,38 @@ File: images/coupled_ring_EIT1_coupling.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1_coupling.png>
 Package pdftex.def Info: images/coupled_ring_EIT1_coupling.png used on input li
-ne 39.
+ne 40.
 (pdftex.def)             Requested size: 215.7254pt x 134.96388pt.
 
-Overfull \hbox (11.06473pt too wide) in paragraph at lines 38--40
+Overfull \hbox (11.06473pt too wide) in paragraph at lines 39--41
 [][] [] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <images/coupled_ring_EIT1_deri.png, id=604, 291.2481pt x 177.0615pt>
 File: images/coupled_ring_EIT1_deri.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1_deri.png>
 Package pdftex.def Info: images/coupled_ring_EIT1_deri.png used on input line 4
-7.
+8.
 (pdftex.def)             Requested size: 291.24738pt x 177.06104pt.
- [29 <./images/coupled_ring_EIT1_phase.png> <./images/coupled_ring_EIT1_couplin
-g.png> <./images/coupled_ring_EIT1_deri.png>]
-Overfull \hbox (5.62932pt too wide) in paragraph at lines 57--58
+
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [28]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./images/coupled_ring_EIT1.png> <./images/coupled_ring_EIT1_phase.png> <./
+images/coupled_ring_EIT1_coupling.png>]
+Overfull \hbox (5.62932pt too wide) in paragraph at lines 58--59
 \OT1/cmr/m/n/14.4 pos-si-ble sources of er-ror are. This sec-tion gives an over
 view of arbitrary-
  []
 
-
-Underfull \vbox (badness 4001) has occurred while \output is active []
-
- [30]
-Underfull \vbox (badness 3989) has occurred while \output is active []
-
- [31]
-[32])
+[30 <./images/coupled_ring_EIT1_deri.png>] [31] [32])
 Overfull \hbox (18.07985pt too wide) in paragraph at lines 270--270
 [] []$\OT1/cmr/m/n/14.4 [1]$ Elec-tro-mag-net-i-cally In-duced Trans-parency, S
 tephen E. Har-ris, Physics
@@ -2541,14 +2578,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AC2D6EC888902E130B7D818AA617D4C4;3971.
+(rerunfilecheck)             Checksum: E7F0A94567967CBA73F5E6F61D434C4E;3971.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 16856 strings out of 494910
- 285944 string characters out of 6179836
+ 16862 strings out of 494910
+ 286105 string characters out of 6179836
  346240 words of memory out of 5000000
- 19786 multiletter control sequences out of 15000+600000
+ 19790 multiletter control sequences out of 15000+600000
  15958 words of font info for 60 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  44i,20n,43p,10398b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2561,14 +2598,13 @@ st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-l12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (53 pages, 2741318 bytes).
+s/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (53 pages, 3000768 bytes).
 PDF statistics:
- 738 PDF objects out of 1000 (max. 8388607)
- 609 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 740 PDF objects out of 1000 (max. 8388607)
+ 610 compressed objects within 7 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 
