@@ -1,0 +1,1 @@
+Today we have observed that transition from EIA to EIT or similar does not change the phase at all. 
