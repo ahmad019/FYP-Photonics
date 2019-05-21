@@ -47,36 +47,46 @@
 \contentsline {subsubsection}{Transmission and Reflection}{21}{figure.2.13}
 \contentsline {subsubsection}{Transmission and Reflection with gain}{22}{figure.2.15}
 \contentsline {subsubsection}{Phasor Plots}{23}{figure.2.16}
-\contentsline {section}{\numberline {2.4}Coupled Ringresonator}{24}{section.2.4}
+\contentsline {section}{\numberline {2.4}Coupled Ring Resonator}{24}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Coupled resonator induced transparency and induced absorption}{24}{subsection.2.4.1}
 \contentsline {section}{References}{25}{subsection.2.4.1}
 \contentsline {paragraph}{\normalfont \relax \fontsize {14.4}{18}\selectfont $[1]$ Optical Microresonators, Theory, Fabrication, and Applications, John Heebner, DOI: 10.1007/978-0-387-73068-4\\ \\ $[2]$ Dynamics of fast and slow pulse propagation through a microsphere\IeC {\textendash }optical-fiber system, PHYSICAL REVIEW E 75, 016610, (2007)\\ \\ $[3]$ Coupled-resonator-induced transparency, PHYSICAL REVIEW A 69, 063804 (2004)\\ \\ $[4]$ Induced transparency and absorption in coupled whispering-gallery microresonators, PHYSICAL REVIEW A 71, 043804 (2005)}{25}{subsection.2.4.1}
-\contentsline {chapter}{\numberline {3}Electromagnetically Induced Transparecy and Absorption}{26}{chapter.3}
+\contentsline {chapter}{\numberline {3}Coupled Resonator Induced Transparecy and Absorption}{26}{chapter.3}
 \contentsline {section}{\numberline {3.1}Electromagnetically Induced Transparency}{26}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}EIT in Atoms}{27}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Three level Atoms}{27}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Coupled Resonator Induced Transparency (CRIT)}{28}{section.3.2}
-\contentsline {subsubsection}{Transmittance}{28}{section.3.2}
-\contentsline {subsubsection}{Phase}{28}{figure.3.2}
+\contentsline {subsubsection}{Transmittance}{29}{figure.3.2}
+\contentsline {subsubsection}{Effective Phase}{29}{figure.3.2}
 \contentsline {subsubsection}{Effective Phase derivative}{29}{figure.3.3}
-\contentsline {subsection}{\numberline {3.2.1}CRIT with gain}{29}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}EIA concepts}{30}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}EIA in atoms}{31}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}EIA Quantum phenomena}{31}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}EIA in resonators}{31}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Coupled resontors induced Absorption}{32}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}CRIA with gain}{32}{section.3.5}
-\contentsline {section}{References}{33}{section.3.5}
-\contentsline {paragraph}{\normalfont \relax \fontsize {14.4}{18}\selectfont $[1]$ Electromagnetically Induced Transparency, Stephen E. Harris, Physics Today, July 1997 \\ \\$[2]$ Coupled-resonator-induced transparency, PHYSICAL REVIEW A 69, 063804 (2004) \\$[3]$ What is and what is not electromagnetically induced transparency in whispering-gallery microcavities, DOI:10.1038/ncomms6082, Published 24 Oct 2014 \\ \\$[4]$ Induced transparency and absorption in coupled whispering gallery microresonators, PHYSICAL REVIEW A 71, 043804, published 5 April 2005\\ \\$[5]$ }{33}{section.3.5}
-\contentsline {chapter}{\numberline {4}Composite Resonator Systems}{34}{chapter.4}
-\contentsline {section}{\numberline {4.1}Coupled resontaor with Gain medium}{34}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Gain element}{34}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Calculation/Equations}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}For single}{35}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}For coupled}{35}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}For triple}{35}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Coupling Regimes}{36}{section.4.3}
-\contentsline {section}{\numberline {4.4}Gain controlled EIT and EIA}{36}{section.4.4}
-\contentsline {chapter}{\numberline {5}Gain Incorporation}{37}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{38}{chapter.6}
-\contentsline {chapter}{\numberline {A}Abrevations}{40}{appendix.A}
+\contentsline {subsection}{\numberline {3.2.1}CRIT with gain}{30}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Results}{30}{subsection.3.2.2}
+\contentsline {subsubsection}{Introducing gain in resonator 2}{31}{figure.3.5}
+\contentsline {subsubsection}{Introducing gain in resonator 1}{32}{figure.3.8}
+\contentsline {subsubsection}{Introducing gain in both resonators}{33}{figure.3.10}
+\contentsline {section}{\numberline {3.3}Electromagnetically Induced Absorption}{35}{section.3.3}
+\contentsline {section}{\numberline {3.4}Coupled Resonator Induced Absorption}{35}{section.3.4}
+\contentsline {section}{\numberline {3.5}CRIA with gain}{36}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}CRIA with slow light}{36}{subsection.3.5.1}
+\contentsline {subsubsection}{Introducing gain in resonator 2}{36}{figure.3.15}
+\contentsline {subsubsection}{Introducing gain in resonator 1}{37}{figure.3.17}
+\contentsline {subsubsection}{Introducing gain in both resonators}{38}{figure.3.19}
+\contentsline {subsection}{\numberline {3.5.2}CRIA with fast light}{40}{subsection.3.5.2}
+\contentsline {subsubsection}{Introducing gain in resonator 2}{40}{figure.3.25}
+\contentsline {subsubsection}{Introducing gain in resonator 1}{42}{figure.3.27}
+\contentsline {subsubsection}{Introducing gain in both resonator}{42}{figure.3.28}
+\contentsline {section}{\numberline {3.6}Conclusion}{43}{section.3.6}
+\contentsline {section}{References}{44}{section.3.6}
+\contentsline {paragraph}{\normalfont \relax \fontsize {14.4}{18}\selectfont $[1]$ Electromagnetically Induced Transparency, Stephen E. Harris, Physics Today, July 1997 \\ \\$[2]$ Coupled-resonator-induced transparency, PHYSICAL REVIEW A 69, 063804 (2004) \\$[3]$ What is and what is not electromagnetically induced transparency in whispering-gallery microcavities, DOI:10.1038/ncomms6082, Published 24 Oct 2014 \\ \\$[4]$ Induced transparency and absorption in coupled whispering gallery microresonators, PHYSICAL REVIEW A 71, 043804, published 5 April 2005\\ \\$[5]$ }{44}{section.3.6}
+\contentsline {chapter}{\numberline {4}Composite Resonator Systems}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Coupled resontaor with Gain medium}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Gain element}{45}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Calculation/Equations}{45}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}For single}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}For coupled}{46}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}For triple}{46}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Coupling Regimes}{47}{section.4.3}
+\contentsline {section}{\numberline {4.4}Gain controlled EIT and EIA}{47}{section.4.4}
+\contentsline {chapter}{\numberline {5}Gain Incorporation}{48}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{49}{chapter.6}
+\contentsline {chapter}{\numberline {A}Abrevations}{51}{appendix.A}
