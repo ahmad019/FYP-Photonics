@@ -10,8 +10,9 @@ import matplotlib.pyplot as plt
 
 ran = 2000
 phi = -1
-r = 0.98797
-r2 = 0.97889
+#r = 0.9888
+r2 = 0.9999
+
 lamd = 0.000001550
 Q = 1e6
 b = 10e-6
@@ -26,7 +27,7 @@ ag = np.exp(-(aa-aag)*l/2)
 t = np.sqrt(1-(r**2))
 t2 = np.sqrt(1-(r2**2))
 
-
+r = r2*a
 Etagi = np.ndarray(ran, float)
 Eragi = np.ndarray(ran, float)
 Erai = np.ndarray(ran, float)
@@ -55,8 +56,9 @@ for i in range(0,ran):
 
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(10,8))
 
-axs[0, 0].set_title("Transmission without gain")
-axs[0, 0].plot(phit, Etai, 'orange')
+axs[0, 0].set_title("Transmission")
+axs[0, 0].set_ylim([0,1.05])
+axs[0, 0].plot(phit, Etai, 'pink')
 axs[0, 1].set_title("Reflection without gain")
 axs[0, 1].plot(phit, Erai, 'y')
 axs[1, 0].set_title("Transmission with gain")

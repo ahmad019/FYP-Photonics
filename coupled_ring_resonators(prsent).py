@@ -13,8 +13,8 @@ from basic_units import radians, degrees, cos
 ran = 10000
 phi1 = -0.5
 phi2 = -0.5
-r1 = 0.8999
-r2 = 0.99995
+r1 = 0.8998
+r2 = 0.9998
 lamd = 0.000001550
 Q1 = 1e5
 Q2 = 1e6
@@ -23,8 +23,8 @@ b = 0.000025
 l = 2*np.pi*b
 n = 3.45
 
-g1 = 140
-g2 = 14
+g1 = 0
+g2 = 15
 tau = (n*2*np.pi*b)/c
 
 aa = (2*np.pi*n)/(Q1*lamd)
@@ -108,7 +108,7 @@ ngt = dydx * n
 fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(8,5))
     
 axs[0,0].set_title("Transmitted field")
-#axs[0,0].set_xlim([-np.pi/6,np.pi/6])
+axs[0,0].set_xlim([-0.2,0.2])
 #axs[0,0].set_ylim([0,1.2])
 axs[0,0].set_xlabel("Frequency detuning (THz)")
 axs[0,0].set_ylabel("Transmittance")
@@ -116,21 +116,21 @@ axs[0,0].set_ylabel("Transmittance")
 axs[0,0].plot(phi1t,Etai, 'b')
 
 #axs[0,1].set_xlim([-np.pi/8,np.pi/8])
-axs[0,1].set_title("Effective Phase")
+axs[0,1].set_title("Phasor plot")
 axs[0,1].set_xlabel("Frequency detuning (THz)")
 axs[0,1].set_ylabel("Effective phase")
 axs[0,1].plot(EtaReal,EtaImag, 'm')
 #axs[0,1].plot(phi2t,PHI12*6, 'y')
 
-axs[1,0].set_xlim([-0.005,0.005])
+axs[1,0].set_xlim([-0.01,0.01])
 #axs[1,0].set_ylim([-0.1,0.1])
 axs[1,0].set_title("Effective Phase")
 axs[1,0].set_xlabel("Frequency detuning (THz)")
 axs[1,0].set_ylabel("Effective phase")
 axs[1,0].plot(phi1t,PHIt, 'r')
 
-axs[1,1].set_xlim([-0.1,0.1])
-axs[1,1].set_ylim([-5,2000])
+axs[1,1].set_xlim([-0.05,0.05])
+axs[1,1].set_ylim([0,100])
 axs[1,1].set_title("Group Index (n * dΦ/dφ)")
 axs[1,1].set_xlabel("Frequency detuning (THz)")
 axs[1,1].set_ylabel("Effective phase")
