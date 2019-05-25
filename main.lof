@@ -1,6 +1,6 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Illustration of a basic optical cavity.\relax }}{5}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Different geometeries of microresonators.[3]\relax }}{6}{figure.1.2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Different geometeries of microresonators.[1]\relax }}{6}{figure.1.2}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Illustrated energy diagram of a simple Fabry-Perot resonator\relax }}{9}{figure.2.1}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Transmitted and reflected field of an asymmetric Fabry-Perot resonator\relax }}{12}{figure.2.2}
@@ -9,49 +9,54 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Beer's law plot with attenuation 0.01/cm: y-axis shows the intensity of light and x-axis shows the distance traveled in meters.\relax }}{15}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Beer's law plot with gain value 0.01/cm: y-axis shows the intensity of light and x-axis shows the distance traveled in meters.\relax }}{16}{figure.2.6}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic illustration of the microsphere-fiber-taper system.[2]\relax }}{17}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Illustrated fields of an all pass resonator\relax }}{18}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Reflection and Transmission spectra of a passive All-pass ring resonator\relax }}{19}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Gain introduced into an all-pass resonator: we see clear difference in the intensities.\relax }}{19}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Phase diagram of an All-Pass ring resonator from 0 to $\pi $ where $r$ is the coupling parameter.\relax }}{20}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator\relax }}{20}{figure.2.12}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Illustrated fields of an add drop resonator\relax }}{21}{figure.2.13}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Reflection and Transmission spectra along with transmission phase\relax }}{22}{figure.2.14}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Reflection phase of the all-pass ring resonator.\relax }}{22}{figure.2.15}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Gain introduced into an all-pass resonator: we see clear difference in the intensities.\relax }}{23}{figure.2.16}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator from 0 to $2\pi $\relax }}{23}{figure.2.17}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Illustrated fields and geometry of a coupled ring resonator\relax }}{24}{figure.2.18}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces different coupling shown in different colors.\relax }}{18}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Illustrated fields of an all pass resonator\relax }}{19}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Reflection and Transmission spectra of a passive All-pass ring resonator\relax }}{20}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Gain introduced into an all-pass resonator: we see clear difference in the intensities.\relax }}{20}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Phase diagram of an All-Pass ring resonator from 0 to $\pi $ where $r$ is the coupling parameter.\relax }}{21}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator\relax }}{21}{figure.2.13}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Illustrated fields of an add drop resonator\relax }}{22}{figure.2.14}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Reflection and Transmission spectra along with transmission phase\relax }}{23}{figure.2.15}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Reflection phase of the all-pass ring resonator.\relax }}{24}{figure.2.16}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Gain introduced into an all-pass resonator: we see clear difference in the intensities.\relax }}{24}{figure.2.17}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator from 0 to $2\pi $\relax }}{25}{figure.2.18}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Illustrated fields and geometry of a coupled ring resonator\relax }}{26}{figure.2.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A three-level system where level 3 splits due to the much stronger field of control laser.\relax }}{27}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Electromagnetically Induced Transparency observed in a 2 ring resonator system.\relax }}{28}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Effective phase of the system in red and coupling phase shown in yellow vs frequency detuning.\relax }}{29}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Derivative of the phase of the system vs frequency detuning.\relax }}{30}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Coupled Resonator Induced Transparency with its effective phase in a passive resonator system.\relax }}{30}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Coupled Resonator Induced Transparency with in an active resonator system.\relax }}{31}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Effective phase of Coupled Resonator Induced Transparency in an active resonator system.\relax }}{32}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Group index of Coupled Resonator Induced Transparency in an active resonator system showing negative on resonant frequencies.\relax }}{32}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces CRIT of the 2 resonator system with gain activated in resonantor 1.\relax }}{33}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Effective phase shows normal dispersion (in red) and group index $n_{g}$ shown in green.\relax }}{33}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Transmission graph of two resonator system with gain activated in both (shown in red).\relax }}{33}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Phase and Group index of a resonator system with gain in both resonators.\relax }}{34}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Flipping of the EIT spectrum when gain coefficient is bigger than the attenuation coefficient.\relax }}{34}{figure.3.13}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Coupled Resonator Induced Absorption in a coupled resonator system.\relax }}{35}{figure.3.14}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Phase and group index of CRIA.\relax }}{36}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces EIA dip changes into an EIT type transmission.\relax }}{36}{figure.3.16}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Phase of the system shown in red and group index in green.\relax }}{37}{figure.3.17}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces CRIA with gain activated in resonator 1.\relax }}{37}{figure.3.18}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces CRIA phase and group index.\relax }}{38}{figure.3.19}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces CRIA with gain in both resonators.\relax }}{38}{figure.3.20}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces CRIA phase in red and group index in green.\relax }}{38}{figure.3.21}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Phase of the system shown in red and group index in green.\relax }}{39}{figure.3.22}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Transmission of the system\relax }}{39}{figure.3.23}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Phase and group index of the system.\relax }}{40}{figure.3.24}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces CRIA observed in a passive two resonator system.\relax }}{40}{figure.3.25}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Transition from fast to slow light in CRIA.\relax }}{41}{figure.3.26}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Transmission dip transforming into an tranmission peak.\relax }}{41}{figure.3.27}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Transmission dip of CRIA with gain in resonator 1.\relax }}{42}{figure.3.28}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Transmission dip transforming into an tranmission peak.\relax }}{42}{figure.3.29}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Respective phase and group index of the system.\relax }}{43}{figure.3.30}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A three-level system where level 3 splits due to the much stronger field of control laser.\relax }}{30}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Electromagnetically Induced Transparency observed in a 2 ring resonator system.\relax }}{31}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Effective phase of the system in red and coupling phase shown in yellow vs frequency detuning.\relax }}{32}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Derivative of the phase of the system vs frequency detuning.\relax }}{33}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Coupled Resonator Induced Transparency with its effective phase in a passive resonator system.\relax }}{33}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Coupled Resonator Induced Transparency with in an active resonator system.\relax }}{34}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Effective phase of Coupled Resonator Induced Transparency in an active resonator system.\relax }}{35}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Group index of Coupled Resonator Induced Transparency in an active resonator system showing negative on resonant frequencies.\relax }}{35}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces CRIT of the 2 resonator system with gain activated in resonantor 1.\relax }}{36}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Effective phase shows normal dispersion (in red) and group index $n_{g}$ shown in green.\relax }}{36}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Transmission graph of two resonator system with gain activated in both (shown in red).\relax }}{36}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Phase and Group index of a resonator system with gain in both resonators.\relax }}{37}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Flipping of the EIT spectrum when gain coefficient is bigger than the attenuation coefficient.\relax }}{37}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Coupled Resonator Induced Absorption in a coupled resonator system.\relax }}{38}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Phase and group index of CRIA.\relax }}{39}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces EIA dip changes into an EIT type transmission.\relax }}{39}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Phase of the system shown in red and group index in green.\relax }}{40}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces CRIA with gain activated in resonator 1.\relax }}{40}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces CRIA phase and group index.\relax }}{41}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces CRIA with gain in both resonators.\relax }}{41}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces CRIA phase in red and group index in green.\relax }}{41}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Phase of the system shown in red and group index in green.\relax }}{42}{figure.3.22}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Transmission of the system\relax }}{42}{figure.3.23}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Phase and group index of the system.\relax }}{43}{figure.3.24}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces CRIA observed in a passive two resonator system.\relax }}{43}{figure.3.25}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Transition from fast to slow light in CRIA.\relax }}{44}{figure.3.26}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Transmission dip transforming into an tranmission peak.\relax }}{44}{figure.3.27}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Transmission dip of CRIA with gain in resonator 1.\relax }}{45}{figure.3.28}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Transmission dip transforming into an tranmission peak.\relax }}{45}{figure.3.29}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Respective phase and group index of the system.\relax }}{46}{figure.3.30}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Basic illustration of three ring resonator geometery along with its respective fields.\relax }}{49}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces EIT observered in an EIA transmission in three resonator system with its phase in red and group index in green.\relax }}{51}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cascaded resonance effects in three resonator system with its phase in red and group index in green.\relax }}{52}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces EIA observered in an EIT transmission in three resonator system with its phase in red and group index in green.\relax }}{53}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Double absorption dips observed inside an EIA like transmission off resonant to the spectrum.\relax }}{55}{figure.4.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

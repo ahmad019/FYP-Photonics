@@ -10,7 +10,7 @@
 \BOOKMARK [2][-]{subsection.1.3.2}{Gires-Tournois}{section.1.3}% 10
 \BOOKMARK [1][-]{section.1.4}{Micro Resonators}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.4.1}{Different Geometeries}{section.1.4}% 12
-\BOOKMARK [1][-]{section.1.5}{Electromagnetically Induced Transparency and Induced Absorption \(EIT and EIA\)}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.5}{Electromagnetically Induced Transparency and Absorption \(EIT and EIA\)}{chapter.1}% 13
 \BOOKMARK [1][-]{section.1.6}{Aim and Objective}{chapter.1}% 14
 \BOOKMARK [1][-]{section.1.6}{References}{chapter.1}% 15
 \BOOKMARK [0][-]{chapter.2}{Fundamental Characteristics of Optical Resonators}{}% 16
@@ -25,34 +25,29 @@
 \BOOKMARK [2][-]{subsection.2.2.3}{Gain medium}{section.2.2}% 25
 \BOOKMARK [1][-]{section.2.3}{Ring Geometry Resonators}{chapter.2}% 26
 \BOOKMARK [2][-]{subsection.2.3.1}{Evanescent Coupling}{section.2.3}% 27
-\BOOKMARK [2][-]{subsection.2.3.2}{All-Pass Ringresonator}{section.2.3}% 28
-\BOOKMARK [2][-]{subsection.2.3.3}{Add-Drop Ringresonator}{section.2.3}% 29
-\BOOKMARK [1][-]{section.2.4}{Coupled Ring Resonator}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.4.1}{Coupled resonator induced transparency and induced absorption}{section.2.4}% 31
-\BOOKMARK [1][-]{subsection.2.4.1}{References}{chapter.2}% 32
-\BOOKMARK [0][-]{chapter.3}{Coupled Resonator Induced Transparecy and Absorption}{}% 33
-\BOOKMARK [1][-]{section.3.1}{Electromagnetically Induced Transparency}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.1.1}{EIT in Atoms}{section.3.1}% 35
-\BOOKMARK [2][-]{subsection.3.1.2}{Three level Atoms}{section.3.1}% 36
-\BOOKMARK [1][-]{section.3.2}{Coupled Resonator Induced Transparency \(CRIT\)}{chapter.3}% 37
-\BOOKMARK [2][-]{subsection.3.2.1}{CRIT with gain}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.2}{Results}{section.3.2}% 39
-\BOOKMARK [1][-]{section.3.3}{Electromagnetically Induced Absorption}{chapter.3}% 40
-\BOOKMARK [1][-]{section.3.4}{Coupled Resonator Induced Absorption}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.5}{CRIA with gain}{chapter.3}% 42
-\BOOKMARK [2][-]{subsection.3.5.1}{CRIA with slow light}{section.3.5}% 43
-\BOOKMARK [2][-]{subsection.3.5.2}{CRIA with fast light}{section.3.5}% 44
-\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 45
-\BOOKMARK [1][-]{section.3.6}{References}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{Composite Resonator Systems}{}% 47
-\BOOKMARK [1][-]{section.4.1}{Coupled resontaor with Gain medium}{chapter.4}% 48
-\BOOKMARK [2][-]{subsection.4.1.1}{Gain element}{section.4.1}% 49
-\BOOKMARK [1][-]{section.4.2}{Calculation/Equations}{chapter.4}% 50
-\BOOKMARK [2][-]{subsection.4.2.1}{For single}{section.4.2}% 51
-\BOOKMARK [2][-]{subsection.4.2.2}{For coupled}{section.4.2}% 52
-\BOOKMARK [2][-]{subsection.4.2.3}{For triple}{section.4.2}% 53
-\BOOKMARK [1][-]{section.4.3}{Coupling Regimes}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.4}{Gain controlled EIT and EIA}{chapter.4}% 55
-\BOOKMARK [0][-]{chapter.5}{Gain Incorporation}{}% 56
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 57
-\BOOKMARK [0][-]{appendix.A}{Abrevations}{}% 58
+\BOOKMARK [1][-]{section.2.4}{Coupling Regimes}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.4.1}{All-Pass Ringresonator}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.2}{Add-Drop Ringresonator}{section.2.4}% 30
+\BOOKMARK [1][-]{section.2.5}{Coupled Ring Resonator}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.5.1}{Coupled resonator induced transparency and induced absorption}{section.2.5}% 32
+\BOOKMARK [1][-]{subsection.2.5.1}{References}{chapter.2}% 33
+\BOOKMARK [0][-]{chapter.3}{Coupled Resonator Induced Transparecy and Absorption}{}% 34
+\BOOKMARK [1][-]{section.3.1}{Electromagnetically Induced Transparency}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.1.1}{EIT in Atoms}{section.3.1}% 36
+\BOOKMARK [2][-]{subsection.3.1.2}{Three level Atoms}{section.3.1}% 37
+\BOOKMARK [1][-]{section.3.2}{Coupled Resonator Induced Transparency \(CRIT\)}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.2.1}{CRIT with gain}{section.3.2}% 39
+\BOOKMARK [2][-]{subsection.3.2.2}{Results}{section.3.2}% 40
+\BOOKMARK [1][-]{section.3.3}{Electromagnetically Induced Absorption}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.4}{Coupled Resonator Induced Absorption}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.5}{CRIA with gain}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.5.1}{CRIA with slow light}{section.3.5}% 44
+\BOOKMARK [2][-]{subsection.3.5.2}{CRIA with fast light}{section.3.5}% 45
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.6}{References}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{Cascaded Resonances in Three Coupled Resonators}{}% 48
+\BOOKMARK [1][-]{section.4.1}{Triple Resonator System}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.1.1}{Transmission and Phase relations}{section.4.1}% 50
+\BOOKMARK [2][-]{subsection.4.1.2}{Passive three resonances results}{section.4.1}% 51
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 52
+\BOOKMARK [0][-]{appendix.A}{Abrevations}{}% 53

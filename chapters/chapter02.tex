@@ -7,6 +7,8 @@ Optical resonators were utilized as helpful gadgets as early as 1899, when Fabry
 \caption{Illustrated energy diagram of a simple Fabry-Perot resonator}
 \end{figure}
 
+
+
 \newpage
 
 \subsection{Theory of Fabry-Perot interferometer}
@@ -20,11 +22,7 @@ Similarly, the transmitted energy in summation is:
 {\mathcal T} = T_{1} T_{2} \sum_{m=1}^{\infty} (R_{1}R_{2})^{m-1} = \frac{T_{1} T_{2}}{1 - R_{1}R_{2}} _{\; \overrightarrow{R_{1} = R_{2} \equiv R}} \; \frac{T^{2}}{1-R^{2}} = \frac{1-R}{1+R}
 \end{equation}
 
-Assuming, be that as it may, the incident light comprises of a transiently lucid (monochromatic) plane wave, at that point the reflected power will be relative to the square of the reasonable total of every reflected field. Since the fields convey phase information with amplitudes added, the division of reflected and transmitted light depends not just on the mirror reflectivities, but in addition on the mirror separation and excitation wavelength. The rational 
-
-total of fields is amplified when every one of the fields interfere constructively (in phase) and limited when they interfere destructively (out of phase). 
-
-Phase gathers with propogation separation as $\phi(z) = \beta z$ and may likewise be gained upon communication with the mirrors. The sound forms of 
+Assuming, be that as it may, the incident light comprises of a transiently lucid (monochromatic) plane wave, at that point the reflected power will be relative to the square of the reasonable total of every reflected field. Since the fields convey phase information with amplitudes added, the division of reflected and transmitted light depends not just on the mirror reflectivities, but in addition on the mirror separation and excitation wavelength. The rational total of fields is amplified when every one of the fields interfere constructively (in phase) and limited when they interfere destructively (out of phase). Phase gathers with propogation separation as $\phi(z) = \beta z$ and may likewise be gained upon communication with the mirrors. The sound forms of 
 
 Eqs. 2.1 and 2.2 incorporate an aggregated stage factor for each round-trip that can be translated as a standardized detuning $\phi = T_{R}\omega$, where $T_{R}$ is the cavity travel time, $T_{R} = n_{eff}L/c$ for the circumference, L and effective index $n_{eff}$. Presently, $\tilde{r}$ speaks to the complex reflectivity:
 
@@ -145,6 +143,15 @@ This optical system experiences passage of light through both of the rings throu
 system.[2]}
 \end{figure}
 
+\section{Coupling Regimes}
+here I will discuss different coupling regimes for these resonators. plots are done for all pass resonator for under over and critically coupled system as well as the system in which r1 = r2 = 1 where all the light is transmitted from the all pass resonator. the graph shows pink for critical, red for over couple and green for under couple. also there is a single transmission line in orange showing 100 percent transmittance.
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{under_over_couple.eps}
+\caption{different coupling shown in different colors.}
+\end{figure}
 
 \subsection{All-Pass Ringresonator}
 A straightforward ring resonator is made by taking one yield of a conventional directional coupler and bolstering it once again into one input. Such a device displays periodic cavity resonance (reverberation) when light navigating the ring procures a phase move relating to a number numerous of 2$\pi$ radians. The resonator is numerically defined from two parts: a coupling quality and an input way. In opposition to the limitless entirety inferences performed before for the Fabry– Perot and Gires– Tournois, in which we expected steadystate task and coordinating fields and derived basic spectral properties. Although, both strategies are similarly substantial, the field-coordinating technique has the benefit of simplicity.
@@ -154,6 +161,15 @@ A straightforward ring resonator is made by taking one yield of a conventional d
 \caption{Illustrated fields of an all pass resonator}
 \end{figure}
 
+Fig. 2.8 illustrates the basic geometry of the all-pass ring resonator. The complex transmitivity and reflectivity is given by equation 2.9 and 2.10 respectively.
+
+\begin{equation}
+\frac{E_{t}}{E_{i}} = \frac{r_{1} - a_{1} e^{i\phi_{1}}}{1 - r_{1} a_{1} e^{i\phi_{1}}}
+\end{equation}
+
+\begin{equation}
+\frac{E_{r}}{E_{i}} = \frac{- t_{1} t_{2} a_{1} e^{i \frac{\phi_{1}}{2}}}{1 - r_{1} a_{1} e^{i\phi_{1}}}
+\end{equation}
 
 \subsubsection{Transmission and Reflection}
 Let us now look at some reflection and transmission spectra of a passive All-pass ring resonator. Fig. 2.6 shows that the transmission and reflection peaks are flipped as in case of an symmetric Fabry-Perot resonator.
@@ -204,6 +220,18 @@ Since this setup acts as a tight band abundancy channel that can include or drop
 \caption{Illustrated fields of an add drop resonator}
 \end{figure}
 
+The transmission and reflection relations are given as,
+
+\begin{equation}
+\frac{E_{t}}{E_{i}} = \frac{r_{1} - r_{2} a_{1} e^{i\phi_{1}}}{1 - r_{1} r_{2} a_{1} e^{i\phi_{1}}}
+\end{equation}
+
+\begin{equation}
+\frac{E_{r}}{E_{i}} = \frac{- t_{1} t_{2} a_{1} e^{i \frac{\phi_{1}}{2}}}{1 - r_{1} r_{2} a_{1} e^{i\phi_{1}}}
+\end{equation}
+
+
+
 \subsubsection{Transmission and Reflection}
 Let us now look at some reflection and transmission spectra of a passive Add- drop filter. Fig. 2.10 shows that the transmission and reflection peaks are flipped as in case of an asymmetric Fabry-Perot resonator and the transmission phase is a direct function of the detuning. Reflection phase is also shown in Fig. 2.11.
 
@@ -250,6 +278,17 @@ In this arrangement, coupling between the two resonators (rings) also play an im
 \caption{Illustrated fields and geometry of a coupled ring resonator}
 \end{figure}
 
+In this geometry, we will study the tranmittance of the system as the symeteric case is its reflection in every case. The equation for complex transmitivity of this two resonator system is,
+
+\begin{equation}
+\frac{E_{t}}{E_{i}} = \frac{r_{1} - r_{12} a_{1} e^{i\phi_{1}}}{1 - r_{1} r_{12} a_{1} e^{i\phi_{1}}}
+\end{equation}
+
+where $r_{12}$ is the coupling parameter of the second resonator and is also a complex number given by,
+
+\begin{center}
+$r_{12} = \frac{r_{2} - a_{2} e^{i\phi_{2}}}{1 - r_{2} a_{2} e^{i\phi_{2}}}$
+\end{center}
 
 \subsection{Coupled resonator induced transparency and induced absorption}
 Coupled resonators, like the one above, also shows electromagnetically induced absorption and induced transparency known as CRIT and CRIA [3,4]. These kind of effects are common in atomic systems but we have observed these effects in a ring resonator system which we will discuss in detail in coming chapters.
