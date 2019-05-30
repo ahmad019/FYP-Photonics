@@ -1,14 +1,12 @@
 \section{Electromagnetically Induced Transparency}
-Electromagnetically Induced Tranparency is a well known phenomenon in atomic physics but its all-optical analogue has generated a lot of interest in this beautiful natural phenomenon. Basically, EIT is a transparency window in transmission and absorption spectrum. This transparency window is the result of fano interference amoung different transition pathways. There is another similar concept which is known as Autler-Townes Splitting ATS, which also shows a transparency window but it is the result of strong field-driven interactions which causes the energy levels to split.
+Electromagnetically Induced Transparency (EIT) is a well-known phenomenon in atomic physics and its all-optical analog has generated tremendous interest in its physics. Basically, EIT is a transparency window in transmission and absorption spectrum. This narrow transparency window is the result of Fano-like interference among two transition pathways. There is another similar concept which is known as Autler-Townes Splitting (ATS) [1], which also shows a transparency window but it is the result of strong field-driven interactions in a two-level atomic system which causes the level to split [2].
 
-EIT also enables us to hold control over the optical response of the medium. Basically, EIT is the result of having a strong connection between the light and the matter. Amplitudes of different pathways interfere due to quantum interference effects. These can be used in applications such as all-optical switching, slow light, optical sensing, light storage and quantum information processing.
+EIT also enables us to hold control over the optical response of the medium. Basically, EIT is the result of having a strong connection between the light and the matter. Amplitudes of different pathways interfere due to quantum interference effects. These can be used in applications such as all-optical switching, slow light [8], optical sensing, light storage, and quantum information processing.
 
-In photonics, EIT is said to be observed in plasmonic structures, photonic crystals, whispering gallery mode micro cavities and coupled ring micro resonators. These devices can be summed up under one name, photonic devices and by seeing such effects we can say that we can get control of how information and energy travel through our device.
+In photonics, EIT is said to be observed in plasmonic structures, photonic crystals, whispering gallery mode microcavities and coupled ring microresonators [5-8]. These devices can be summed up under one name, photonic devices and by seeing such effects we can say that we can get control of how information and energy travel through our device.
 
 \subsection{EIT in Atoms}
-For EIT to happen classically, one may assume that all the oscillating atoms in the medium have came to a hault just to neutralize the incoming field effect and thus these electrons does not contribute in the dielectric of the material. But atoms are small and must be treated quantum mechanically, in which we deal with probability amplitudes and expected value of electron's position. For EIT to occur, we must have a three-level atomic system which we will discuss below.
-\subsection{Three level Atoms}
-In a three level system, what really happens quantum mechanically, without disrupting the escence of classical phenomenons, The probability amplitudes of level $\ket{3}$ is driven by two terms in the system. One is being the probability amplitude of the ground state $\ket{1}$ and the other is the oppositely phased and is the probability amplitude of the state $\ket{2}$. These both driving forces are opposite in signs but equal in magnitudes and have a frequecy $\omega_{p}$ and are so balanced that probabilty amplitude of state $\ket{3}$ and the expected value of the amplitude of the sinosoidal motion at every frequency that has been applied is zero. 
+A simple classical explanation for the EIT is as follows [2]. In the presence of light (electromagnetic field), the dipole inside the atom will start to oscillate due to the presence of the field. This dipole will oscillate with a certain amplitude and thus will re-emit radiation. If we introduce another field i.e light source which has the same amplitude but have a phase shift of $\pi$, then the combined effect of both the fields will cancel out. Thus then we can achieve a situation in which in spite of having an electromagnetic field, the dipole does not oscillate. Thus no radiation will be absorbed and the material becomes transparent. For EIT to occur, we must have a three-level atomic system, such as a lambda configuration, which is discussed below.
 
 \begin{figure}[h]
 \centering
@@ -16,11 +14,15 @@ In a three level system, what really happens quantum mechanically, without disru
 \caption{A three-level system where level 3 splits due to the much stronger field of control laser.}
 \end{figure}
 
-One may ask how that opposite phase for transition from the coherent states $\ket{1} \to \ket{2}$ along with the applied field $\omega_{c}$, makes absolute cancellation? Because, we use the laser pulses that generates fast enough laser photons that the phase of transitions is maintain and is the correct phase for cancellation. 
+\subsection{Three Level Atoms}
+A lambda-type three-level system is shown in Fig. 3.1. In this system, we will discuss what really happens quantum mechanically for the effect of EIT, without disrupting the essence of classical phenomenons. The probability amplitudes of level $\ket{3}$ are driven by two terms in the system. One is the probability amplitude of the ground state $\ket{1}$ and the other is the oppositely phased probability amplitude of the state $\ket{2}$. These both driving forces are opposite in signs but equal in magnitudes and have a frequency $\omega_{p}$ and are so balanced that probability amplitude of state $\ket{3}$ and the expected value of the amplitude of the sinusoidal motion at every frequency that has been applied is zero. 
 
 
-\section{Coupled Resonator Induced Transparency (CRIT)}
-We can observe EIT in coupled resonator systems as well as in other optical systems like whispering gallery resonators but the scope of this thesis is limited to ring resonators systems only. This kind of geometry (that we discussed in section 2.4) has been promising since a long time in the field of photonics. EIT can be observed in this system by mostly the explaination of classical wave travel and quantum fluctuations. The traveling photon is coupled inside the first ring through evanescent wave and travels inside the ring and acquires a phase shift equal to the round trip inside the optical cavity. When the light source and the phase shifted intracavity field matches so as that the constructive interference is amplified i-e their phases matches perfectly, then at those frequency there is a transparency window in the absorption spectrum i.e a narrow dip, or we see a sharp peak in the transmission spectrum. [2] 
+One may ask how that opposite phase for a transition from the coherent states $\ket{1} \to \ket{2}$ along with the applied field $\omega_{c}$, makes absolute cancellation? Because we use the laser pulses that generate fast enough laser photons that the phase of transitions is maintained and is the correct phase for cancellation. 
+
+
+\section{Coupled Resonator Induced Transparency \\ (CRIT)}
+We can observe EIT-like properties in various types of coupled resonator systems. However, the scope of this thesis is limited to ring resonators systems only. The optical analog of EIR is referred to as Coupled Resonator Induced Transparency (CRIT). This kind of geometry (that we discussed in section 2.4) has been promising for a long time in the field of photonics. EIT can be observed in this system by mostly the explanation of classical wave travel and quantum fluctuations.
 
 \begin{figure}[h]
 \centering
@@ -28,13 +30,14 @@ We can observe EIT in coupled resonator systems as well as in other optical syst
 \caption{Electromagnetically Induced Transparency observed in a 2 ring resonator system.}
 \end{figure}
 
-\subsubsection{Transmittance}
-Figure 3.2 displays the plot of transmitted intensity vs frequency detuning in a coupled resonator system as shown in fig. 2.16. The parameters used here are couplings $r_{1} = 0.9$ and $r_{2} = 0.999$ and attenuations $a_{1} = 0.88$ and $a_{2} = 0.9999$ for ring 1 and 2 respectively. Reproduced from the original work on \textit{Coupled resonator induced transparency} [2] from 2004.
+
+The traveling photon is coupled inside the first ring through the evanescent wave and travels inside the ring and acquires a phase shift equal to the round trip inside the optical cavity. When the light source and the phase shifted intracavity field matches so as that the constructive interference is amplified i-e their phases matches perfectly, then at those frequencies there is a transparency window in the absorption spectrum i.e a narrow dip, or we see a sharp peak in the transmission spectrum [2].
 
 
-\subsubsection{Effective Phase}
+Figure 3.2 displays the plot of transmitted intensity vs frequency detuning in a coupled resonator system (as shown in Fig. 2.16 in chapter 2). The parameters used here are couplings $r_{1} = 0.9$ and $r_{2} = 0.999$ and attenuations $a_{1} = 0.88$ and $a_{2} = 0.9999$ for ring 1 and 2 respectively. Reproduced from the original work on \textit{"Coupled resonator induced transparency"} [2] from 2004.
 
-Now let us look at the phase response of such coupled resonator system. Figure 3.3 shows effective phase of the system in red and Figure 3.4 shows the coupling phase which is the phase between the two coupled rings, in yellow. 
+
+Now let us look at the phase response of such a coupled resonator system. Figure 3.3 shows the effective phase of the system in red and shows the coupling phase, which is the phase between the two coupled rings, in yellow. 
 
 \begin{figure}[h]
 \includegraphics[scale=0.75]{coupled_ring_EIT1_phase.png}
@@ -42,21 +45,44 @@ Now let us look at the phase response of such coupled resonator system. Figure 3
 \caption{Effective phase of the system in red and coupling phase shown in yellow vs frequency detuning.}
 \end{figure}
 
-\subsubsection{Effective Phase derivative}
 Figure 3.4 shows the derivative of the phase of the system which gives us great information about the group index and group velocity of the system. 
 
 This value is directly related to the group index of the system. From the graph, we can see that there are negative values for off resonances and positive values on resonances. Which tells us that we have superluminal light off resonance and subluminal on resonance. 
+
+\begin{equation}
+\frac{1}{v_{g}} = \frac{n}{c} \frac{d\phi_{eff}}{d\omega}
+\end{equation}
+
+Where, group index and group velocity is related by, 
+\begin{align*}
+n_{g} = \frac{c}{v_{g}}
+\end{align*}
+
 \begin{figure}[h]
 \centering
 \includegraphics[scale=1]{coupled_ring_EIT1_deri.png}
-\caption{Derivative of the phase of the system vs frequency detuning.}
+\caption{Derivative of the transmitted phase of the system vs frequency detuning.}
 \end{figure}
 
-\newpage
-\subsection{CRIT with gain}
-As before, now we are going to observe what changes does the system has when we introduce gain in it. This can be introduced by pumping some monochromatic light source or a laser, in either one of the rings which will drastically incompensate the losses inside the resonator and will increase the overall output transmission of the system even above the incident light source. 
-\subsection{Results}
-We observe EIT in a coupled two resonator system, the transmission and effective phase of the system is shown displaying normal dispersion meaning slow light in the system.
+\section{Electromagnetically Induced Absorption}
+In contrast to EIT, in Electromagnetically Induced Absorption (EIA), constructive interference occurs between the transition probability amplitudes occurring across two transition pathways. Which leads to a narrow dip in the center of the broader transmission dip in the spectrum of the system, known as Electromagnetically Induced Absorption (EIA) shown in Fig. 3.14. As a whole, EIA is not a very well understood phenomenon and its classical explanation lacks the true essence.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{EIA_basic.eps}
+\caption{Coupled Resonator Induced Absorption in a coupled resonator system.}
+\end{figure}
+
+\section{Coupled Resonator Induced Absorption} 
+ 
+Coupled resonator system as discussed above also displays EIA. The optical analog of EIA is known as CRIA. CRIA can give us both fast light and slow light, most of the light leading to a different set of broad applications. The system discussed below is again a two ring resonator system as above and we will again follow the same procedure. Fig. 3.5 displays the CRIA in ring resonator system with coupling parameters as $r_{1} = 0.8998$ and $r_{2} = 0.9998$
+
+
+\subsection{CRIT in a Passive System}
+As before, now we are going to observe what changes does the system has when we introduce gain in it. For convenience, we will first see the passive results for a system and then introduce gain in either in resonator 2 or resonator 1 and then introducing gain in both of the resonators. This can be introduced by pumping some monochromatic light source or a laser, in either one of the rings which will drastically compensate the losses inside the resonator and will increase the overall output transmission of the system even above the incident light source. The system parameters are as follows, $r_{1} = 0.9889$ and $r_{2} = 0.9998$ with $Q_{1} = 1\times10^{5}$ and $Q_{2} = 1\times10^{6}$ for resonator 1 and 2 respectively (Fig. 3.6). 
+
+\section{CRIT Results}
+We observe EIT in a coupled two resonator system, the transmission and effective phase of the system is shown in fig. 3.5 displaying normal dispersion meaning slow light in the system.
 
 \begin{figure}[h]
 \includegraphics[scale=0.5]{EIT_1.eps}
@@ -64,36 +90,36 @@ We observe EIT in a coupled two resonator system, the transmission and effective
 \caption{Coupled Resonator Induced Transparency with its effective phase in a passive resonator system.}
 \end{figure}
 
-\subsubsection{Introducing gain in resonator 2}
-Now we will activate gain in the resonator 2, which has high Quality-factor (shown in red in fig. 3.6). The transmission peak of the EIT starts to rise up gradually as $g$ , the gain coefficient, is increased. The peak rises towards 1 mark up till $g \to \alpha$, where alpha is the attenuation constant. 
+\subsection{Introducing Gain Only In Second Resonator}
+Now we will activate gain in the second resonator, which has higher Quality-factor (labeled 2 in Fig. 3.7). We increase the gain to compensate for the intrinsic losses, denoted by $\alpha_{i}$, which is directly related to the Quality factor of the resonator. The transmission peak of the EIT starts to rise up gradually as $g$, the gain coefficient, is increased. The peak rises towards 1 mark up till $g \to \alpha_{i}$, where alpha is the attenuation constant for intrinsic loss. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{EIT_gain2.eps}
-\caption{Coupled Resonator Induced Transparency with in an active resonator system.}
+\caption{CRIT in an active coupled resonator system.}
 \end{figure}
 
-When $g = \alpha$ , the peak of the transmission touches the 1 mark on the graph meaning now all of the incident intensity is being detected on the other side i.e it has become completely transparent. This means that we have now compensated for all the losses inside the system which can be intrinsic, coupling or bending losses. When this happens, we see an abrupt change in thae effective phase of the system. This system now gives us anamolous dispersion on resonance meaning we get fast light in EIT. 
+When gain coefficient equals the intrinsic lost coefficient, i.e $g = \alpha_{i}$, the peak of the transmission touches the 1 mark on the graph meaning now all of the incident light is verily being transmitted the other side i.e the medium has become completely transparent for resonant frequencies. This means that we have now compensated for all the losses inside the system which are intrinsic. When this happens, we see an abrupt change in the effective phase of the system. This system now gives us anomalous dispersion on-resonance meaning we get fast light in EIT (Fig. 3.8). 
 
-To get a brief idea of what is really happenning, I have also calculated the group index of the system. In this case, we receive negative values for the group index $n_{g}$ on resonance. Fig. 3.8 displays the group index for this particular case.
+To get a brief idea of what is really happening, I have also calculated the group index of the system. In this case, we receive negative values for the group index $n_{g}$ on resonance. Fig. 3.9 displays the group index for this particular case.
 
 
-\begin{figure}[t]
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.35]{EIT_gain2_phase.eps}
-\caption{Effective phase of Coupled Resonator Induced Transparency  in an active resonator system.}
+\caption{Effective phase of CRIT in an active coupled resonator system. Magnified view of phase near resonance frequency is shown.}
 \end{figure}
 
- 	
+     
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.35]{EIT_gain2_ng.eps}
-\caption{Group index of Coupled Resonator Induced Transparency  in an active resonator system showing negative on resonant frequencies.}
+\caption{Group index of an active resonator system showing negative on resonant frequencies.}
 \end{figure}
-\newpage
 
-\subsubsection{Introducing gain in resonator 1}
-Now we will activate gain in resonator 1 (shown in red), which has lower Quality-factor in comparison to the resonator 2. The spectrum of the EIT starts to rise up and displays a hanging EIT closer to the 1 mark on the graph. (Figure 3.9)
+
+\subsection{Introducing Gain Only In First Resonator}
+Now we will activate gain in the first resonator (shown in red), which has lower Quality-factor in comparison to the resonator 2. The spectrum of the EIT starts to rise up and displays a hanging EIT. (Fig. 3.10)
 
 \begin{figure}[h]
 \centering
@@ -101,7 +127,7 @@ Now we will activate gain in resonator 1 (shown in red), which has lower Quality
 \caption{CRIT of the 2 resonator system with gain activated in resonantor 1.}
 \end{figure}
 
-The effective phase of the system remains the same as of a passive resonator, displayin normal dispersion meaning slow light. As we can also see from the group index. The index value on resonance calculated to be about $\approx 76.2$ which displays a very less reduction in the speed of light. 
+The effective phase of the system remains the same as a passive resonator, displaying normal dispersion (slow light). The index value on resonance calculated to be about $\approx 76.2$ which shows that light has been slowed down only marginally for this case (Fig. 3.11). 
 
 \begin{figure}[h]
 \includegraphics[scale=0.5]{EIT_gain1_phase.png}
@@ -110,9 +136,8 @@ The effective phase of the system remains the same as of a passive resonator, di
 \end{figure}
 
 
-\subsubsection{Introducing gain in both resonators}
-Now we will activate gain in both of the resonators simultaneously such that the ratio of the gain coefficients, $g_{1}$ and $g_{2}$, are the same. 
-We observe that the peak of the EIT as well as the whole transmission starts to rise up towards the 1 mark as $g \to \alpha$ Fig. 3.11. The EIT transmission window also narrows down gradually.
+\subsection{Introducing Gain In Both Resonators}
+Now we will activate gain in both of the resonators simultaneously such that the ratio of the gain coefficients, $g_{1}$ and $g_{2}$, are the same. We observe that the peak of the EIT, as well as the whole transmission, starts to rise up towards the 1 mark as $g \to \alpha_{i}$ Fig. 3.12. The EIT transmission window also narrows down gradually.
 
 \begin{figure}[h]
 \centering
@@ -120,7 +145,7 @@ We observe that the peak of the EIT as well as the whole transmission starts to 
 \caption{Transmission graph of two resonator system with gain activated in both (shown in red).}
 \end{figure}
 
-The effective phase of the system shows a rather distinct curves which are basically due to the artifacts in the system of computation errors. The on resonance information tells us that we have normal dispersion and positive group index about $\approx 766.5$ Fig. 3.12. 
+The effective phase of the system shows rather distinct curves which are basically due to the artifacts in the system of computation errors. The on-resonance information tells us that we have normal dispersion and positive group index about $\approx 766.5$ (Fig. 3.13). 
 
 \begin{figure}[h]
 \centering
@@ -128,7 +153,7 @@ The effective phase of the system shows a rather distinct curves which are basic
 \caption{Phase and Group index of a resonator system with gain in both resonators.}
 \end{figure}
 
-When the gain coefficient $g$ becomes greater than $\alpha$, then the whole transmission graph flips about the x-axis and we now see a distinct spectrum with an reversed EIT shown in figure 3.11.
+When the gain coefficient $g$ becomes greater than the intrinsic loss coefficient $\alpha_{i}$, then the whole transmission graph flips about the horizontal axis and we now see a distinct spectrum with a reversed EIT shown in Fig. 3.14.
 
 \begin{figure}[h]
 \centering
@@ -136,31 +161,16 @@ When the gain coefficient $g$ becomes greater than $\alpha$, then the whole tran
 \caption{Flipping of the EIT spectrum when gain coefficient is bigger than the attenuation coefficient.}
 \end{figure}
 
-This flipping of the transmission does not affect the dispersion of the medium which means the effective phase and the group index of the system remains the same in this case as well. However, we now have a transmission peak which is above the 1 mark on the graph meaning we have compensated for all the losses in the system and also we have generated extra light.
-
-\newpage
+This flipping of the transmission does not affect the dispersion of the medium. This means the effective phase and the group index of the system are similar in this case. However, we now have a transmission peak which is above unity. This shows that due to gain, intrinsic losses have been compensated and a transparent coupled resonator system is achieved.
 
 
-\section{Electromagnetically Induced Absorption}
-A similar phenomenon in which quantum interferences causes a narrow dip in the transmission spectrum of the system is known as Electromagnetically Induced Transparency (EIA). EIA is believed to occur when the probability amplitudes of the exciting electrons from a three level system, one coming from the groud state due to the probe laser and the other coming from the metastable state due to control laser of high intensity, interferes constructively thus enhancing the absorption in the resonants frequencies and no light is transmitted in that narrow bandwidth of the spectrum.
-As a whole, EIA is not a very well understood phenomenon and its classical explaination lacks the true esscence.
-
-\section{Coupled Resonator Induced Absorption} 
- 
-Coupled resonator system as discussed above also displays electromagnetically induced absorption. The optical analogue of EIA is known as CRIA. CRIA can give us both fast light and slow light, most of the light in the resonant bandwidth is absorbed thus its applications are limited. 
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=1]{EIA_basic.eps}
-\caption{Coupled Resonator Induced Absorption in a coupled resonator system.}
-\end{figure}
   
 
-\section{CRIA with gain}
-Now we will observe the behavior of the transmission spectrum of CRIA when we goin to introduce gain in it. Similarly, first we are going to activate gain in resonator 2, then into the resonator 1 and in last we activate and increase gain in both resonators simultaneously. 
+\section{CRIA Results}
+Now we will observe the behavior of the transmission spectrum of CRIA when we introduce gain in it. Similarly, first we are going to activate gain in resonator 2, then into the resonator 1 and in last we activate and increase gain in both resonators simultaneously. 
 
-\subsection{CRIA with slow light}
-We wil first see the response of the CRIA (fig. 3.14) in active medium with having normal dispersion. shown in fig. 15, with its group index.
+\subsection{CRIA With Slow Light}
+We will first examine the response of the CRIA (fig. 3.5) in a passive medium with having normal dispersion. shown in Fig. 3.15, with its group index.
 
 \begin{figure}[h]
 \centering
@@ -168,33 +178,32 @@ We wil first see the response of the CRIA (fig. 3.14) in active medium with havi
 \caption{Phase and group index of CRIA.}
 \end{figure}
   
-\subsubsection{Introducing gain in resonator 2}
-Now we activate gain in the second resonator such that $g \leqslant \alpha$ .  When the gain is closer to the value of $\alpha$ ( $g \to \alpha$) makes the EIA change into EIT type transmission.
+\subsection{Introducing Gain Only In Resonator 2}
+Now we activate gain in the second resonator such that $g \leqslant \alpha_{i}$.  When the gain becomes closer to the value of $\alpha_{i}$ ($g \to \alpha_{i}$), the EIA spectrum changes into EIT type transmission (Fig. 3.16).
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.35]{EIA_to_EIT.eps}
-\caption{EIA dip changes into an EIT type transmission.}
+\includegraphics[scale=0.30]{EIA_to_EIT.eps}
+\caption{EIA dip changes from Fig. 3.5 into an EIT type transmission when gain is introduced in second resonator.}
 \end{figure}
 
-The effective phase of the transmission changes from normal dispersion to anamolous dispersion. The group index displays negative value of $n_{g} \approx -4505$, meaning negative group delay and superluminal light.
+The effective transmission phase changes from normal dispersion to anomalous dispersion. Corresponding group index displays a negative value of $n_{g} \approx -4505$ at resonance, implying a negative group delay and therefore, superluminal light (Fig. 3.17). Thus, EIT, which in a passive coupled resonator system, always yields slow light, now enables superluminal (fast light) group velocities of resonant frequencies.
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.45]{EIA_to_EIT_phase.eps}
-\caption{Phase of the system shown in red and group index in green.}
+\caption{Phase of the system showing anomalous dispersion on resonance (zoomed) and group index showing negative values.}
 \end{figure}
 
-\subsubsection{Introducing gain in resonator 1}
-Now we activate gain in the first resonator shown in red and we see that the EIA resonance narrows down and becomes a sharp transmission dip.
+\subsection{Introducing Gain Only In Resonator 1}
+Now we activate gain in the first resonator (labeled 1 in Fig. 3.18) and observes that the EIA resonance narrows down and eventually becomes a sharp transmission dip. Fig. 3.18. Corresponding transmission phase and group index reveal normal dispersion and slow light Fig. 3.19.
+
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.45]{EIA_gain1.eps}
+\includegraphics[scale=0.30]{EIA_gain1.eps}
 \caption{CRIA with gain activated in resonator 1.}
 \end{figure}
-
-Phase and group index gives us slow light and normal dispersion.
 
 \begin{figure}[h]
 \centering
@@ -203,16 +212,15 @@ Phase and group index gives us slow light and normal dispersion.
 \end{figure}
 
 
-\subsubsection{Introducing gain in both resonators}
-Now we will activate gain in both of the resonators simultanously. We see no clear difference in the transmission spectrum when $g_{1} and g_{2} < \alpha$.
+\subsection{Introducing Gain In Both Resonators}
+Now we consider the case where the gain is activated in both of the resonators simultaneously. No notable changes occurs in the transmission spectrum when $g_{1}$ and $g_{2} < \alpha_{i}$. Fig. 3.20. The phase and group index is also shown in Fig. 3.21.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.5]{EIA_gain12.eps}
+\includegraphics[scale=0.45]{EIA_gain12.eps}
 \caption{CRIA with gain in both resonators.}
 \end{figure}
 
-The phase and group index is also shown
 
 \begin{figure}[h]
 \centering
@@ -220,50 +228,60 @@ The phase and group index is also shown
 \caption{CRIA phase in red and group index in green.}
 \end{figure}
 
-Again when $g \to \alpha$, the transmission spectrum values are very near to 1 now and we see anamolous dispersion in the effective phase of the system and negative group index of about $-4550$.
+However, if gain becomes closer to intrinsic loss, i.e $g \to \alpha_{i}$, the transmission spectrum values are very near to 1 now and we see anomalous dispersion in the effective phase of the system and negative group index of about $\approx -4550$ (see Fig.3.22).
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{EIA_gain12b.eps}
 \includegraphics[scale=0.45]{EIA_to_EIT_phase.eps}
-\caption{Phase of the system shown in red and group index in green.}
+\caption{Transmission comes closer to unity, dispersion becomes anamolous on resonance, and group index have negative values.}
 \end{figure}
 
-Further increasing the gain we observe the spectrum flips over the horizontal axis and we see that our EIA has now become an EIT like transmission. The dispersion remains anamolous uptil few values of $g > \alpha$, but after significant introduction of gain in the system, we again see a transition from fast light to slow light and normal dispersion.
+With further increase in the gain, the spectrum flips over the horizontal axis and EIA turns into an EIT like transmission Fig. 3.23. The dispersion remains anomalous as the gain is further increased, i.e $g > \alpha_{i}$. After the gain achieves a threshold value, again a transition occurs and anomalous dispersion is converted into normal dispersion Fig. 3.24.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.65]{EIA_gain12ab.eps}
+\includegraphics[width=0.40\textwidth]{EIA_gain12ab.eps}
 \caption{Transmission of the system}
 \end{figure}
-\newpage
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{EIA_gain_phase1.eps}
 \caption{Phase and group index of the system.}
 \end{figure}
 
-\subsection{CRIA with fast light}
-Now we will study CRIA which shows fast light with a passive resonator system and study the behavior when gain is introduced into it simultanously.
+It is worth noting that the EIT-like resonance shown in Fig. 3.23, usually gives slow light in passive resonators [8]. However, in the present case, fast light is obtained owing to the incorporation of a gain element into the system.
+
+\subsection{CRIA With Fast Light}
+Now we will consider a case featuring CRIA which leads to fast light in a passive coupled resonator system and studies the behavior when the gain is introduced in either one of the resonators. The coupling parameters are given as, $r_{1} = 0.8998$ and $r_{2} = 0.99998$ while the quality factors remains the same. (Fig. 3.25)
 
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.65]{EIAf_passive.eps}
 \includegraphics[scale=0.5]{EIAf_passive_phase.eps}
-\caption{CRIA observed in a passive two resonator system.}
+\caption{CRIA observed in a passive two resonator system with anamolous dispersion and negative group index.}
 \end{figure}
 
-\subsubsection{Introducing gain in resonator 2}
-Now we activate gain in the second resonator shown in red and we see that the EIA resonance narrows down and becomes a sharp. Also the dispersion of the system changes as $g \approx \alpha$ and we see normal dispersion and a positive group index.
+\subsection{Introducing Gain Only In Resonator 2}
+Now we activate gain in the second resonator, shown in the schematic (Fig. 3.26), and observes that the EIA resonance narrows down and becomes sharp. While the amplitude of the narrow CRIA feature decreases, resulting in higher transmission. 
+
+\begin{figure}[h]
+\centering 
+\includegraphics[scale=0.65]{EIAf_gain2.eps}
+\caption{Transmission spectrum of CRIA with gain in resonator 2.}
+\end{figure}
+
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.65]{EIAf_gain2.eps}
-\includegraphics[scale=0.5]{EIAf_gain2_phase.eps}
+\includegraphics[scale=0.45]{EIAf_gain2_phase.eps}
 \caption{Transition from fast to slow light in CRIA.}
 \end{figure}
 
-When gain of the system is higher than the losses, such that $g > \alpha$, then we see a change in transmission that the EIA dip has changed into an EIT peak with normal dispersion and positive group index.
+The dispersion of the system changes as gain becomes close to intrinsic loss ($g \approx \alpha_{i}$) and normal dispersion and a positive group index are obtained Fig. 3.27.
+
+However, when the gain is further increased and it exceeds the intrinsic losses, such that $g > \alpha_{i}$, the spectrum then shows a conversion from CRIA into CRIT (Fig. 3.28) with normal dispersion and positive group index.
 
 \begin{figure}[h]
 \centering
@@ -271,11 +289,10 @@ When gain of the system is higher than the losses, such that $g > \alpha$, then 
 \caption{Transmission dip transforming into an tranmission peak.}
 \end{figure}
 
-However, the effective phase and the group index remains the same even for this tranmission, but now we have more output light and less of our input signal is absorbed thus increasing its essence.
-\newpage
+However, the dispersion of the system remains unaffected. It is worth noting that although the dispersion remains subluminal for higher transmission, the transmitted light becomes transparent due to CRIT resonance.
 
-\subsubsection{Introducing gain in resonator 1}
-Now we activate gain in the first resonator. We see that the EIA resonance narrows down and becomes a sharp dip. Also we see two off resnonces starts to appear. As $g \approx \alpha$, the dip is narrow and touches the zero in the graph meaning almost all of the light is absorbed. We still see fast light and negative group index from here but most of the light is absorbed. The transmission spectrum is shown for $g > \alpha$.
+\subsection{Introducing Gain Only In Resonator 1}
+We again start with the passive CRIA of Fig 3.26. However, now we introduce gain in the first resonator only. We observe the CRIA resonance narrows down and becomes a sharp dip. Also, two off-resonances peaks appear in the spectrum. As $g \approx \alpha_{i}$, the resonance becomes further narrower and the system moves towards critical coupling. We still see fast light and negative group index from here but most of the light is absorbed. The transmission spectrum in Fig. 3.28 is shown for $g > \alpha_{i}$.
 
 \begin{figure}[h]
 \centering
@@ -283,8 +300,8 @@ Now we activate gain in the first resonator. We see that the EIA resonance narro
 \caption{Transmission dip of CRIA with gain in resonator 1.}
 \end{figure}
 
-\subsubsection{Introducing gain in both resonator}
-When we introduce gain in both of the resonator simultaneously, then we see similar effects as with gain activated in resonator 2. But the transmission dip changes into a peak when $g > \alpha$ meaning all the losses are compensated and we have normal dispersion with an high amount of transmission.
+\subsection{Introducing Gain In Both Resonator}
+If we introduce gain in both of the resonators of an initially passive system, simultaneously, we observe the narrow of CRIA dip and rise of the transmission towards unity. However, the transmission dip changes into a peak when the gain is greater than intrinsic losses ($g > \alpha_{i}$) owing to the transparency of the system (Fig. 3.30). The CRIT resonance of this transparent system leads to normal dispersion and positive group index of $\approx 2\times10^{4}$ (Fig.3.30).
 
 \begin{figure}[h]
 \centering
@@ -298,16 +315,45 @@ When we introduce gain in both of the resonator simultaneously, then we see simi
 \caption{Respective phase and group index of the system.}
 \end{figure}
 
+These observations lead to the conclusion that when we introduce gain into the system, with it being activated in either one of the resonators or both, we observe drastic changes in the transmission and phase spectrums thus affecting the group delay and dispersion of the system. This allowed achieving gain-assisted tunability of the dispersion of the system, meaning the transitions between fast and slow light can be controlled by simply introducing gain into a passive coupled resonator system.
 
-\section{Conclusion}
-We have clearly observed by studying the properties of different cases of a coupled resonator system. This observation told us that when we introduce gain into the system, we can see drastic changes in the transmission and phase spectrum of the system thus affecting the group delay and dispersion of the system. This allowed acheive gain tunability in these system which means that we can tune between fast and slow light by simply introducing gain inside the system.
+\subsection{Gain Controlled Photon Storage}
+Coupling parameter between the resonators $r_{2}$, which is the internal coupling of the two rings, can induce very distinct changes into the system.
+
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.40\textwidth]{photon_storage.png}
+\caption{Single resonance displayed in a coupled resonator system with its transmission phase.}
+\end{figure}
+
+Now we will discuss a case in which the coupling between the first and the second resonator is very weak and the resonance of the second resonator is almost zero. Meaning we have a single resonance transmission at critically coupled i.e all of the light is absorbed. Fig. 3.31 displays the transmission spectrum along with its phase. 
+
+Now we will excite gain into both of the resonators of the system such that the gain  coefficients, $g_{1}$ and $g_{2}$, are greater than the intrinsic loss coefficient $\alpha_{i}$. Now we observe a transmission peak of 100 percent intensity meaning now we have the photon storage achieved via gain tuning. This process happens at nanoseconds scale meaning we can switch from zero to maximum intensity in nanoscale times. Fig. 3.32 displays the gain amplified transmission with normal dispersion meaning we have slow light which is the main ambition.
+
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.50\textwidth]{photon_storage_gain.png}
+\caption{Single resonance displayed in a coupled resonator system with its transmission phase.}
+\end{figure}
+
+\newpage
+\section{Discussion}
+We exhibited increase tunable optical analogs of Electromagnetically Induced Transparency (EIT) and Electromagnetically Induced Absorption (EIA). This enabled us to unequivocally control superluminal and subluminal group speeds of light in a coupled ring resonator framework, with a direct increase excitation and empowered reversible advances between them. Besides, we watched sub and superluminal light including all-optical EIT reverberation, which in every single past examination, in view of inactive coupled ring resonators, has been seen to yield just subluminal light.
+
 
 \newpage
 \section*{References}
 \addcontentsline{toc}{section}{References}
 
-\paragraph{\normalfont \large $[1]$ Electromagnetically Induced Transparency, Stephen E. Harris, Physics Today, July 1997 \\ 
-\\$[2]$ Coupled-resonator-induced transparency, PHYSICAL REVIEW A 69, 063804 (2004)
-\\$[3]$ What is and what is not electromagnetically induced transparency in whispering-gallery microcavities, DOI:10.1038/ncomms6082, Published 24 Oct 2014 \\
-\\$[4]$  Induced transparency and absorption in coupled whispering gallery microresonators, PHYSICAL REVIEW A 71, 043804, published 5 April 2005\\
-\\$[5]$  }
+\paragraph{\normalfont \large $[1]$ S. H. Autler and C. H. Townes, “Stark effect in rapidly varying fields,” Phys. Rev. \textbf{100} (1955) \\ 
+\\$[2]$ S. E. Harris, "Electromagnetically Induced Transparency" Physics Today, July 1997 \\
+\\$[3]$ D. D. Smith, H. Chang, K. A. Fuller, A. T. Rosenberger, and R. W. Boyd, “Coupled-resonator-induced transparency,” Phys. Rev. A \textbf{69}, 063804 (2004) \\
+\\$[4]$  A. Naweed, G. Farca, S. Shopova, and A. T. Rosenberger, “Induced transparency and absorption in coupled
+whispering-gallery microresonators,” Phys. Rev. A \textbf{71} (2005).
+\\ $[5]$ B. Peng1, S. K. Ozdemir, W. Chen, F. Nori, L. Yang "What is and what is not electromagnetically induced transparency in whispering-gallery microcavities", Nature. Comm. (2014).\\
+\\ $[6]$ Y.C. Liu, B.B. Li, and Y.F. Xiao "Electromagnetically induced transparency in optical microcavities", nanoph-2016-0168, (2017).\\
+\\ $[7]$ S. Zhu, L. Shi, S. Yuan, R. Ma, X. Zhang and X. Fan, "All-optical controllable electromagnetically induced transparency in coupled silica microbottle cavities", nanoph-2018-0111 (2018).\\
+\\ $[8]$ A. Naweed, "Photonic coherence effects from dual-waveguide
+coupled pair of co-resonant microring resonators", Opt. Exp. \textbf{23} (2015).\\
+\\ $[9]$ K. Totsuka, N. Kobayashi, and M. Tomita, “Slow light in coupled-resonator-induced transparency,” Phys. Rev.
+Lett. \textbf{98}(21), 213904 (2007).}
