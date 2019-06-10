@@ -80,13 +80,17 @@ Phaser plots are another useful way to study the behavior of light inside the op
 \subparagraph{\normalfont \large The resonance condition is fulfilled when the (compelling) circumference of the ring, or for the most part the round-trip length, is equivalent to a whole number numerous of the optical wavelength inside the medium. This means a progression of Lorentzian-molded transmission bends equally dispersed in recurrence by the FSR (Free Spectral Range), with the resonance linewidth portraying the capacity time of photons inside the cavity. The photon lifetime can be standardized to one optical cycle, known as the quality factor (${\mathcal Q}$), or the cavity round-trip time, known as the cavity Finesse (${\mathcal F}$). The most extreme reachable Q-factor is characterized as ${\mathcal Q_{int}}$, which is the intrinsic loss of the cavity such that, ${\mathcal Q_{int}} = 2\pi\,n/(\alpha_{i}\,\lambda_{res})$ [16] where $\alpha_{i}$ is the intrinsic loss coefficient and $\lambda_{res}$ is the free-space resonant wavelength.  At the point when the resonator is coupled to the outer world, the Q-factor further decreases because of the loss imported by the coupler (${\mathcal Q_{ext}}$). This Q-factor, which defines mostly coupling and related external losses, can be given by ${\mathcal Q_{ext}} = (2n \pi L)/ {\lambda_{res}\, T}$, where $L$ is the circumference of the resonator (in case of a ring), $\lambda_{res}$ is the resonant frequency, and $T$ is the transmitivity coefficient. Thus the total quality factor ${\mathcal Q_{load}}$ is comprised of these two parts: ${\mathcal Q_{load}^{-1}}$ = ${\mathcal Q_{int}^{-1}}$ + ${\mathcal Q_{ext}^{-1}}$.}
 
 \begin{align*}
-{\mathcal F}inese = \frac{FSR}{FWHM} \\ 
+{\mathcal F}inese = \frac{2 \pi}{\gamma} \\ 
 \\
-{\mathcal F}inese = \frac{2\pi}{2ra\cos{(\frac{2ra}{1+a^{2}r^{2}})}} \\
+{\mathcal \gamma} = \frac{4}{\sqrt{F}} \\
+\\
+F = (\frac{2r}{1-r})^{2} 
 \end{align*}
-{\normalfont If $ra = 1$ then,} \\
+
+Thus,
+
 \begin{equation}
-{\mathcal F}inese = \frac{\pi}{1-ra}
+{\mathcal F}inese = \frac{\pi \sqrt{F}}{2}
 \end{equation}
 
 Similarly, 
@@ -94,7 +98,7 @@ Similarly,
 \begin{align*}
 {\mathcal Q}_{factor} = \frac{\lambda_{res}}{FWHM} \\ 
 \\
-{\mathcal Q}_{factor} = \frac{nLf}{\lambda} \\
+{\mathcal Q}_{factor} = \frac{nLf}{\lambda}
 \end{align*}
 \begin{equation}
 {\mathcal Q}_{factor} = m f
@@ -102,13 +106,13 @@ Similarly,
 
 
 \section{Ring Shaped Resonators}
-Optical interferometers such as Fabry-Perot or Gires-Tournois resonators are extremely useful in making devices that are compatible in making spectroscopy tools, add-drop filters for specific optical frequencies, laser cavities as well as dispersion compensators. But due to their free space structural design, they are quite incompatible with planar integrated technology. Thus we require another geometry of devices which have similar spectral properties as those. Which can be fabricated easily and effectively on microchips and waveguiding geometries by coupling of different waveguides in a ring shape.
+Optical interferometers such as Fabry-Perot or Gires-Tournois resonators are extremely useful in making devices that are compatible in making spectroscopy tools, add-drop filters for specific optical frequencies, laser cavities as well as dispersion compensators. Due to their free space structural design, they are quite incompatible with planar integrated technology. Thus, we require another geometry of devices which have similar spectral properties. These can be fabricated easily and effectively on microchips and waveguiding geometries by molding of different waveguides into a ring shape.
 
 Let us now discuss how to ring resonators, whose principle is pretty much similar to the Fabry-Perot resonator and are more simple to make, operate. Basically, a ring resonator is a simple waveguide which is turned in the shape of a ring (see Fig. 2.5). This allows it to exhibit resonant behavior on very specific frequencies.
 
 
 \subsection{Evanescent Coupling}
-These optical systems experience the passage of light through the ring from the optical waveguide, through an evanescent coupling. Which is a classical phenomenon with quantum-like properties. This is the power transfer of the wave which is dependant on the proximity of the optical resonator and the waveguide also the length or area that has been exposed to the coupler also plays an important role i.e how much part of the waveguide/resonator overlaps; shown in Fig. 2.5.
+The optical systems discussed above experiences the passage of light across the ring from the optical waveguide through a process known as evanescent coupling. Evanescent coupling is a classical phenomenon whose quantum interpretation is exactly as photon tunneling. It is basically the power transfer of the wave which is directly dependant on the proximity of the bent waveguide and from the straight waveguide. Also, the length or area that has been exposed to the coupler also plays an important role in i.e how many parts of the waveguide/resonator overlaps; illustrated in Fig. 2.5.
 \subparagraph{\normalfont \large Coupling strength of an ideal coupler is dependant on the interaction length between the two optical modes which means that the power will transfer more efficiently when the two modes are matched on the basis of their respective phases. This allows us to observe distinct behaviors as well as multiple resonances in transmittance and reflectance.} 
 
 \begin{figure}[h]
@@ -118,10 +122,23 @@ These optical systems experience the passage of light through the ring from the 
 system.[2]}
 \end{figure}
 
-\subparagraph{\normalfont \large The light is coupled inside the ring due to two sets of coupling approaches, one being lateral and other being vertical. These two approaches are necessary for the light from the optical waveguide to the couple inside the bent waveguide. The light stays, or resonates, inside the bent waveguide due to the effect of total internal reflection. Lateral coupling requires the same plane fabrication of waveguide and bent waveguide which are easier to fabricate. To ensure strong coupling, small separation is required between the waveguide and bent waveguide. Lateral configuration requires a single layer only but very accurate lithography and etching processes must be done to open up the gaps between straight and ring waveguides with high precision. In vertical coupling transport and bent, waveguides are etched in various layers. Vertical coupling expels the index contrast restriction of lateral coupling, additionally, it is an empowering innovation for the ring radii less than $ \approx5 \mu m$. Another bit of leeway of the vertical arrangement is that the ring and waveguide layers don't need to be a similar thickness, which improves the design opportunity.}
+\subparagraph{\normalfont \large The light is coupled inside the ring due to two sets of coupling approaches, one being lateral and other being vertical. Either one of these two approaches is necessary for the light from the optical waveguide to couple inside the bent waveguide (ring). The light stays, or resonates, inside the bent waveguide due to the effect of total internal reflection. Lateral coupling requires the same plane fabrication of waveguide and bent waveguide which are easier to fabricate. To ensure strong coupling, small separation is required between the waveguide and bent waveguide. Lateral configuration requires a single layer only but very accurate lithography and etching processes must be done to open up the gaps between straight and ring waveguides with high precision. In vertical coupling transport and bent waveguides are etched in various layers. Vertical coupling expels the index contrast restriction of lateral coupling, additionally, it is an empowering innovation for the ring radii less than $ \approx5 \mu m$. Another bit of leeway of the vertical arrangement is that the ring and waveguide layers don't need to be a similar thickness, which improves the design opportunity.}
 
 
 These resonators, when fabricated on the chip, display different effects of coupling and transfer of wave energy. These kinds of behaviors have been noticed in all kind of classical waves, such as sound waves, which was first observed inside a large cathedral's halls, thus it was named whispering gallery modes [4]. Also, these resonators can be made using different material but in the scope of this thesis, we used semiconductor silicon as the primary material. 
+
+
+\subsection{Coupling Regimes}
+
+The transmission spectrum of the waveguide-ring coupled system now depends on the proximity and coupling effects. Let us discuss different coupling conditions for these resonators. Fig. 2.11 shows plots for an all-pass resonator for under, over, and critically coupled system and also for a lossless all-pass system.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{under_over_couple.eps}
+\caption{Different couplings shown in different colors.}
+\end{figure}
+
+Light when couples inside the ring will lose some part of its intensity. The amount of light that travels inside the ring will acquire a phase shift by completing one round trip and will now interfere destructively with the light which was not coupled inside the resonator. If the phase shifted light has amplitude weaker than the original or uncoupled light, the regime will be known as under-coupled. If the amplitude is higher than the original pulse, the regime would be over-coupled. Similarly, when the amplitude matches exactly with the outside light, the regime would be known as critically coupled. Also, if the light passes through the system without any attenuation or loss, we get $100\%$ transmission.
 
 
 \section{Gain Incorporation in Resonators}
@@ -158,7 +175,7 @@ I(z) = I_{o}\exp( +g z)
 \end{figure}
 
 \subsection{Gain Medium}
-The active laser medium also called gain medium or lasing medium is the source of optical increase inside a laser. The gain is the result of stimulated emission of electronic or sub-atomic changes to a lower energy state from a higher energy state recently populated by a pump source. This gain in optical systems is usually used for amplification purposes and hence make optical amplifiers. Certain crystals, typically doped with rare-earth ions (e.g. neodymium, ytterbium, or erbium) or transition metal ions (titanium or chromium) can be used as a gain medium. Also, Semiconductors, e.g. gallium arsenide (GaAs), indium gallium arsenide (InGaAs), or gallium nitride (GaN) can also be used when doped [14]. Also, some material such as liquids in the form of dye solutions as used in dye lasers, can also be used to make gain element for active resonators [15].
+The active laser medium also called gain medium or lasing medium is the source of optical increase inside a laser. The gain is the result of stimulated emission of electronic or sub-atomic changes to a lower energy state from a higher energy state recently populated by a pump source. This gain in optical systems is usually used for amplification purposes and hence make optical amplifiers. Certain crystals, typically doped with rare-earth ions (e.g. neodymium, ytterbium, or erbium) or transition metal ions (titanium or chromium) can be used as a gain medium. Also, Semiconductors, e.g. gallium arsenide (GaAs), indium gallium arsenide (InGaAs), or gallium nitride (GaN) can also be used when doped [14]. Also, some material such as liquids in the form of dye solutions as used in dye lasers can also be used to make a gain element for active resonators [15].
 
 
 \section{Group Delay and Group Advance}
@@ -173,7 +190,7 @@ Here, $n_{g}$ is the group index of the material and $\omega$ is the frequency o
 v_{g} = \frac{c}{n_{g}}
 \end{align*}
 
-Thus the reduction of the light experience in its velocity inside a dispersive medium. If the value of $n_{g} \approx 10^{8}$, then we experience ultra slow velocities of light which are measured up to $8m/s$ [17-19]. If group index becomes less than 1, such that $n_{g} < 1$, then we observe group velocities greater than the speed of light in vacuum, such that, $v_{g} > c$. This does not violate Einstein's Theory of Relativity [20] because there exist various proposals [5–8] for observing such effects by using anomalous dispersion near an absorption or gain lines [7-8]. The group index can also become negative, such that $n_{g} < 0$, resulting in negative group velocities which are sometimes also referred as 'Backward light' because it appears to propagate backward in the medium. We can understand the negative group velocity by having a medium of length $d$, so it will take $d/v_{g} = n_{g}d/c$ amount of propagation time for a light pulse to cross it. And the vacuum transition time would be $d/c$, thus the time delay would be $\Delta T = d/v_{g} - d/c$ which can be written as, $(n_{g}-1)L/c$. So for negative values of $n_{g}$, the delay time $\Delta T$ is negative which results in advancement. Which is a sense is to say, that if the light pulse incident on such medium, the light pulse would appear on the other side sooner than if it had traveled through a vacuum. Figure 2.8 illustrates the propagation through a negative index medium [9]. 
+Thus the reduction of the light experience in its velocity inside a dispersive medium. If the value of $n_{g} \approx 10^{8}$, then we experience ultra slow velocities of light which are measured up to $8m/s$ [17-19]. If group index becomes less than 1, such that $n_{g} < 1$, then we observe group velocities greater than the speed of light in vacuum, such that, $v_{g} > c$. This does not violate Einstein's Theory of Relativity [20] because there exist various proposals [5–8] for observing such effects by using anomalous dispersion near an absorption or gain lines [7-8]. The group index can also become negative, such that $n_{g} < 0$, resulting in negative group velocities which are sometimes also referred as 'Backward light' because it appears to propagate backward in the medium. We can understand the negative group velocity by having a medium of length $d$, so it will take $d/v_{g} = n_{g}d/c$ amount of propagation time for a light pulse to cross it. And the vacuum transition time would be $d/c$, thus the time delay would be $\Delta T = d/v_{g} - d/c$ which can be written as, $(n_{g}-1)L/c$. So for negative values of $n_{g}$, the delay time $\Delta T$ is negative which results in group advancement. This concept can be perceived as that if the light pulse is incident on such medium, the light pulse would appear on the other side sooner than if it had traveled through a vacuum. Figure 2.8 illustrates the propagation through a negative index medium [9]. 
 
 \begin{figure}[h]
 \centering
@@ -181,7 +198,7 @@ Thus the reduction of the light experience in its velocity inside a dispersive m
 \caption{Time intervals of a wave propagating through a negative index material. Notice that the peak of entering pulse leaves before it enters the system.}
 \end{figure}
 
-The slow light propagation of light is enhanced by EIT which is a transparency window in the absorption line of the system. Slow light can be used in optical buffers where controllable slow light can dramatically increase the system's performance. Also, the spectral sensitivity of an interferometer[11] can be highly enhanced by introducing a slow-light medium, as well as slow light, has a large number of uses in defense applications. Fast light, on the other hand, can be used to make ultra-sensitive gyroscopes [12] and gravitational wave detectors in the fields of astrophysics [13].
+The slow light propagation of light is enhanced by EIT which is a transparency window in the absorption line of the system. Slow light can be used in optical buffers where controllable slow light can dramatically increase the system's performance. Also, the spectral sensitivity of an interferometer[11] can be highly enhanced by introducing a slow-light medium, as well as slow light has a large number of uses in defense applications. Fast light, on the other hand, can be used to make ultra-sensitive gyroscopes [12] and gravitational wave detectors in the fields of astrophysics [13].
 
 
 
@@ -209,19 +226,6 @@ Let us look at the transmission spectra of the passive and active all-pass ring 
 \includegraphics[width=0.45\textwidth]{all-pall_gain.png}
 \caption{Transmission spectra of a passive All-pass ring resonator}
 \end{figure}
-
-\subsection{Coupling Regimes}
-
-Also, the transmission spectra now depend deeply on the coupling effects of the optical waveguide and the ring resonator. Let us discuss different coupling parameters for these resonators. Fig. 2.11 shows plots for an all-pass resonator for under, over, and critically coupled system. 
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.5\textwidth]{under_over_couple.eps}
-\caption{Different couplings shown in different colors.}
-\end{figure}
-
-Under coupling is achieved when the first coupling is weaker than the second coupling to the waveguide. Over coupling is achieved when the first coupling is stronger and Critically coupled means that the attenuation $a = 1$ and we have the full transmission of the input signal. Also, there is a case in which all the light is transmitted from the all-pass resonator. The graph shows pink for critical, red for over couple and green for under couple. also, there is a single transmission line in orange showing $100\%$ transmittance.
-
 
 
 \subsection{Effective Phase}
@@ -272,13 +276,14 @@ Let us now look at some reflection and transmission spectra of a passive Add- dr
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.89\textwidth]{all_pass_plots_a.png}
+\includegraphics[width=0.5\textwidth]{all_pass_plots_a.png}
+\includegraphics[width=0.5\textwidth]{all_pass_plots_a2.eps}
 \caption{Reflection and Transmission spectra along with transmission phase} 
 \end{figure}
 \newpage
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.5\textwidth]{all_pass_plots_b.png}
+\includegraphics[width=0.5\textwidth]{all_pass_plots_b.eps}
 \caption{Reflection phase of the all-pass ring resonator.}
 \end{figure}
 
@@ -304,7 +309,7 @@ Now let us see how complex plots of Add drop is different from the All-pass reso
 
 \section{Two Coupled Ring Resonator}
 Now we turn another optical waveguide into a ring shape and install it on the top of the all-pass ring resonator such that now we have dual ring geometry and a waveguide coupler. This geometry does allow resonant behaviors and the spectra vary largely from an all-pass resonator.
-In this arrangement, the coupling between the two resonators (rings) also plays an important role in the spectra of the light that passes through the resonator. Fig. 2.19 displays the basic geometry of the couple ring system we are going to discuss along with their energies. The circumference of these resonators are same for both rings given by $b = 25\mu m$, and the refractive index for these resonators is $n=3.45$ and the Qualty Factors are given as $Q_{1} = 1\times10^{5}$ and $Q_{2} = 1\times10^{6}$
+In this arrangement, the coupling between the two resonators (rings) also plays an important role in the spectra of the light that passes through the resonator. Fig. 2.19 displays the basic geometry of the couple ring system we are going to discuss along with their energies. The circumference of these resonators are same for both rings given by $b = 25\mu m$, and the refractive index for these resonators is $n=3.45$ and the Quality Factors are given as $Q_{1} = 1\times10^{5}$ and $Q_{2} = 1\times10^{6}$
 
 \begin{figure}[h]
 \centering
@@ -326,36 +331,36 @@ r_{12} = \frac{r_{2} - a_{2} e^{i\phi_{2}}}{1 - r_{2} a_{2} e^{i\phi_{2}}}
 
 
 \subsection{Coupled Resonator Induced Transparency and Absorption}
-Coupled resonators, like the one above, have been observed to display the quantum interference effects like Electromagnetically Induced Transparency and Electromagnetically Induced Absorption (EIT and EIA). Their optical analog is known as CRIT and CRIA [3,4]. These kind of effects are common in atomic systems with at least 3 discrete energy levels. This enables enhanced dispersion and transitions from superluminal and subluminal group velocities. These effects will be discussed in details using ring geometry optical microresonators in later chapters.
+Coupled resonator systems, like the one above, have been observed to display the quantum interference effects like Electromagnetically Induced Transparency and Electromagnetically Induced Absorption (EIT and EIA) via their optical analog known as Coupled Resonator Induced Transparency and Absorption (CRIT and CRIA) [3,4]. These quantum interference effects are observed in atoms with at least 3 energy levels but the similar optical analogs of these effects can be seen in these classical resonator systems. This enables enhanced dispersion and transitions from superluminal and subluminal group velocities at room temperature and in micro level scale. These effects will be discussed in detail using ring geometry optical microresonators in later chapters.
 
 \newpage
 \section*{References}
 \addcontentsline{toc}{section}{References}
-\paragraph{\normalfont \large $[1]$ J. Heebner, R. Grover, T. Ibrahim "Optical Microresonators, Theory, Fabrication, and Applications", Springer Science+Business Media (2008)\\
-\\ $[2]$ K. Totsuka and M. Tomita "Dynamics of fast and slow pulse propagation through a microsphere–optical-fiber system", Phy. Rev. E \textbf{75} (2007)\\
+\paragraph{\normalfont \large $[1]$ J. Heebner, R. Grover, T. Ibrahim “Optical Microresonators, Theory, Fabrication, and Applications", Springer Science+Business Media (2008)\\
+\\ $[2]$ K. Totsuka and M. Tomita “Dynamics of fast and slow pulse propagation through a microsphere–optical-fiber system", Phy. Rev. E \textbf{75} (2007)\\
 \\ $[3]$ D. D. Smith, H. Chang, K. A. Fuller, A. T. Rosenberger, and R. W. Boyd, “Coupled-resonator-induced
 transparency,” Phys. Rev. A \textbf{69}, 063804 (2004)\\
 \\ $[4]$ A. Naweed, G. Farca, S. Shopova, and A. T. Rosenberger, “Induced transparency and absorption in coupled
 whispering-gallery microresonators,” Phys. Rev. A \textbf{71} (2005).\\
-\\ $[5]$ C. G. B. Garrett, and D. E. McCumber,  "Propagation of a Gaussian light pulse through an anomalous dispersion medium." Phys. Rev. A \textbf{1}, 305 (1970).\\
-\\ $[6]$ Chu, S. and Wong, S. Linear pulse propagation in an absorbing medium. Phys. Rev. Lett. \textbf{48}, 738
+\\ $[5]$ C. G. B. Garrett, and D. E. McCumber,  “Propagation of a Gaussian light pulse through an anomalous dispersion medium." Phys. Rev. A \textbf{1}, 305 (1970).\\
+\\ $[6]$ Chu, S. and Wong, S. “Linear pulse propagation in an absorbing medium.“ Phys. Rev. Lett. \textbf{48}, 738
 (1982).\\
 \\ $[7]$ Chiao, R. Y. Superluminal (but causal) propagation of wave packets in transparent media with inverted atomic populations. Phys. Rev. A \textbf{48}, R34 (1993).\\
-\\ $[8]$ Bolda, E., Garrison, J. C. and Chiao, R. Y. Optical pulse propagation at negative group velocities due to a nearby gain line. Phys. Rev. A \textbf{49}, 2938 (1994).\\
-\\ $[9]$ R.W. Boyd and D. Gauthier "Controlling the Velocity of Light Pulses", Science \textbf{326} (2009)\\
-\\ $[10]$ L. J. Wang, A. Kuzmich and A. Dogariu "Gain-assisted superluminal light propagation", Nature \textbf{406} (2000)\\
+\\ $[8]$ Bolda, E., Garrison, J. C. and Chiao, R. Y. “Optical pulse propagation at negative group velocities due to a nearby gain line." Phys. Rev. A \textbf{49}, 2938 (1994).\\
+\\ $[9]$ R.W. Boyd and D. Gauthier “Controlling the Velocity of Light Pulses", Science \textbf{326} (2009)\\
+\\ $[10]$ L. J. Wang, A. Kuzmich and A. Dogariu “Gain-assisted superluminal light propagation", Nature \textbf{406} (2000)\\
 \\ $[11]$  K. J. Vahala, “Optical microcavities,” Nature \textbf{424}, 839 (2003).\\
 \\ $[12]$  Z. Shi, R. W. Boyd, D. J. Gauthier, C. C. Dudley, “Enhancing the spectral sensitivity of interferometers
 using slow-light media” Opt. Let. \textbf{32}, 8 (2007).\\
 \\ $[13]$  M. Salit, G. S. Pati, K. Salit and M. S. Shahriar “Fast-light for astrophysics: super-sensitive gyroscopes and gravitational wave detectors” Journal of Modern Optics \textbf{54}, 16 (2007).\\
 \\ $[14]$\,  Hecht, Jeff. The Laser Guidebook: Second Edition. McGraw-Hill, 1992. (Chapter 18-21).\\
 \\ $[15]$  F. J. Duarte and L. W. Hillman (Eds.), Dye Laser Principles (Academic, New York, 1990).\\
-\\ $[16]$ A. Naweed, "Photonic coherence effects from dual-waveguide coupled pair of co-resonant microring resonators", Opt. Exp. \textbf{23} (2015).
-\\ $[17]$ Hau, L. V., Harris, S. E., Dutton, Z. and Behroozi, C. H. Light speed reduction to 17 meters per second in
-an untracold atomic gas. Nature \textbf{397}, 594 (1999).\\
-\\ $[18]$  Kash, M. M. et al. Ultraslow group velocity and enhanced nonlinear optical effects in a coherently
-driven hot atomic gas. Phys. Rev. Lett. \textbf{82}, 5229 (1999).\\
-\\ $[19]$ Budker, D., Kimball, D. F., Rochester, S. M. and Yashchuk, V. V. Nonlinear magneto-optics and reduced
-group velocity of light in atomic vapor with slow ground state relaxation. Phys. Rev. Lett. \textbf{83}, 1767 (1999).\\
+\\ $[16]$ A. Naweed, “Photonic coherence effects from dual-waveguide coupled pair of co-resonant microring resonators", Opt. Exp. \textbf{23} (2015).\\
+\\ $[17]$ Hau, L. V., Harris, S. E., Dutton, Z. and Behroozi, C. H. “Light speed reduction to 17 meters per second in
+an ultracold atomic gas." Nature \textbf{397}, 594 (1999).\\
+\\ $[18]$  Kash, M. M. et al. “Ultraslow group velocity and enhanced nonlinear optical effects in a coherently
+driven hot atomic gas." Phys. Rev. Lett. \textbf{82}, 5229 (1999).\\
+\\ $[19]$ Budker, D., Kimball, D. F., Rochester, S. M. and Yashchuk, V. V. “Nonlinear magneto-optics and reduced
+group velocity of light in atomic vapor with slow ground state relaxation." Phys. Rev. Lett. \textbf{83}, 1767 (1999).
 \\ $[20]$ Einstein, A., Lorentz, H. A., Minkowski, H. and Weyl, H. The Principle of Relativity, Collected Papers
 (Dover, New York, 1952).}
