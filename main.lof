@@ -27,7 +27,7 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Effective phase of the system in red and coupling phase shown in yellow vs frequency detuning.\relax }}{36}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Derivative of the transmitted phase of the system vs frequency detuning.\relax }}{37}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Electromagnetically Induced Absorption in a coupled two ring resonator system known as Coupled Resonator Induced Absorption.\relax }}{38}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Coupled Resonator Induced Transparency with its effective phase in a passive resonator system.\relax }}{39}{figure.3.6}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces CRIT with its effective phase in a passive resonator system.\relax }}{39}{figure.3.6}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces CRIT in an active coupled resonator system.\relax }}{39}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Effective phase of CRIT in an active coupled resonator system. Magnified view of phase near resonance frequency is shown.\relax }}{40}{figure.3.8}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Group index of an active resonator system showing negative values on resonant frequencies.\relax }}{40}{figure.3.9}
@@ -37,9 +37,9 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Phase and group index of a resonator system with gain in both resonators.\relax }}{42}{figure.3.13}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Flipping of the EIT spectrum when gain coefficient is larger than the attenuation coefficient.\relax }}{43}{figure.3.14}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Phase and group index of CRIA.\relax }}{43}{figure.3.15}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces EIA dip changes from Fig. 3.5 into an EIT type transmission when gain is introduced in second resonator.\relax }}{44}{figure.3.16}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces CRIA dip changes from Fig. 3.5 into an CRIT type transmission when gain is introduced in second resonator.\relax }}{44}{figure.3.16}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Phase of the system showing anomalous dispersion on resonance (zoomed) and group index showing negative values.\relax }}{44}{figure.3.17}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces CRIA with gain activated in resonator 1.\relax }}{45}{figure.3.18}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces CRIA with gain activated in first resonator.\relax }}{45}{figure.3.18}
 \contentsline {figure}{\numberline {3.19}{\ignorespaces CRIA phase and group index.\relax }}{45}{figure.3.19}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces CRIA with gain in both resonators.\relax }}{45}{figure.3.20}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces CRIA phase in red and group index in green.\relax }}{46}{figure.3.21}
@@ -47,10 +47,10 @@
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Transmission of the system\relax }}{47}{figure.3.23}
 \contentsline {figure}{\numberline {3.24}{\ignorespaces Phase and group index of the system.\relax }}{47}{figure.3.24}
 \contentsline {figure}{\numberline {3.25}{\ignorespaces CRIA observed in a passive two resonator system with anamolous dispersion and negative group index.\relax }}{48}{figure.3.25}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Transmission spectrum of CRIA with gain in resonator 2.\relax }}{48}{figure.3.26}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Transmission spectrum of CRIA with gain in second resonator.\relax }}{48}{figure.3.26}
 \contentsline {figure}{\numberline {3.27}{\ignorespaces Transition from fast to slow light in CRIA.\relax }}{49}{figure.3.27}
 \contentsline {figure}{\numberline {3.28}{\ignorespaces Transmission dip transforming into an tranmission peak.\relax }}{49}{figure.3.28}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Transmission dip of CRIA with gain in resonator 1.\relax }}{50}{figure.3.29}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Transmission dip of CRIA with gain in first resonator.\relax }}{50}{figure.3.29}
 \contentsline {figure}{\numberline {3.30}{\ignorespaces Transmission dip transforming into a tranmission peak.\relax }}{50}{figure.3.30}
 \contentsline {figure}{\numberline {3.31}{\ignorespaces Respective phase and group index of the system.\relax }}{51}{figure.3.31}
 \contentsline {figure}{\numberline {3.32}{\ignorespaces Single resonance displayed in a coupled resonator system with its transmission phase.\relax }}{52}{figure.3.32}
