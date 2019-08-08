@@ -24,7 +24,7 @@ l = 2*np.pi*b
 n = 3.45
 
 g1 = 0
-g2 = 40
+g2 = 60 #60 original EIT with high transmission 500 for full absorption
 tau = (n*2*np.pi*b)/c
 
 aa = (2*np.pi*n)/(Q1*lamd)
@@ -109,7 +109,7 @@ fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(8,5))
     
 axs[0,0].set_title("Transmitted field")
 #axs[0,0].set_xlim([-0.05,0.05])
-axs[0,0].set_ylim([0,1.2])
+#axs[0,0].set_ylim([0,1.2])
 axs[0,0].set_xlabel("Frequency detuning (THz)")
 axs[0,0].set_ylabel("Transmittance")
 #axs[1,0].text(0.001,0.0000,"Gain1 =%f" %g1 + "\nGain2 =%f" %g2 + "\nUnder coupled\nr1=%.8f" %r1 + "\nr2=%.8f"%r2,fontsize=8)
@@ -131,9 +131,9 @@ axs[1,0].plot(phi1t,PHIt, 'r')
 
 axs[1,1].set_xlim([-0.05,0.05])
 axs[1,1].set_ylim([-2000,2500])
-axs[1,1].set_title("Group Index (n * dΦ/dφ)")
+#axs[1,1].set_title("Group Index")
 axs[1,1].set_xlabel("Frequency detuning (THz)")
-axs[1,1].set_ylabel("Effective phase")
+axs[1,1].set_ylabel("Group Index")
 #axs[1,1].plot(phi1t, n*(np.append([1],dydx)) , 'g')
 axs[1,1].plot(phi1t, np.append([1],ngt) , color='g')
 

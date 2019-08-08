@@ -15,9 +15,9 @@ ran = 10000
 phi1 = -0.5
 phi2 = -0.5
 phi3 = -0.5
-r1 = 0.9889
-r2 = 0.999898
-r3 = 0.99999
+r1 = 0.999945
+r2 = 0.999999
+r3 = 0.999999
 
 lamd = 1550e-9
 Q1 = 1e5
@@ -71,12 +71,12 @@ with open('Triple_resonator_phi.phase.trans.csv', 'w') as fp:
         
         #phi23 = np.arctan(a3*np.sin(phi3)/(r3-a3*np.cos(phi3))) + np.arctan(r3*a3*np.sin(phi3)/(1-r3*a3*np.cos(phi3))) #BY DENO/NUMER
         
-        #phi23 = np.angle(Er23)
+        phi23 = np.angle(Er23)
         
         #phi12 = np.arctan((a2*abs(Er23)*np.sin(phi2+phi23))/(r2-a2*abs(Er23)*np.cos(phi2+phi23))) + np.arctan((r2*abs(Er23)*a2*np.sin(phi2+phi23))/(1-r2*abs(Er23)*a2*np.cos(phi2+phi23))) #phase of r12 BY DENO/NUMER
         phi12 = np.arctan((a2*abs(Er23)*((r2**2) - 1)*np.sin(phi2+phi23))/((a2**2)*abs(Er23)**2*r2-a2*abs(Er23)*((r2**2)+1)*np.cos(phi2+phi23)+r2)) # BY RATIONALIZE
         
-        #phi12 = np.angle(Er12)
+        phi12 = np.angle(Er12)
         
         phi1 = phi1 + 0.0001    
         phi2 = phi2 + 0.0001    
@@ -87,14 +87,14 @@ with open('Triple_resonator_phi.phase.trans.csv', 'w') as fp:
         EtaImag[i] = Eta.imag
         EtaReal[i] = Eta.real
     
-        #PHIt[i] = np.angle(Eta)
+        PHIt[i] = np.angle(Eta)
         #PHIt[i] = np.arctan((a1*abs(Er12)*np.sin(phi1+phi12))/(r1-a1*abs(Er12)*np.cos(phi1+phi12))) + np.arctan((r1*a1*abs(Er12)*np.sin(phi1+phi12))/(1-r1*a1*abs(Er12)*np.cos(phi1+phi12))) #total eff phase BY DENO/NUMER
         
     
-        PHIt[i] = np.arctan((-a1*abs(Er12)*np.sin(phi1+phi12) - a1*r1**2*abs(Er12)*np.sin(phi1+phi12) + \
-        2*a1**2*r1*abs(Er12)**2 * np.cos(phi1+phi12) * np.sin(phi1+phi12)) / \
-        (r1*a1*abs(Er12)*np.cos(phi1+phi12) - a1*r1**2*abs(Er12)*np.cos(phi1+phi12) + \
-        a1**2*r1*abs(Er12)**2 * np.cos(phi1+phi12)**2 - a1**2*r1*abs(Er12)**2*np.sin(phi1+phi12)**2)) # by rationalize
+        #PHIt[i] = np.arctan((-a1*abs(Er12)*np.sin(phi1+phi12) - a1*r1**2*abs(Er12)*np.sin(phi1+phi12) + \
+        #2*a1**2*r1*abs(Er12)**2 * np.cos(phi1+phi12) * np.sin(phi1+phi12)) / \
+        #(r1*a1*abs(Er12)*np.cos(phi1+phi12) - a1*r1**2*abs(Er12)*np.cos(phi1+phi12) + \
+        #a1**2*r1*abs(Er12)**2 * np.cos(phi1+phi12)**2 - a1**2*r1*abs(Er12)**2*np.sin(phi1+phi12)**2)) # by rationalize
         
         #fp.write("{},{},{}\n".format(phi1,PHI[i], Etai[i]))        
         
@@ -109,34 +109,46 @@ ngt = dydx * n
 #phi1t = [phi1t[i]*radians for i in range(0,ran)]
 #phi2t = [phi2t[i]*radians for i in range(0,ran)]
 
-fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(8,5))
+fig, axs = plt.subplots(nrows=3, ncols=2, figsize=(8,7))
 
-axs[0,0].set_xlim([-0.05,0.05])
-axs[0,0].set_title("Transmitted field")
+#axs[0,0].set_xlim([-0.5,0.5])
+#axs[0,0].set_title("Transmitted field")
 axs[0,0].set_xlabel("Frequency Detuning (THz)")
 axs[0,0].set_ylabel("Transmittance")
 axs[0,0].plot(phi1t,Etai, 'b', xunits=radians)
 #plt.show()
 #fig.savefig('Triple_resonator_trans.png', dpi=400)
 
-axs[0,1].set_xlim([-0.02,0.02])
-axs[0,1].set_title("Phase")
+axs[0,1].set_xlim([-0.05,0.05])
+#axs[0,1].set_title("Phase")
 axs[0,1].set_xlabel("Frequency Detuning (THz)")
-axs[0,1].set_ylabel("Total phase")
-axs[0,1].plot(phi1t,PHIt, 'r', xunits=radians)
+axs[0,1].set_ylabel("Transmittance")
+axs[0,1].plot(phi1t,Etai, 'b', xunits=radians)
 #plt.show()
 
-#axs[1,0].set_xlim([-0.2,0.2])
-axs[1,0].set_title("Transmission Imag vs Real")
-axs[1,0].set_xlabel("Real axis")
-axs[1,0].set_ylabel("Imaginart axis")
-axs[1,0].plot(EtaReal,EtaImag, 'y')
+axs[1,0].set_xlim([-0.5,0.5])
+#axs[1,0].set_title("Transmission Imag vs Real")
+axs[1,0].set_xlabel("Frequency Detuning (THz)")
+axs[1,0].set_ylabel("Effective Phase")
+axs[1,0].plot(phi1t,PHIt, 'r')
 
-axs[1,1].set_xlim([-0.005,0.005])
-axs[1,1].set_title("Group Index")
+axs[1,1].set_xlim([-0.025,0.025])
+#axs[1,1].set_ylim([-0.05,0.05])
 axs[1,1].set_xlabel("Frequency Detuning (THz)")
-axs[1,1].set_ylabel("Index")
-axs[1,1].plot(phi1t,np.append([1],ngt), 'g')
+axs[1,1].set_ylabel("Effective Phase")
+axs[1,1].plot(phi1t,PHIt, 'r')
+
+
+#axs[2,0].set_xlim([-0.05,0.05])
+axs[2,0].set_xlabel("Frequency Detuning (THz)")
+axs[2,0].set_ylabel("Group Index")
+axs[2,0].plot(phi1t,np.append([1],ngt), 'g')
+#axs[1,1].plot(phi1t,vgt, 'g')
+
+axs[2,1].set_xlim([-0.006,0.006])
+axs[2,1].set_xlabel("Frequency Detuning (THz)")
+axs[2,1].set_ylabel("Group Index")
+axs[2,1].plot(phi1t,np.append([1],ngt), 'g')
 #axs[1,1].plot(phi1t,vgt, 'g')
 
 fig.tight_layout()
