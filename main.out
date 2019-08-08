@@ -28,7 +28,7 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Gain Medium}{section.2.3}% 28
 \BOOKMARK [1][-]{section.2.4}{Group Delay and Group Advance}{chapter.2}% 29
 \BOOKMARK [1][-]{section.2.5}{All-Pass Ring Resonator}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.5.1}{Transmission For Passive and Active}{section.2.5}% 31
+\BOOKMARK [2][-]{subsection.2.5.1}{Transmission of Passive and Active Resonator}{section.2.5}% 31
 \BOOKMARK [2][-]{subsection.2.5.2}{Effective Phase}{section.2.5}% 32
 \BOOKMARK [2][-]{subsection.2.5.3}{Phasor Plots}{section.2.5}% 33
 \BOOKMARK [1][-]{section.2.6}{Add-Drop Ring Resonator}{chapter.2}% 34
@@ -38,7 +38,7 @@
 \BOOKMARK [1][-]{section.2.7}{Two Coupled Ring Resonator}{chapter.2}% 38
 \BOOKMARK [2][-]{subsection.2.7.1}{Coupled Resonator Induced Transparency and Absorption}{section.2.7}% 39
 \BOOKMARK [1][-]{subsection.2.7.1}{References}{chapter.2}% 40
-\BOOKMARK [0][-]{chapter.3}{Coupled Resonator Induced Transparecy and Absorption}{}% 41
+\BOOKMARK [0][-]{chapter.3}{Gain Controlled Coupled-resonator-induced Transparecy and Absorption}{}% 41
 \BOOKMARK [1][-]{section.3.1}{Electromagnetically Induced Transparency}{chapter.3}% 42
 \BOOKMARK [2][-]{subsection.3.1.1}{EIT in Atoms}{section.3.1}% 43
 \BOOKMARK [2][-]{subsection.3.1.2}{Three Level Atoms}{section.3.1}% 44
@@ -46,16 +46,16 @@
 \BOOKMARK [1][-]{section.3.3}{Electromagnetically Induced Absorption}{chapter.3}% 46
 \BOOKMARK [1][-]{section.3.4}{Coupled Resonator Induced Absorption}{chapter.3}% 47
 \BOOKMARK [2][-]{subsection.3.4.1}{CRIT in a Passive System}{section.3.4}% 48
-\BOOKMARK [1][-]{section.3.5}{CRIT Results}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.5}{Gain-controlled CRIT in coupled resonator}{chapter.3}% 49
 \BOOKMARK [2][-]{subsection.3.5.1}{Introducing Gain Only In Second Resonator}{section.3.5}% 50
 \BOOKMARK [2][-]{subsection.3.5.2}{Introducing Gain Only In First Resonator}{section.3.5}% 51
 \BOOKMARK [2][-]{subsection.3.5.3}{Introducing Gain In Both Resonators}{section.3.5}% 52
-\BOOKMARK [1][-]{section.3.6}{CRIA Results}{chapter.3}% 53
-\BOOKMARK [2][-]{subsection.3.6.1}{CRIA With Slow Light}{section.3.6}% 54
+\BOOKMARK [1][-]{section.3.6}{Gain-controlled CRIA in Coupled Resonators}{chapter.3}% 53
+\BOOKMARK [2][-]{subsection.3.6.1}{CRIA With Slow Light in Passive Coupled Resonators}{section.3.6}% 54
 \BOOKMARK [2][-]{subsection.3.6.2}{Introducing Gain Only In Second Resonator}{section.3.6}% 55
 \BOOKMARK [2][-]{subsection.3.6.3}{Introducing Gain Only In First Resonator}{section.3.6}% 56
 \BOOKMARK [2][-]{subsection.3.6.4}{Introducing Gain In Both Resonators}{section.3.6}% 57
-\BOOKMARK [2][-]{subsection.3.6.5}{CRIA With Fast Light}{section.3.6}% 58
+\BOOKMARK [2][-]{subsection.3.6.5}{CRIA With Fast Light in Passive Coupled Resonator}{section.3.6}% 58
 \BOOKMARK [2][-]{subsection.3.6.6}{Introducing Gain Only In Second Resonator}{section.3.6}% 59
 \BOOKMARK [2][-]{subsection.3.6.7}{Introducing Gain Only In First Resonator}{section.3.6}% 60
 \BOOKMARK [2][-]{subsection.3.6.8}{Introducing Gain In Both Resonator}{section.3.6}% 61

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.5.12)  3 JUL 2019 12:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.5.12)  24 JUL 2019 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1877,82 +1877,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--136
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--181
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
 
  []
 
@@ -1984,14 +1964,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] [4] <images/optical_cavity.png, id=655, 181.53535pt x 162.6075pt>
+[2] [3] [4] <images/optical_cavity.png, id=654, 181.53535pt x 162.6075pt>
 File: images/optical_cavity.png Graphic file (type png)
 
 <use images/optical_cavity.png>
 Package pdftex.def Info: images/optical_cavity.png used on input line 27.
 (pdftex.def)             Requested size: 136.15117pt x 121.95532pt.
  [5 <./images/optical_cavity.png>]
-<images/microresonators_types.jpg, id=662, 758.835pt x 391.4625pt>
+<images/microresonators_types.jpg, id=661, 758.835pt x 391.4625pt>
 File: images/microresonators_types.jpg Graphic file (type jpg)
 
 <use images/microresonators_types.jpg>
@@ -2010,127 +1990,127 @@ Overfull \hbox (12.0064pt too wide) in paragraph at lines 51--51
  []
 
 [6 <./images/microresonators_types.jpg>] [7])
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Overfull \hbox (3.40341pt too wide) in paragraph at lines 263--263
+Overfull \hbox (3.40341pt too wide) in paragraph at lines 268--268
 \OT1/cmr/m/n/14.4 [4]$ J. E. Heeb-ner, Ph.D. The-sis, \Non-lin-ear Op-ti-cal Wh
 is-per-ing Gallery
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Overfull \hbox (20.32965pt too wide) in paragraph at lines 263--263
+Overfull \hbox (20.32965pt too wide) in paragraph at lines 268--268
 \OT1/cmr/m/n/14.4 \Tun-able de-lay line with in-ter-act-ing whis-per-ing--galle
 ry--mode res-onators,"
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Overfull \hbox (18.57608pt too wide) in paragraph at lines 263--263
+Overfull \hbox (18.57608pt too wide) in paragraph at lines 268--268
 \OT1/cmr/m/n/14.4 lay-band-width prod-uct in a twor-ing sys-tem." Opt. Ex-press
  \OT1/cmr/bx/n/14.4 16\OT1/cmr/m/n/14.4 , 1796{1807
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Overfull \hbox (8.25659pt too wide) in paragraph at lines 263--263
+Overfull \hbox (8.25659pt too wide) in paragraph at lines 268--268
 \OT1/cmr/m/n/14.4 [14]$ C. Fabry, A. P^^Serot, \Th^^Seorie et ap-pli-ca-tions d
 'une nou-velle m^^Sethode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Overfull \hbox (0.23697pt too wide) in paragraph at lines 263--263
+Overfull \hbox (0.23697pt too wide) in paragraph at lines 268--268
 \OT1/cmr/m/n/14.4 [15]$ Va-hala, K.J. \Op-ti-cal mi-cro-cav-i-ties." Na-ture \O
 T1/cmr/bx/n/14.4 424\OT1/cmr/m/n/14.4 , 839{846 (2003). 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
 
  []
 
@@ -2158,7 +2138,7 @@ pdfTeX warning: pdflatex (file ./images/Fabry_Perot_resonator-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=680, 631.35875pt x 378.4
+<images/Fabry_Perot_resonator-eps-converted-to.pdf, id=679, 631.35875pt x 378.4
 1376pt>
 File: images/Fabry_Perot_resonator-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2169,6 +2149,9 @@ Package pdftex.def Info: images/Fabry_Perot_resonator-eps-converted-to.pdf used
  [10
 
  <./images/Fabry_Perot_resonator-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
  Make it at least 27.05003pt.
@@ -2192,7 +2175,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/R+T_FabryPerot-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/R+T_FabryPerot-eps-converted-to.pdf, id=697, 817.0525pt x 539.01375pt>
+<images/R+T_FabryPerot-eps-converted-to.pdf, id=695, 817.0525pt x 539.01375pt>
 File: images/R+T_FabryPerot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/R+T_FabryPerot-eps-converted-to.pdf>
@@ -2203,14 +2186,14 @@ ut line 44.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Phase_trans_FP.png, id=698, 462.528pt x 346.896pt>
+[12] <images/Phase_trans_FP.png, id=702, 462.528pt x 346.896pt>
 File: images/Phase_trans_FP.png Graphic file (type png)
 
 <use images/Phase_trans_FP.png>
 Package pdftex.def Info: images/Phase_trans_FP.png used on input line 53.
 (pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
 
-<images/Reflec_Phase_FP.png, id=699, 462.528pt x 346.896pt>
+<images/Reflec_Phase_FP.png, id=703, 462.528pt x 346.896pt>
 File: images/Reflec_Phase_FP.png Graphic file (type png)
 
 <use images/Reflec_Phase_FP.png>
@@ -2221,10 +2204,9 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 53--55
 [][] [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12] <images/Trans_ImagvsReal_Phaser.png, id=705, 536.86285pt x 399.20572pt>
+[13 <./images/R+T_FabryPerot-eps-converted-to.pdf> <./images/Phase_trans_FP.png
+> <./images/Reflec_Phase_FP.png>]
+<images/Trans_ImagvsReal_Phaser.png, id=713, 536.86285pt x 399.20572pt>
 File: images/Trans_ImagvsReal_Phaser.png Graphic file (type png)
 
 <use images/Trans_ImagvsReal_Phaser.png>
@@ -2232,7 +2214,7 @@ Package pdftex.def Info: images/Trans_ImagvsReal_Phaser.png used on input line
 74.
 (pdftex.def)             Requested size: 213.39566pt x 158.67438pt.
 
-<images/Reflection_ImagvsReal_Phaser.png, id=706, 565.25464pt x 395.76428pt>
+<images/Reflection_ImagvsReal_Phaser.png, id=714, 565.25464pt x 395.76428pt>
 File: images/Reflection_ImagvsReal_Phaser.png Graphic file (type png)
 
 <use images/Reflection_ImagvsReal_Phaser.png>
@@ -2244,21 +2226,18 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 74--76
 [][] [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13 <./images/R+T_FabryPerot-eps-converted-to.pdf>]
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [14 <./images/Phase_trans_FP.png> <./images/Reflec_Phase_FP.png> <./images/Tra
-ns_ImagvsReal_Phaser.png> <./images/Reflection_ImagvsReal_Phaser.png>] [15]
-<images/evanescent_wave.png, id=730, 364.36125pt x 248.93pt>
+[14 <./images/Trans_ImagvsReal_Phaser.png> <./images/Reflection_ImagvsReal_Phas
+er.png>] [15] <images/evanescent_wave.png, id=728, 364.36125pt x 248.93pt>
 File: images/evanescent_wave.png Graphic file (type png)
 
 <use images/evanescent_wave.png>
 Package pdftex.def Info: images/evanescent_wave.png used on input line 120.
 (pdftex.def)             Requested size: 213.39566pt x 145.78868pt.
- [16 <./images/evanescent_wave.png>] [17]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16] [17 <./images/evanescent_wave.png>]
 Package epstopdf Info: Source file: <images/under_over_couple.eps>
 (epstopdf)                    date: 2019-05-24 23:53:43
 (epstopdf)                    size: 651694 bytes
@@ -2274,15 +2253,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/under_over_couple-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/under_over_couple-eps-converted-to.pdf, id=740, 690.58pt x 570.13pt>
+<images/under_over_couple-eps-converted-to.pdf, id=739, 690.58pt x 570.13pt>
 File: images/under_over_couple-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/under_over_couple-eps-converted-to.pdf>
 Package pdftex.def Info: images/under_over_couple-eps-converted-to.pdf used on 
 input line 137.
 (pdftex.def)             Requested size: 213.39566pt x 176.173pt.
+
+Underfull \vbox (badness 4266) has occurred while \output is active []
+
  [18 <./images/under_over_couple-eps-converted-to.pdf>]
-<images/beer's_law_withoutgain.png, id=748, 575.9919pt x 215.3646pt>
+<images/beer's_law_withoutgain.png, id=747, 575.9919pt x 215.3646pt>
 File: images/beer's_law_withoutgain.png Graphic file (type png)
 
 <use images/beer's_law_withoutgain.png>
@@ -2294,8 +2276,10 @@ Overfull \hbox (5.20152pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
-[19 <./images/beer's_law_withoutgain.png>]
-<images/beer's_law_withgain.png, id=755, 575.9919pt x 217.5327pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] <images/beer's_law_withgain.png, id=753, 575.9919pt x 217.5327pt>
 File: images/beer's_law_withgain.png Graphic file (type png)
 
 <use images/beer's_law_withgain.png>
@@ -2307,13 +2291,17 @@ Overfull \hbox (5.20152pt too wide) in paragraph at lines 173--174
  [][] 
  []
 
-[20 <./images/beer's_law_withgain.png>] [21]
-<images/negative_vg_pic.pdf, id=767, 334.40186pt x 311.12846pt>
+[20 <./images/beer's_law_withoutgain.png> <./images/beer's_law_withgain.png>]
+[21] <images/negative_vg_pic.pdf, id=766, 334.40186pt x 311.12846pt>
 File: images/negative_vg_pic.pdf Graphic file (type pdf)
 
 <use images/negative_vg_pic.pdf>
 Package pdftex.def Info: images/negative_vg_pic.pdf used on input line 197.
 (pdftex.def)             Requested size: 250.80077pt x 233.34576pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./images/negative_vg_pic.pdf>]
 Package epstopdf Info: Source file: <images/all_pass_resonator.eps>
 (epstopdf)                    date: 2019-05-18 12:33:15
 (epstopdf)                    size: 1960869 bytes
@@ -2330,17 +2318,17 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/all_pass_resonator-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/all_pass_resonator-eps-converted-to.pdf, id=768, 817.0525pt x 449.68pt>
+<images/all_pass_resonator-eps-converted-to.pdf, id=779, 817.0525pt x 449.68pt>
 File: images/all_pass_resonator-eps-converted-to.pdf Graphic file (type pdf)
 <use images/all_pass_resonator-eps-converted-to.pdf>
 Package pdftex.def Info: images/all_pass_resonator-eps-converted-to.pdf used on
  input line 209.
 (pdftex.def)             Requested size: 362.77524pt x 199.6644pt.
- [22 <./images/negative_vg_pic.pdf>]
-Underfull \vbox (badness 1082) has occurred while \output is active []
 
- [23 <./images/all_pass_resonator-eps-converted-to.pdf>]
-<images/trans_ring_withoutgain.png, id=788, 578.16pt x 433.62pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] <images/trans_ring_withoutgain.png, id=785, 578.16pt x 433.62pt>
 File: images/trans_ring_withoutgain.png Graphic file (type png)
 
 <use images/trans_ring_withoutgain.png>
@@ -2348,27 +2336,32 @@ Package pdftex.def Info: images/trans_ring_withoutgain.png used on input line 2
 25.
 (pdftex.def)             Requested size: 213.39566pt x 160.04651pt.
 
-<images/all-pall_gain.png, id=789, 366.4089pt x 290.5254pt>
+<images/all-pall_gain.png, id=786, 366.4089pt x 290.5254pt>
 File: images/all-pall_gain.png Graphic file (type png)
 
 <use images/all-pall_gain.png>
 Package pdftex.def Info: images/all-pall_gain.png used on input line 226.
 (pdftex.def)             Requested size: 192.0548pt x 152.27986pt.
-
-<images/allpassphase_new.png, id=790, 581.60143pt x 356.99638pt>
+ [24 <./images/all_pass_resonator-eps-converted-to.pdf> <./images/trans_ring_wi
+thoutgain.png> <./images/all-pall_gain.png>]
+<images/allpassphase_new.png, id=796, 581.60143pt x 356.99638pt>
 File: images/allpassphase_new.png Graphic file (type png)
 
 <use images/allpassphase_new.png>
 Package pdftex.def Info: images/allpassphase_new.png used on input line 239.
 (pdftex.def)             Requested size: 277.41176pt x 170.27774pt.
- [24 <./images/trans_ring_withoutgain.png> <./images/all-pall_gain.png>]
-<images/Imag_vs_real_allpass.png, id=799, 351.88608pt x 343.2825pt>
+
+<images/Imag_vs_real_allpass.png, id=797, 351.88608pt x 343.2825pt>
 File: images/Imag_vs_real_allpass.png Graphic file (type png)
 
 <use images/Imag_vs_real_allpass.png>
 Package pdftex.def Info: images/Imag_vs_real_allpass.png used on input line 249
 .
 (pdftex.def)             Requested size: 213.39566pt x 208.18153pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Package epstopdf Info: Source file: <images/add_drop_resonator.eps>
 (epstopdf)                    date: 2019-05-18 12:24:49
 (epstopdf)                    size: 1703070 bytes
@@ -2385,18 +2378,16 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/add_drop_resonator-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/add_drop_resonator-eps-converted-to.pdf, id=800, 817.0525pt x 512.91624
+<images/add_drop_resonator-eps-converted-to.pdf, id=798, 817.0525pt x 512.91624
 pt>
 File: images/add_drop_resonator-eps-converted-to.pdf Graphic file (type pdf)
  <use images/add_drop_resonator-eps-converted-to.pdf>
 Package pdftex.def Info: images/add_drop_resonator-eps-converted-to.pdf used on
  input line 259.
 (pdftex.def)             Requested size: 298.75262pt x 187.54549pt.
- [25 <./images/allpassphase_new.png> <./images/Imag_vs_real_allpass.png>]
-Underfull \vbox (badness 1221) has occurred while \output is active []
-
- [26 <./images/add_drop_resonator-eps-converted-to.pdf>]
-<images/all_pass_plots_a.png, id=815, 274.45393pt x 280.47643pt>
+ [25 <./images/allpassphase_new.png>] [26 <./images/Imag_vs_real_allpass.png> <
+./images/add_drop_resonator-eps-converted-to.pdf>]
+<images/all_pass_plots_a.png, id=812, 274.45393pt x 280.47643pt>
 File: images/all_pass_plots_a.png Graphic file (type png)
 
 <use images/all_pass_plots_a.png>
@@ -2417,7 +2408,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/all_pass_plots_a2-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/all_pass_plots_a2-eps-converted-to.pdf, id=816, 803.0pt x 570.13pt>
+<images/all_pass_plots_a2-eps-converted-to.pdf, id=813, 803.0pt x 570.13pt>
 File: images/all_pass_plots_a2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/all_pass_plots_a2-eps-converted-to.pdf>
@@ -2442,7 +2433,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/all_pass_plots_b-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/all_pass_plots_b-eps-converted-to.pdf, id=826, 817.0525pt x 545.03625pt
+<images/all_pass_plots_b-eps-converted-to.pdf, id=825, 817.0525pt x 545.03625pt
 >
 File: images/all_pass_plots_b-eps-converted-to.pdf Graphic file (type pdf)
  <use images/all_pass_plots_b-eps-converted-to.pdf>
@@ -2450,7 +2441,7 @@ Package pdftex.def Info: images/all_pass_plots_b-eps-converted-to.pdf used on i
 nput line 286.
 (pdftex.def)             Requested size: 213.39566pt x 142.34645pt.
 
-<images/add_drop_gain_plots.png, id=827, 722.7pt x 289.08pt>
+<images/add_drop_gain_plots.png, id=826, 722.7pt x 289.08pt>
 File: images/add_drop_gain_plots.png Graphic file (type png)
 
 <use images/add_drop_gain_plots.png>
@@ -2458,7 +2449,7 @@ Package pdftex.def Info: images/add_drop_gain_plots.png used on input line 296.
 
 (pdftex.def)             Requested size: 362.77524pt x 145.10866pt.
 
-<images/ImagVsReal(add-drop).png, id=828, 68.67061pt x 36.84076pt>
+<images/ImagVsReal(add-drop).png, id=827, 68.67061pt x 36.84076pt>
 File: images/ImagVsReal(add-drop).png Graphic file (type png)
 
 <use images/ImagVsReal(add-drop).png>
@@ -2488,7 +2479,7 @@ pdfTeX warning: pdflatex (file ./images/couple_ring_resonator-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<images/couple_ring_resonator-eps-converted-to.pdf, id=837, 689.57625pt x 570.1
+<images/couple_ring_resonator-eps-converted-to.pdf, id=836, 689.57625pt x 570.1
 3pt>
 File: images/couple_ring_resonator-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2502,103 +2493,103 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [29 <./images/ImagVsReal(add-drop).png>] [30 <./images/couple_ring_resonator-ep
 s-converted-to.pdf>])
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Overfull \hbox (0.22612pt too wide) in paragraph at lines 266--266
+Overfull \hbox (0.22612pt too wide) in paragraph at lines 271--271
 \OT1/cmr/m/n/14.4 [14]$ Hecht, Jeff. The Laser Guide-book: Sec-ond Edi-tion. Mc
 -Graw-Hill,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
 
  []
 
 
-Overfull \hbox (7.24323pt too wide) in paragraph at lines 266--266
+Overfull \hbox (7.24323pt too wide) in paragraph at lines 271--271
 \OT1/cmr/m/n/14.4 \Non-lin-ear mag-ne-to-op-tics and re-duced group ve-loc-ity 
 of light in atomic
  []
@@ -2609,10 +2600,7 @@ Underfull \vbox (badness 3407) has occurred while \output is active []
  [31]
 [32]
 Chapter 3.
-(./chapters/chapter03.tex
-Underfull \vbox (badness 3049) has occurred while \output is active []
-
- [33
+(./chapters/chapter03.tex [33
 
 ]
 Package epstopdf Info: Source file: <images/EIT_3_level.eps>
@@ -2629,7 +2617,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_3_level-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_3_level-eps-converted-to.pdf, id=863, 817.0525pt x 395.4775pt>
+<images/EIT_3_level-eps-converted-to.pdf, id=862, 817.0525pt x 395.4775pt>
 File: images/EIT_3_level-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_3_level-eps-converted-to.pdf>
@@ -2641,14 +2629,23 @@ line 13.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 24.
 
-<images/coupled_ring_EIT1.png, id=871, 284.0211pt x 179.2296pt>
+
+Overfull \hbox (8.13657pt too wide) in paragraph at lines 25--26
+\OT1/cmr/m/n/14.4 We can ob-serve EIT-like prop-er-ties in var-i-ous types of c
+oupled-resonator
+ []
+
+<images/coupled_ring_EIT1.png, id=870, 284.0211pt x 179.2296pt>
 File: images/coupled_ring_EIT1.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1.png>
 Package pdftex.def Info: images/coupled_ring_EIT1.png used on input line 29.
 (pdftex.def)             Requested size: 284.0204pt x 179.22914pt.
- [35 <./images/coupled_ring_EIT1.png>]
-<images/coupled_ring_EIT1_phase.png, id=877, 292.6935pt x 181.3977pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35] <images/coupled_ring_EIT1_phase.png, id=875, 292.6935pt x 181.3977pt>
 File: images/coupled_ring_EIT1_phase.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1_phase.png>
@@ -2656,7 +2653,7 @@ Package pdftex.def Info: images/coupled_ring_EIT1_phase.png used on input line
 43.
 (pdftex.def)             Requested size: 219.51958pt x 136.04793pt.
 
-<images/coupled_ring_EIT1_coupling.png, id=878, 287.6346pt x 179.9523pt>
+<images/coupled_ring_EIT1_coupling.png, id=876, 287.6346pt x 179.9523pt>
 File: images/coupled_ring_EIT1_coupling.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1_coupling.png>
@@ -2668,12 +2665,9 @@ Overfull \hbox (11.06473pt too wide) in paragraph at lines 43--45
 [][] [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36 <./images/coupled_ring_EIT1_phase.png> <./images/coupled_ring_EIT1_couplin
-g.png>]
-<images/coupled_ring_EIT1_deri.png, id=885, 291.2481pt x 177.0615pt>
+[36 <./images/coupled_ring_EIT1.png> <./images/coupled_ring_EIT1_phase.png> <./
+images/coupled_ring_EIT1_coupling.png>]
+<images/coupled_ring_EIT1_deri.png, id=884, 291.2481pt x 177.0615pt>
 File: images/coupled_ring_EIT1_deri.png Graphic file (type png)
 
 <use images/coupled_ring_EIT1_deri.png>
@@ -2694,7 +2688,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIA_basic-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIA_basic-eps-converted-to.pdf, id=886, 743.77875pt x 570.13pt>
+<images/EIA_basic-eps-converted-to.pdf, id=885, 743.77875pt x 570.13pt>
 File: images/EIA_basic-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_basic-eps-converted-to.pdf>
@@ -2720,7 +2714,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_1-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_1-eps-converted-to.pdf, id=894, 381.425pt x 235.88126pt>
+<images/EIT_1-eps-converted-to.pdf, id=893, 381.425pt x 235.88126pt>
 File: images/EIT_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_1-eps-converted-to.pdf>
@@ -2741,7 +2735,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_phase-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_phase-eps-converted-to.pdf, id=895, 379.4175pt x 243.91125pt>
+<images/EIT_phase-eps-converted-to.pdf, id=894, 379.4175pt x 243.91125pt>
 File: images/EIT_phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_phase-eps-converted-to.pdf>
@@ -2763,7 +2757,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_gain2-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_gain2-eps-converted-to.pdf, id=903, 817.0525pt x 396.48125pt>
+<images/EIT_gain2-eps-converted-to.pdf, id=902, 817.0525pt x 396.48125pt>
 File: images/EIT_gain2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_gain2-eps-converted-to.pdf>
@@ -2788,7 +2782,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIT_gain2_phase-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIT_gain2_phase-eps-converted-to.pdf, id=918, 817.0525pt x 484.81125pt>
+<images/EIT_gain2_phase-eps-converted-to.pdf, id=917, 817.0525pt x 484.81125pt>
 File: images/EIT_gain2_phase-eps-converted-to.pdf Graphic file (type pdf)
 <use images/EIT_gain2_phase-eps-converted-to.pdf>
 Package pdftex.def Info: images/EIT_gain2_phase-eps-converted-to.pdf used on in
@@ -2808,7 +2802,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_gain2_ng-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_gain2_ng-eps-converted-to.pdf, id=919, 817.0525pt x 510.90875pt>
+<images/EIT_gain2_ng-eps-converted-to.pdf, id=918, 817.0525pt x 510.90875pt>
 File: images/EIT_gain2_ng-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_gain2_ng-eps-converted-to.pdf>
@@ -2831,7 +2825,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_gain1-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_gain1-eps-converted-to.pdf, id=930, 817.0525pt x 373.395pt>
+<images/EIT_gain1-eps-converted-to.pdf, id=929, 817.0525pt x 373.395pt>
 File: images/EIT_gain1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_gain1-eps-converted-to.pdf>
@@ -2839,14 +2833,14 @@ Package pdftex.def Info: images/EIT_gain1-eps-converted-to.pdf used on input li
 ne 126.
 (pdftex.def)             Requested size: 285.97266pt x 130.6902pt.
 
-<images/EIT_gain1_phase.png, id=931, 362.35374pt x 210.7875pt>
+<images/EIT_gain1_phase.png, id=930, 362.35374pt x 210.7875pt>
 File: images/EIT_gain1_phase.png Graphic file (type png)
 
 <use images/EIT_gain1_phase.png>
 Package pdftex.def Info: images/EIT_gain1_phase.png used on input line 133.
 (pdftex.def)             Requested size: 181.17642pt x 105.3935pt.
 
-<images/EIT_gain1_ng.png, id=932, 374.39874pt x 247.92625pt>
+<images/EIT_gain1_ng.png, id=931, 374.39874pt x 247.92625pt>
 File: images/EIT_gain1_ng.png Graphic file (type png)
 
 <use images/EIT_gain1_ng.png>
@@ -2866,7 +2860,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_gain12-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_gain12-eps-converted-to.pdf, id=933, 355.3275pt x 159.59625pt>
+<images/EIT_gain12-eps-converted-to.pdf, id=932, 355.3275pt x 159.59625pt>
 File: images/EIT_gain12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_gain12-eps-converted-to.pdf>
@@ -2895,7 +2889,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIT_gain12_phase-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIT_gain12_phase-eps-converted-to.pdf, id=943, 1188.44pt x 336.25626pt>
+<images/EIT_gain12_phase-eps-converted-to.pdf, id=942, 1188.44pt x 336.25626pt>
 File: images/EIT_gain12_phase-eps-converted-to.pdf Graphic file (type pdf)
 <use images/EIT_gain12_phase-eps-converted-to.pdf>
 Package pdftex.def Info: images/EIT_gain12_phase-eps-converted-to.pdf used on i
@@ -2915,7 +2909,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIT_gain12b-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_gain12b-eps-converted-to.pdf, id=944, 698.61pt x 388.45125pt>
+<images/EIT_gain12b-eps-converted-to.pdf, id=943, 698.61pt x 388.45125pt>
 File: images/EIT_gain12b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIT_gain12b-eps-converted-to.pdf>
@@ -2947,7 +2941,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIA_gain_phase1-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIA_gain_phase1-eps-converted-to.pdf, id=955, 5917.10625pt x 1687.30376
+<images/EIA_gain_phase1-eps-converted-to.pdf, id=954, 5917.10625pt x 1687.30376
 pt>
 File: images/EIA_gain_phase1-eps-converted-to.pdf Graphic file (type pdf)
  <use images/EIA_gain_phase1-eps-converted-to.pdf>
@@ -2968,7 +2962,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIA_to_EIT-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIA_to_EIT-eps-converted-to.pdf, id=956, 817.0525pt x 406.51875pt>
+<images/EIA_to_EIT-eps-converted-to.pdf, id=955, 817.0525pt x 406.51875pt>
 File: images/EIA_to_EIT-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_to_EIT-eps-converted-to.pdf>
@@ -2993,7 +2987,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIA_to_EIT_phase-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIA_to_EIT_phase-eps-converted-to.pdf, id=968, 817.0525pt x 354.32375pt
+<images/EIA_to_EIT_phase-eps-converted-to.pdf, id=967, 817.0525pt x 354.32375pt
 >
 File: images/EIA_to_EIT_phase-eps-converted-to.pdf Graphic file (type pdf)
  <use images/EIA_to_EIT_phase-eps-converted-to.pdf>
@@ -3014,7 +3008,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIA_gain1-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIA_gain1-eps-converted-to.pdf, id=969, 817.0525pt x 392.46625pt>
+<images/EIA_gain1-eps-converted-to.pdf, id=968, 817.0525pt x 392.46625pt>
 File: images/EIA_gain1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_gain1-eps-converted-to.pdf>
@@ -3039,7 +3033,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIA_gain1_phase-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIA_gain1_phase-eps-converted-to.pdf, id=980, 817.0525pt x 222.8325pt>
+<images/EIA_gain1_phase-eps-converted-to.pdf, id=979, 817.0525pt x 222.8325pt>
 File: images/EIA_gain1_phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_gain1_phase-eps-converted-to.pdf>
@@ -3060,7 +3054,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIA_gain12-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIA_gain12-eps-converted-to.pdf, id=981, 405.515pt x 261.97874pt>
+<images/EIA_gain12-eps-converted-to.pdf, id=980, 405.515pt x 261.97874pt>
 File: images/EIA_gain12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_gain12-eps-converted-to.pdf>
@@ -3083,7 +3077,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIA_gain12_phase-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIA_gain12_phase-eps-converted-to.pdf, id=982, 823.075pt x 266.9975pt>
+<images/EIA_gain12_phase-eps-converted-to.pdf, id=981, 823.075pt x 266.9975pt>
 File: images/EIA_gain12_phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_gain12_phase-eps-converted-to.pdf>
@@ -3110,7 +3104,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIA_gain12b-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIA_gain12b-eps-converted-to.pdf, id=997, 379.4175pt x 238.8925pt>
+<images/EIA_gain12b-eps-converted-to.pdf, id=996, 379.4175pt x 238.8925pt>
 File: images/EIA_gain12b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_gain12b-eps-converted-to.pdf>
@@ -3150,7 +3144,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIA_gain12ab-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIA_gain12ab-eps-converted-to.pdf, id=1008, 767.86874pt x 570.13pt>
+<images/EIA_gain12ab-eps-converted-to.pdf, id=1007, 767.86874pt x 570.13pt>
 File: images/EIA_gain12ab-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIA_gain12ab-eps-converted-to.pdf>
@@ -3188,7 +3182,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIAf_passive-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIAf_passive-eps-converted-to.pdf, id=1009, 375.4025pt x 199.74625pt>
+<images/EIAf_passive-eps-converted-to.pdf, id=1008, 375.4025pt x 199.74625pt>
 File: images/EIAf_passive-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIAf_passive-eps-converted-to.pdf>
@@ -3211,7 +3205,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIAf_passive_phase-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIAf_passive_phase-eps-converted-to.pdf, id=1010, 705.63625pt x 215.806
+<images/EIAf_passive_phase-eps-converted-to.pdf, id=1009, 705.63625pt x 215.806
 24pt>
 File: images/EIAf_passive_phase-eps-converted-to.pdf Graphic file (type pdf)
  <use images/EIAf_passive_phase-eps-converted-to.pdf>
@@ -3237,7 +3231,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIAf_gain2-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIAf_gain2-eps-converted-to.pdf, id=1019, 434.62375pt x 238.8925pt>
+<images/EIAf_gain2-eps-converted-to.pdf, id=1018, 434.62375pt x 238.8925pt>
 File: images/EIAf_gain2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIAf_gain2-eps-converted-to.pdf>
@@ -3245,12 +3239,12 @@ Package pdftex.def Info: images/EIAf_gain2-eps-converted-to.pdf used on input l
 ine 271.
 (pdftex.def)             Requested size: 282.50208pt x 155.27827pt.
 Package epstopdf Info: Source file: <images/EIAf_gain2_phase.eps>
-(epstopdf)                    date: 2019-05-22 01:12:10
-(epstopdf)                    size: 82928 bytes
+(epstopdf)                    date: 2019-07-23 21:04:30
+(epstopdf)                    size: 3860918 bytes
 (epstopdf)             Output file: <images/EIAf_gain2_phase-eps-converted-to.p
 df>
-(epstopdf)                    date: 2019-05-22 01:12:34
-(epstopdf)                    size: 40664 bytes
+(epstopdf)                    date: 2019-07-23 23:54:34
+(epstopdf)                    size: 228813 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EIAf_gain2_phase-ep
 s-converted-to.pdf images/EIAf_gain2_phase.eps>
 (epstopdf)             \includegraphics on input line 278.
@@ -3260,13 +3254,13 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./images/EIAf_gain2_phase-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<images/EIAf_gain2_phase-eps-converted-to.pdf, id=1020, 756.8275pt x 246.9225pt
+<images/EIAf_gain2_phase-eps-converted-to.pdf, id=1019, 817.0525pt x 266.9975pt
 >
 File: images/EIAf_gain2_phase-eps-converted-to.pdf Graphic file (type pdf)
  <use images/EIAf_gain2_phase-eps-converted-to.pdf>
 Package pdftex.def Info: images/EIAf_gain2_phase-eps-converted-to.pdf used on i
 nput line 278.
-(pdftex.def)             Requested size: 340.56923pt x 111.11409pt.
+(pdftex.def)             Requested size: 367.67023pt x 120.14775pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3287,7 +3281,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIAf_gain2a-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIAf_gain2a-eps-converted-to.pdf, id=1034, 370.38374pt x 241.90375pt>
+<images/EIAf_gain2a-eps-converted-to.pdf, id=1033, 370.38374pt x 241.90375pt>
 File: images/EIAf_gain2a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIAf_gain2a-eps-converted-to.pdf>
@@ -3310,7 +3304,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIAf_gain1-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIAf_gain1-eps-converted-to.pdf, id=1045, 412.54124pt x 246.9225pt>
+<images/EIAf_gain1-eps-converted-to.pdf, id=1044, 412.54124pt x 246.9225pt>
 File: images/EIAf_gain1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIAf_gain1-eps-converted-to.pdf>
@@ -3331,7 +3325,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./images/EIAf_gain12-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIAf_gain12-eps-converted-to.pdf, id=1046, 389.455pt x 245.91875pt>
+<images/EIAf_gain12-eps-converted-to.pdf, id=1045, 389.455pt x 245.91875pt>
 File: images/EIAf_gain12-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/EIAf_gain12-eps-converted-to.pdf>
@@ -3339,12 +3333,12 @@ Package pdftex.def Info: images/EIAf_gain12-eps-converted-to.pdf used on input
 line 308.
 (pdftex.def)             Requested size: 233.67479pt x 147.55237pt.
 Package epstopdf Info: Source file: <images/EIAf_gain2_phase.eps>
-(epstopdf)                    date: 2019-05-22 01:12:10
-(epstopdf)                    size: 82928 bytes
+(epstopdf)                    date: 2019-07-23 21:04:30
+(epstopdf)                    size: 3860918 bytes
 (epstopdf)             Output file: <images/EIAf_gain2_phase-eps-converted-to.p
 df>
-(epstopdf)                    date: 2019-05-22 01:12:34
-(epstopdf)                    size: 40664 bytes
+(epstopdf)                    date: 2019-07-23 23:54:34
+(epstopdf)                    size: 228813 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/EIAf_gain2_phase-ep
 s-converted-to.pdf images/EIAf_gain2_phase.eps>
 (epstopdf)             \includegraphics on input line 314.
@@ -3354,9 +3348,9 @@ File: images/EIAf_gain2_phase-eps-converted-to.pdf Graphic file (type pdf)
 <use images/EIAf_gain2_phase-eps-converted-to.pdf>
 Package pdftex.def Info: images/EIAf_gain2_phase-eps-converted-to.pdf used on i
 nput line 314.
-(pdftex.def)             Requested size: 454.1pt x 148.15462pt.
+(pdftex.def)             Requested size: 490.23529pt x 160.19972pt.
 
-Overfull \hbox (27.30867pt too wide) in paragraph at lines 314--315
+Overfull \hbox (63.44395pt too wide) in paragraph at lines 314--315
  [][] 
  []
 
@@ -3369,7 +3363,7 @@ Overfull \hbox (1.95642pt too wide) in paragraph at lines 322--322
 |[]\OT1/cmr/bx/n/14.4 Gain-controlled Op-ti-cal Pulse Stor-age and On-demand
  []
 
-<images/photon_storage.png, id=1057, 272.4579pt x 345.4506pt>
+<images/photon_storage.png, id=1056, 272.4579pt x 345.4506pt>
 File: images/photon_storage.png Graphic file (type png)
 
 <use images/photon_storage.png>
@@ -3379,7 +3373,7 @@ Package pdftex.def Info: images/photon_storage.png used on input line 327.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[51] <images/photon_storage_gain.png, id=1063, 278.9622pt x 348.3414pt>
+[51] <images/photon_storage_gain.png, id=1062, 278.9622pt x 348.3414pt>
 File: images/photon_storage_gain.png Graphic file (type png)
 
 <use images/photon_storage_gain.png>
@@ -3392,42 +3386,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [52 <./images/photon_storage.png>] [53 <./images/photon_storage_gain.png>]
 [54])
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
@@ -3453,7 +3447,7 @@ pdfTeX warning: pdflatex (file ./images/triple_ring_resonator-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<images/triple_ring_resonator-eps-converted-to.pdf, id=1086, 460.72125pt x 570.
+<images/triple_ring_resonator-eps-converted-to.pdf, id=1085, 460.72125pt x 570.
 13pt>
 File: images/triple_ring_resonator-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3470,135 +3464,93 @@ Overfull \hbox (26.63652pt too wide) detected at line 33
 T1/cmr/m/n/14.4 [[]]
  []
 
-[58]
-Package epstopdf Info: Source file: <images/EIT_EIA_all.eps>
-(epstopdf)                    date: 2019-05-24 00:39:22
-(epstopdf)                    size: 4256855 bytes
-(epstopdf)             Output file: <images/EIT_EIA_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-24 00:43:20
-(epstopdf)                    size: 459326 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/EIT_EIA_all-eps-con
-verted-to.pdf images/EIT_EIA_all.eps>
-(epstopdf)             \includegraphics on input line 46.
-Package epstopdf Info: Output file is already uptodate.
+[58] <images/EIT_EIA_all.png, id=1100, 578.16pt x 505.89pt>
+File: images/EIT_EIA_all.png Graphic file (type png)
 
-
-pdfTeX warning: pdflatex (file ./images/EIT_EIA_all-eps-converted-to.pdf): PDF 
-inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_EIA_all-eps-converted-to.pdf, id=1101, 589.20125pt x 570.13pt>
-File: images/EIT_EIA_all-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/EIT_EIA_all-eps-converted-to.pdf>
-Package pdftex.def Info: images/EIT_EIA_all-eps-converted-to.pdf used on input 
-line 46.
-(pdftex.def)             Requested size: 426.79134pt x 412.98134pt.
+<use images/EIT_EIA_all.png>
+Package pdftex.def Info: images/EIT_EIA_all.png used on input line 46.
+(pdftex.def)             Requested size: 426.79134pt x 373.44185pt.
  [59]
-Package epstopdf Info: Source file: <images/EIAinEIT.eps>
-(epstopdf)                    date: 2019-05-25 16:22:05
-(epstopdf)                    size: 4894056 bytes
-(epstopdf)             Output file: <images/EIAinEIT-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-25 16:29:47
-(epstopdf)                    size: 506242 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/EIAinEIT-eps-conver
-ted-to.pdf images/EIAinEIT.eps>
-(epstopdf)             \includegraphics on input line 57.
-Package epstopdf Info: Output file is already uptodate.
+<images/EIAinEIT.png, id=1105, 578.16pt x 505.89pt>
+File: images/EIAinEIT.png Graphic file (type png)
+ <use images/EIAinEIT.png>
+Package pdftex.def Info: images/EIAinEIT.png used on input line 57.
+(pdftex.def)             Requested size: 384.10959pt x 336.09613pt.
 
+Underfull \vbox (badness 1755) has occurred while \output is active []
 
-pdfTeX warning: pdflatex (file ./images/EIAinEIT-eps-converted-to.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIAinEIT-eps-converted-to.pdf, id=1106, 581.17125pt x 570.13pt>
-File: images/EIAinEIT-eps-converted-to.pdf Graphic file (type pdf)
+ [60 <./images/EIT_EIA_all.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<use images/EIAinEIT-eps-converted-to.pdf>
-Package pdftex.def Info: images/EIAinEIT-eps-converted-to.pdf used on input lin
-e 57.
-(pdftex.def)             Requested size: 384.10959pt x 376.81764pt.
- [60 <./images/EIT_EIA_all-eps-converted-to.pdf>] [61 <./images/EIAinEIT-eps-co
-nverted-to.pdf>] [62]
-Package epstopdf Info: Source file: <images/EIT_EIA2_all.eps>
-(epstopdf)                    date: 2019-05-24 00:56:15
-(epstopdf)                    size: 4780006 bytes
-(epstopdf)             Output file: <images/EIT_EIA2_all-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-05-24 00:58:02
-(epstopdf)                    size: 450638 bytes
-(epstopdf)             Command: <repstopdf --outfile=images/EIT_EIA2_all-eps-co
-nverted-to.pdf images/EIT_EIA2_all.eps>
-(epstopdf)             \includegraphics on input line 80.
-Package epstopdf Info: Output file is already uptodate.
+ [61 <./images/EIAinEIT.png>] [62]
+<images/EIT_EIA2_all.png, id=1120, 578.16pt x 505.89pt>
+File: images/EIT_EIA2_all.png Graphic file (type png)
 
+<use images/EIT_EIA2_all.png>
+Package pdftex.def Info: images/EIT_EIA2_all.png used on input line 80.
+(pdftex.def)             Requested size: 426.79134pt x 373.44185pt.
 
-pdfTeX warning: pdflatex (file ./images/EIT_EIA2_all-eps-converted-to.pdf): PDF
- inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/EIT_EIA2_all-eps-converted-to.pdf, id=1125, 560.0925pt x 570.13pt>
-File: images/EIT_EIA2_all-eps-converted-to.pdf Graphic file (type pdf)
-
-<use images/EIT_EIA2_all-eps-converted-to.pdf>
-Package pdftex.def Info: images/EIT_EIA2_all-eps-converted-to.pdf used on input
- line 80.
-(pdftex.def)             Requested size: 426.79134pt x 434.46034pt.
-
-<images/2_EIA.png, id=1126, 462.528pt x 346.896pt>
+<images/2_EIA.png, id=1121, 462.528pt x 346.896pt>
 File: images/2_EIA.png Graphic file (type png)
  <use images/2_EIA.png>
 Package pdftex.def Info: images/2_EIA.png used on input line 90.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-<images/2_EIAa.png, id=1127, 462.528pt x 346.896pt>
+<images/2_EIAa.png, id=1122, 462.528pt x 346.896pt>
 File: images/2_EIAa.png Graphic file (type png)
  <use images/2_EIAa.png>
 Package pdftex.def Info: images/2_EIAa.png used on input line 91.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-[63 <./images/EIT_EIA2_all-eps-converted-to.pdf>]
-Underfull \vbox (badness 2065) has occurred while \output is active []
+[63 <./images/EIT_EIA2_all.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./images/2_EIA.png> <./images/2_EIAa.png>]
-<images/double_EIT.png, id=1143, 462.528pt x 346.896pt>
+<images/double_EIT.png, id=1135, 462.528pt x 346.896pt>
 File: images/double_EIT.png Graphic file (type png)
 
 <use images/double_EIT.png>
 Package pdftex.def Info: images/double_EIT.png used on input line 108.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-<images/double_EITa.png, id=1144, 433.62pt x 289.08pt>
+<images/double_EITa.png, id=1136, 433.62pt x 289.08pt>
 File: images/double_EITa.png Graphic file (type png)
 
 <use images/double_EITa.png>
 Package pdftex.def Info: images/double_EITa.png used on input line 109.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
  [65 <./images/double_EIT.png> <./images/double_EITa.png>] [66])
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 
  []
 
@@ -3625,92 +3577,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 ]
 Appendix A.
 (./chapters/appendix.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--277
+Underfull \hbox (badness 10000) in paragraph at lines 2--282
 
  []
 
@@ -3993,69 +3945,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--92
  []
 
 [75])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--286
 
  []
 
 [76] [77]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E6C4247FC19ED66D4A2F92A217589CF4;5943.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
+(rerunfilecheck)             Checksum: BD8E29349A15EFB30065C4D34524D5A5;6086.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
  ) 
 Here is how much of TeX's memory you used:
  17170 strings out of 494910
- 294515 string characters out of 6179836
- 373770 words of memory out of 5000000
+ 294311 string characters out of 6179836
+ 373693 words of memory out of 5000000
  19956 multiletter control sequences out of 15000+600000
  15958 words of font info for 60 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 44i,20n,43p,10398b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,20n,43p,10398b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -4070,10 +4022,10 @@ sl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (93 pages, 8897451 bytes).
+Output written on main.pdf (93 pages, 8564689 bytes).
 PDF statistics:
- 1308 PDF objects out of 1440 (max. 8388607)
- 1051 compressed objects within 11 object streams
+ 1301 PDF objects out of 1440 (max. 8388607)
+ 1044 compressed objects within 11 object streams
  249 named destinations out of 1000 (max. 500000)
  991 words of extra memory for PDF output out of 10000 (max. 10000000)
 

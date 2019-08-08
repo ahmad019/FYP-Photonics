@@ -12,7 +12,7 @@ Optical resonators were utilized as helpful gadgets as early as 1899 when Fabry 
 \newpage
 
 \subsection{Theory of Fabry-Perot Interferometer}
- If the incident energy is in the form of white coherent light then at that point the transmission and reflection coefficients depend just on the mirror reflectivities. The total reflected power comprises of the power reflected from the principal mirror in addition to all the different reflections between the mirrors that add to the reflectivity in general. In summation, the equations are[1]: 
+If the incident energy is in the form of white coherent light then at that point the transmission and reflection coefficients depend just on the mirror reflectivities. The total reflected power comprises of the power reflected from the principal mirror in addition to all the different reflections between the mirrors that add to the reflectivity in general. In summation, the equations are [1]: 
 \begin{equation}
 {\mathcal R} = R_{1} + T_{1}^2 R_{2} \sum_{m=1}^{\infty} (R_{1}R_{2})^{m-1} = \frac{R_{1} - 2R_{1}R_{2} + R_{2}}{1 - R_{1}R_{2}} _{\overrightarrow{R_{1} = R_{2} \equiv R}} \frac{2R}{1+R}
 \end{equation}
@@ -22,7 +22,7 @@ Similarly, the transmitted energy in summation is:
 {\mathcal T} = T_{1} T_{2} \sum_{m=1}^{\infty} (R_{1}R_{2})^{m-1} = \frac{T_{1} T_{2}}{1 - R_{1}R_{2}} _{\; \overrightarrow{R_{1} = R_{2} \equiv R}} \; \frac{T^{2}}{1-R^{2}} = \frac{1-R}{1+R}
 \end{equation}
 
-Assuming, be that as it may, the incident light comprises of a transiently lucid (monochromatic) plane wave, at that point the reflected power will be relative to the square of the reasonable total of every reflected field. Since the fields convey phase information with amplitudes added, the division of reflected and transmitted light depends not just on the mirror reflectivities but in addition on the mirror separation and excitation wavelength. The rational total of fields is amplified when every one of the fields interferes constructively (in phase) and limited when they interfere destructively (out of phase). Phase gathers with propagation separation as $\phi(z) = \beta z$ and may likewise be gained upon communication with the mirrors. The sound forms of Eqs. 2.1 and 2.2 incorporate an aggregated stage factor for each round-trip that can be translated as a standardized detuning $\phi = T_{R}\omega$, where $T_{R}$ is the cavity travel time, $T_{R} = n_{eff}L/c$ for the circumference, L and effective index $n_{eff}$. Presently, $\tilde{r}$ speaks to the complex reflectivity: 
+Assuming, be that as it may, the incident light comprises of a transiently lucid (monochromatic) plane wave, at that point the reflected power will be relative to the square of the modulus of every reflected field. Since the fields convey phase information as well as amplitudes of the transmission, the division of reflected and transmitted light depends not just on the mirror reflectivities but in addition on the mirror separation and excitation wavelength. The rational total of fields is amplified when every one of the fields interferes constructively (in phase) and limited when they interfere destructively (out of phase). Phase gathers with propagation separation as $\phi(z) = \beta z$ and may likewise be gained upon communication with the mirrors. The sound forms of Eqs. 2.1 and 2.2 incorporate an aggregated phase for each round-trip that can be translated as a standardized detuning $\phi = T_{R}\omega$, where $T_{R}$ is the cavity travel time, $T_{R} = n_{eff}L/c$ for the circumference L, and effective index $n_{eff}$. Presently, $\tilde{r}$ defines the complex reflectivity: 
 
 \begin{multline}
 \tilde{r} = r_{1} - t_{1}^{2}r_{2}\exp(i m \phi) \sum_{m=1}^{\infty} (r_{1}r_{2}\exp(i m \phi))^{m-1} \\ = \frac{r_{1} - r_{2}\exp(i \phi)}{1 - r_{1}r_{2}\exp(i \phi)} _{\; \overrightarrow{r_{1} = r_{2} \equiv r}} \; \frac{r(1-\exp(+i \phi))}{1-r^{2}\exp(+i \phi)}
@@ -58,13 +58,13 @@ Now let us look at the phase details of the transmission and the reflection spec
 The effective phase also called transmission phase of the system, which is the phase acquired upon transmission, gives us the information about the dispersion of the system. It is basically the argument of the complex transmitivity of the resonator (Eq. 2.4). Any complex number, $z = x + iy$, can be written as $z = |z|exp(i\phi)$. Where, $\phi$ is the argument of the complex number $z$ given by $\phi = tan^{-1}(y/x)$. Now we can write for our complex transmitivity as,
 
 \begin{align*}
-\frac{E_{t}}{E_{i}} = |\frac{E_{t}}{E_{i}}|\,exp(i\phi_{eff})
+\tau = \frac{E_{t}}{E_{i}} = |\frac{E_{t}}{E_{i}}|\,exp(i\phi_{eff})
 \end{align*} 
 
 Where,
 
 \begin{equation}
-\phi_{eff} = arctan(\frac{Im[E_{t}/E_{i}]}{Re[E_{t}/E_{i}]})
+\phi_{eff} = arctan(\frac{Im[\tau]}{Re[\tau]})
 \end{equation}
 
 \subsection{Phasor Plots}
@@ -108,18 +108,18 @@ Similarly,
 \section{Ring Shaped Resonators}
 Optical interferometers such as Fabry-Perot or Gires-Tournois resonators are extremely useful in making devices that are compatible in making spectroscopy tools, add-drop filters for specific optical frequencies, laser cavities as well as dispersion compensators. Due to their free space structural design, they are quite incompatible with planar integrated technology. Thus, we require another geometry of devices which have similar spectral properties. These can be fabricated easily and effectively on microchips and waveguiding geometries by molding of different waveguides into a ring shape.
 
-Let us now discuss how to ring resonators, whose principle is pretty much similar to the Fabry-Perot resonator and are more simple to make, operate. Basically, a ring resonator is a simple waveguide which is turned in the shape of a ring (see Fig. 2.5). This allows it to exhibit resonant behavior on very specific frequencies.
+Let us now discuss how ring resonators, whose principle is pretty much similar to the Fabry-Perot resonator and are more simple to make, operate. Basically, a ring resonator is a simple waveguide which is turned in to the shape of a ring (see Fig. 2.5). This allows it to exhibit resonant behavior on very specific frequencies.
 
 
 \subsection{Evanescent Coupling}
-The optical systems discussed above experiences the passage of light across the ring from the optical waveguide through a process known as evanescent coupling. Evanescent coupling is a classical phenomenon whose quantum interpretation is exactly as photon tunneling. It is basically the power transfer of the wave which is directly dependant on the proximity of the bent waveguide and from the straight waveguide. Also, the length or area that has been exposed to the coupler also plays an important role in i.e how many parts of the waveguide/resonator overlaps; illustrated in Fig. 2.5.
+The optical systems discussed above experiences the passage of light across the ring from the optical waveguide through a process known as evanescent coupling. Evanescent coupling is a classical phenomenon whose quantum interpretation is exactly as photon tunneling. It is basically the power transfer of the wave which is directly dependant on the proximity of the bent waveguide and from the straight waveguide. Also, the length or area that has been exposed to the coupler also plays an important role in i.e. how many area of the waveguide/resonator overlaps; illustrated in Fig. 2.5.
 \subparagraph{\normalfont \large Coupling strength of an ideal coupler is dependant on the interaction length between the two optical modes which means that the power will transfer more efficiently when the two modes are matched on the basis of their respective phases. This allows us to observe distinct behaviors as well as multiple resonances in transmittance and reflectance.} 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.50\textwidth]{evanescent_wave.png}
 \caption{Schematic illustration of the microsphere-fiber-taper
-system.[2]}
+system [2].}
 \end{figure}
 
 \subparagraph{\normalfont \large The light is coupled inside the ring due to two sets of coupling approaches, one being lateral and other being vertical. Either one of these two approaches is necessary for the light from the optical waveguide to couple inside the bent waveguide (ring). The light stays, or resonates, inside the bent waveguide due to the effect of total internal reflection. Lateral coupling requires the same plane fabrication of waveguide and bent waveguide which are easier to fabricate. To ensure strong coupling, small separation is required between the waveguide and bent waveguide. Lateral configuration requires a single layer only but very accurate lithography and etching processes must be done to open up the gaps between straight and ring waveguides with high precision. In vertical coupling transport and bent waveguides are etched in various layers. Vertical coupling expels the index contrast restriction of lateral coupling, additionally, it is an empowering innovation for the ring radii less than $ \approx5 \mu m$. Another bit of leeway of the vertical arrangement is that the ring and waveguide layers don't need to be a similar thickness, which improves the design opportunity.}
@@ -130,7 +130,7 @@ These resonators, when fabricated on the chip, display different effects of coup
 
 \subsection{Coupling Regimes}
 
-The transmission spectrum of the waveguide-ring coupled system now depends on the proximity and coupling effects. Let us discuss different coupling conditions for these resonators. Fig. 2.11 shows plots for an all-pass resonator for under, over, and critically coupled system and also for a lossless all-pass system.
+The transmission spectrum of the waveguide-ring coupled system now depends on the proximity and coupling effects. Let us discuss different coupling conditions for these resonators. Fig. 2.6 shows plots for an all-pass resonator for under, over, and critically coupled system and also for a lossless all-pass system.
 
 \begin{figure}[h]
 \centering
@@ -180,7 +180,7 @@ The active laser medium also called gain medium or lasing medium is the source o
 
 \section{Group Delay and Group Advance}
 The velocity of light is a universal constant $c \approx 299792458 m/s$ in free space. However, the light velocity depends upon the medium when it propagates through it. The medium's dispersive properties are defined by the refractive index $n$ of the material. The light pulse propagating from this material experiences delay in the arrival time as compared to the arrival time in a vacuum. 
-To comprehend the results of scattering of the refractive index, we initially think about the proliferation of monochromatic light emission through a material. The phase velocity ($v_{p}$) depicts the speed at which the wavefronts travel through the material and is given by: $v_{p} = c/n $ . Thus when the light pulse propagates through the medium, each component of the wave travels at different speed because $n$ is a function of frequency $\omega$. Here, group index is put into account due to the collective effects upon the wave packets of different frequencies, which is given by:
+To comprehend the results of scattering from the refractive index, we initially think about the proliferation of monochromatic light emission through a material. The phase velocity ($v_{p}$) depicts the speed at which the wavefronts travel through the material and is given by: $v_{p} = c/n $ . Thus when the light pulse propagates through the medium, different wavlengths of the wave travels at different speeds because $n$ is a function of frequency $\omega$. Here, group index is put into account due to the collective effects upon the wave packets of different frequencies, which is given by:
 \begin{align*}
 n_{g} = n + \omega\frac{dn}{d\omega}
 \end{align*}
@@ -190,7 +190,7 @@ Here, $n_{g}$ is the group index of the material and $\omega$ is the frequency o
 v_{g} = \frac{c}{n_{g}}
 \end{align*}
 
-Thus the reduction of the light experience in its velocity inside a dispersive medium. If the value of $n_{g} \approx 10^{8}$, then we experience ultra slow velocities of light which are measured up to $8m/s$ [17-19]. If group index becomes less than 1, such that $n_{g} < 1$, then we observe group velocities greater than the speed of light in vacuum, such that, $v_{g} > c$. This does not violate Einstein's Theory of Relativity [20] because there exist various proposals [5–8] for observing such effects by using anomalous dispersion near an absorption or gain lines [7-8]. The group index can also become negative, such that $n_{g} < 0$, resulting in negative group velocities which are sometimes also referred as 'Backward light' because it appears to propagate backward in the medium. We can understand the negative group velocity by having a medium of length $d$, so it will take $d/v_{g} = n_{g}d/c$ amount of propagation time for a light pulse to cross it. And the vacuum transition time would be $d/c$, thus the time delay would be $\Delta T = d/v_{g} - d/c$ which can be written as, $(n_{g}-1)d/c$. So for negative values of $n_{g}$, the delay time $\Delta T$ is negative which results in group advancement. This concept can be perceived as that if the light pulse is incident on such medium, the light pulse would appear on the other side sooner than if it had traveled through a vacuum. Figure 2.8 illustrates the propagation through a negative index medium [9]. 
+Thus the light experiences reduction in its velocity inside a dispersive medium. If the value of $n_{g} \approx 10^{8}$, then we experience ultra slow velocities of light which are measured up to $8m/s$ [17-19]. If group index becomes less than 1, such that $n_{g} < 1$, then we observe group velocities greater than the speed of light in vacuum, such that, $v_{g} > c$. This does not violate Einstein's Theory of Relativity [20] because there exist various proposals [5–8] for observing such effects by using anomalous dispersion near an absorption or gain lines [7-8]. The group index can also become negative, such that $n_{g} < 0$, resulting in negative group velocities which are sometimes also referred as `Backward light' because it appears to propagate backward in the medium. We can understand the negative group velocity by having a medium of length $d$, so it will take $d/v_{g} = n_{g}d/c$ amount of propagation time for a light pulse to cross it. And the vacuum transition time would be $d/c$, thus the time delay would be $\Delta T = d/v_{g} - d/c$ which can be written as, $(n_{g}-1)d/c$. So for negative values of $n_{g}$, the delay time $\Delta T$ is negative which results in group advancement. This concept can be perceived as that if the light pulse is incident on such medium, the light pulse would appear on the other side sooner than if it had traveled through a vacuum. Figure 2.8 illustrates the propagation through a negative index medium [9]. 
 
 \begin{figure}[h]
 \centering
@@ -219,17 +219,17 @@ Fig. 2.9 illustrates the basic geometry of the all-pass ring resonator with its 
 
 Here, $r$ is the self-coupling coefficient, $a = e^{-\alpha L/2}$ is the intrinsic loss for circumference $L$ and attenuation $\alpha$, and $\phi = \omega T$ is the round trip phase of the ring or single pass phase shift.
 
-\subsection{Transmission For Passive and Active}
-Let us look at the transmission spectra of the passive and active all-pass ring resonator. Fig. 2.10 shows that the transmission peak is changed into a dip as was in the case of a symmetric Fabry-Perot resonator. On the right, it shows when the gain is introduced inside the system, the dip flips into a peak above the 1 mark on the graph telling us that we have more transmission on resonant frequencies than the actual input.
+\subsection{Transmission of Passive and Active Resonator}
+Let us look at the transmission spectra of the passive and active all-pass ring resonator. Fig. 2.10 shows that the transmission peak is changed into a dip as was in the case of a symmetric Fabry-Perot resonator. On the right, it shows when the gain is introduced inside the system, the dip flips into a peak above unity on the graph telling us that we have more transmission on resonant frequencies than the actual input.
 \begin{figure}[h]
 \includegraphics[width=0.5\textwidth]{trans_ring_withoutgain.png}
 \includegraphics[width=0.45\textwidth]{all-pall_gain.png}
-\caption{Transmission spectra of a passive All-pass ring resonator}
+\caption{Transmission spectra of a passive all-pass ring resonator}
 \end{figure}
 
 
 \subsection{Effective Phase}
-The phase of the All-pass ring resonator is shown in Figure 2.12. We can easily observe from this that with changing the values of the coupling $r$, the shape of the graph changes as that of a function of $ArcTan(\phi)$. The relation for phase is given by,
+The phase of the all-pass ring resonator is shown in Figure 2.12. We can easily observe from this that with changing the values of the coupling $r$, the shape of the graph changes as that of a function of $ArcTan(\phi)$. The relation for phase is given by,
 \begin{equation}
 \Phi_{eff} = \pi + \phi + 2\tan^{-1}\frac{r\sin\phi}{1-r\cos\phi}
 \end{equation}
@@ -247,7 +247,7 @@ We observe that the transmission loop does not go to the negative real axis and 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.5\textwidth]{Imag_vs_real_allpass.png}
-\caption{Phaser plot of complex transmitivity of an all-pass ring resonator}
+\caption{Phaser plot of complex transmitivity of an all-pass ring resonator.}
 \end{figure}
 
 
@@ -284,7 +284,7 @@ Let us now look at some reflection and transmission spectra of a passive Add- dr
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.5\textwidth]{all_pass_plots_b.eps}
-\caption{Reflection phase of the all-pass ring resonator.}
+\caption{Reflection phase of the add-drop ring resonator.}
 \end{figure}
 
 \subsection{Transmission and Reflection with gain}
@@ -303,7 +303,7 @@ Now let us see how complex plots of Add drop is different from the All-pass reso
 \begin{figure}[h]
 \centering
 \includegraphics[width=1\textwidth]{ImagVsReal(add-drop).png}
-\caption{Phaser plots of complex Transmitivity and Reflectivity of an All-pass ring resonator from 0 to $2\pi$}
+\caption{Phaser plots of complex Transmitivity and Reflectivity of an add-drop ring resonator from 0 to $2\pi$}
 \end{figure}
 
 
