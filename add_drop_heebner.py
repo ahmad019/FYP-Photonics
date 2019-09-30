@@ -11,7 +11,7 @@ Add drop micro ring resonator equations as from heebner book
 import numpy as np
 import matplotlib.pyplot as plt
 
-ran = 200
+ran = 2000
 phi = -1
 #r1 = 0.9797
 r2 = 0.899
@@ -49,7 +49,7 @@ for i in range(0,ran):
     PHIt[i] = phi/2    
     PHIr[i] = np.arctan((r2*np.sin(phi))/(r1-r2*np.cos(phi))) + np.arctan((r1*r2*np.sin(phi))/(1-r1*r2*np.cos(phi)))
     
-    phi = phi + 0.01    
+    phi = phi + 0.001    
     
     Etai[i] = abs(Eta)**2
     Erai[i] = abs(Era)**2
